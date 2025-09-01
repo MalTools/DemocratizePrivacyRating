@@ -1,0 +1,726 @@
+{
+    "So Express": {
+        "android.permission.WRITE_EXTERNAL_STORAGE": [
+            {
+                "class": "com.shijihaian.soexpress.main.start.SplashActivity",
+                "method": "<com.shijihaian.soexpress.main.start.SplashActivity: void <init>()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.huawei.updatesdk.support.c.a",
+                "method": "<com.huawei.updatesdk.support.c.a: boolean c()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.shijihaian.soexpress.main_active.ShareActivity",
+                "method": "<com.shijihaian.soexpress.main_active.ShareActivity: void getPermission()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.umeng.commonsdk.internal.utils.i",
+                "method": "<com.umeng.commonsdk.internal.utils.i: void a(android.content.Context,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.shijihaian.soexpress.main.MainActivity",
+                "method": "<com.shijihaian.soexpress.main.MainActivity: void <init>()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.xiaomi.push.j",
+                "method": "<com.xiaomi.push.j: boolean a(android.content.Context)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.shijihaian.soexpress.main_user.AboutUsActivity",
+                "method": "<com.shijihaian.soexpress.main_user.AboutUsActivity: void <init>()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.huawei.updatesdk.support.pm.g$a",
+                "method": "<com.huawei.updatesdk.support.pm.g$a: boolean b()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.xiaomi.mipush.sdk.Logger",
+                "method": "<com.xiaomi.mipush.sdk.Logger: boolean hasWritePermission(android.content.Context)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.xiaomi.mipush.sdk.MiPushClient",
+                "method": "<com.xiaomi.mipush.sdk.MiPushClient: boolean checkPermission(android.content.Context)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.shijihaian.soexpress.weight.TeachDialog",
+                "method": "<com.shijihaian.soexpress.weight.TeachDialog: void <init>(android.content.Context)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.shijihaian.soexpress.main.start.SplashActivity$1",
+                "method": "<com.shijihaian.soexpress.main.start.SplashActivity$1: void run()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.umeng.message.proguard.h",
+                "method": "<com.umeng.message.proguard.h: boolean a(android.content.Context,android.os.Handler)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.shijihaian.soexpress.weight.TeachDialog",
+                "method": "<com.shijihaian.soexpress.weight.TeachDialog: void getPermission()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.shijihaian.soexpress.main_active.InviteActivity",
+                "method": "<com.shijihaian.soexpress.main_active.InviteActivity: void getPermission()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.shijihaian.soexpress.main.start.SplashActivity",
+                "method": "<com.shijihaian.soexpress.main.start.SplashActivity: void onCreate(android.os.Bundle)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.shijihaian.soexpress.main.MainActivity",
+                "method": "<com.shijihaian.soexpress.main.MainActivity: void getPermission()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.shijihaian.soexpress.main_active.InviteActivity",
+                "method": "<com.shijihaian.soexpress.main_active.InviteActivity: void <init>()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.umeng.commonsdk.statistics.idtracking.r",
+                "method": "<com.umeng.commonsdk.statistics.idtracking.r: java.io.File h()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.shijihaian.soexpress.main_active.ActiveActivity",
+                "method": "<com.shijihaian.soexpress.main_active.ActiveActivity: void getPermission()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.umeng.commonsdk.utils.UMUtils",
+                "method": "<com.umeng.commonsdk.utils.UMUtils: java.io.File getFile(android.content.Context)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.shijihaian.soexpress.main_user.AboutUsActivity",
+                "method": "<com.shijihaian.soexpress.main_user.AboutUsActivity: void getPermission()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.shijihaian.soexpress.main_user.FeedBackActivity",
+                "method": "<com.shijihaian.soexpress.main_user.FeedBackActivity: void getPermission()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.xiaomi.push.ah",
+                "method": "<com.xiaomi.push.ah: boolean b(android.content.Context,java.lang.String,long)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            }
+        ],
+        "android.permission.READ_PHONE_STATE": [
+            {
+                "class": "com.ta.utdid2.b.a.g",
+                "method": "<com.ta.utdid2.b.a.g: java.lang.String b(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSubscriberId()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.huawei.hianalytics.c.c",
+                "method": "<com.huawei.hianalytics.c.c: java.lang.String c(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.shijihaian.soexpress.utils.DeviceUtils",
+                "method": "<com.shijihaian.soexpress.utils.DeviceUtils: java.lang.String getDeviceID(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.taobao.accs.data.Message",
+                "method": "<com.taobao.accs.data.Message: com.taobao.accs.data.Message a(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.huawei.hianalytics.c.c",
+                "method": "<com.huawei.hianalytics.c.c: android.util.Pair g(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.umeng.commonsdk.utils.UMUtils",
+                "method": "<com.umeng.commonsdk.utils.UMUtils: java.lang.String getRegisteredOperator(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.statistics.common.DeviceConfig",
+                "method": "<com.umeng.commonsdk.statistics.common.DeviceConfig: java.lang.String getDBencryptID(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.alipay.security.mobile.module.b.d",
+                "method": "<com.alipay.security.mobile.module.b.d: boolean a(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "Payment Libraries"
+            },
+            {
+                "class": "com.xiaomi.push.ey",
+                "method": "<com.xiaomi.push.ey: java.lang.String d()>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSubscriberId()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.shijihaian.soexpress.utils.DeviceUtils",
+                "method": "<com.shijihaian.soexpress.utils.DeviceUtils: java.lang.String getDeviceId(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.alipay.sdk.util.a",
+                "method": "<com.alipay.sdk.util.a: void <init>(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "Payment Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.statistics.common.DeviceConfig",
+                "method": "<com.umeng.commonsdk.statistics.common.DeviceConfig: java.lang.String getIMEI(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.statistics.common.DeviceConfig",
+                "method": "<com.umeng.commonsdk.statistics.common.DeviceConfig: java.lang.String getIMEI(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.xiaomi.mipush.sdk.z",
+                "method": "<com.xiaomi.mipush.sdk.z: void c(android.content.Context,android.content.pm.PackageInfo)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.utils.UMUtils",
+                "method": "<com.umeng.commonsdk.utils.UMUtils: java.lang.String getNetworkOperatorName(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.xiaomi.push.j",
+                "method": "<com.xiaomi.push.j: java.lang.String g(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.statistics.common.DeviceConfig",
+                "method": "<com.umeng.commonsdk.statistics.common.DeviceConfig: java.lang.String getImeiNew(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.alipay.security.mobile.module.b.b",
+                "method": "<com.alipay.security.mobile.module.b.b: java.lang.String b(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Payment Libraries"
+            },
+            {
+                "class": "org.acra.collector.CrashReportDataFactory",
+                "method": "<org.acra.collector.CrashReportDataFactory: org.acra.collector.CrashReportData createCrashData(java.lang.Throwable,boolean,java.lang.Thread)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "App Market Libraries"
+            },
+            {
+                "class": "com.umeng.message.common.UmengMessageDeviceConfig",
+                "method": "<com.umeng.message.common.UmengMessageDeviceConfig: java.lang.String getDIN(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.internal.utils.a",
+                "method": "<com.umeng.commonsdk.internal.utils.a: java.lang.String l(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.internal.utils.k",
+                "method": "<com.umeng.commonsdk.internal.utils.k: java.lang.String c(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.tencent.bugly.crashreport.common.info.b",
+                "method": "<com.tencent.bugly.crashreport.common.info.b: java.lang.String b(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()",
+                "data controller": "Mobile Analytics Libraries"
+            },
+            {
+                "class": "com.xiaomi.push.ey",
+                "method": "<com.xiaomi.push.ey: java.lang.String e()>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.statistics.common.DeviceConfig",
+                "method": "<com.umeng.commonsdk.statistics.common.DeviceConfig: java.lang.String getImsi(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSubscriberId()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.taobao.agoo.a.a.c",
+                "method": "<com.taobao.agoo.a.a.c: byte[] a(android.content.Context,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSubscriberId()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.shijihaian.soexpress.utils.DeviceUtils",
+                "method": "<com.shijihaian.soexpress.utils.DeviceUtils: java.lang.String getSubscriberId(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSubscriberId()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.umeng.commonsdk.internal.utils.k",
+                "method": "<com.umeng.commonsdk.internal.utils.k: java.lang.String b(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.internal.utils.a",
+                "method": "<com.umeng.commonsdk.internal.utils.a: java.lang.String l(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.message.common.UmengMessageDeviceConfig",
+                "method": "<com.umeng.message.common.UmengMessageDeviceConfig: java.lang.String getDIN(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.taobao.accs.data.Message",
+                "method": "<com.taobao.accs.data.Message: com.taobao.accs.data.Message a(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSubscriberId()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.huawei.hianalytics.c.c",
+                "method": "<com.huawei.hianalytics.c.c: java.lang.String h(android.content.Context)>",
+                "invokedAPI": "android.os.Build: java.lang.String getSerial()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.ta.utdid2.b.a.g",
+                "method": "<com.ta.utdid2.b.a.g: java.lang.String a(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.alipay.security.mobile.module.b.b",
+                "method": "<com.alipay.security.mobile.module.b.b: java.lang.String a(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "Payment Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.utils.UMUtils",
+                "method": "<com.umeng.commonsdk.utils.UMUtils: java.lang.String getImsi(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.statistics.common.DeviceConfig",
+                "method": "<com.umeng.commonsdk.statistics.common.DeviceConfig: java.lang.String getNetworkOperatorName(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.alipay.sdk.util.a",
+                "method": "<com.alipay.sdk.util.a: void <init>(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSubscriberId()",
+                "data controller": "Payment Libraries"
+            },
+            {
+                "class": "com.alipay.security.mobile.module.b.b",
+                "method": "<com.alipay.security.mobile.module.b.b: java.lang.String a(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Payment Libraries"
+            },
+            {
+                "class": "com.umeng.message.proguard.h",
+                "method": "<com.umeng.message.proguard.h: boolean a(android.content.Context,android.os.Handler)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.xiaomi.push.hv",
+                "method": "<com.xiaomi.push.hv: java.lang.String a(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSubscriberId()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.huawei.hianalytics.c.c",
+                "method": "<com.huawei.hianalytics.c.c: java.lang.String h(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.alipay.security.mobile.module.b.b",
+                "method": "<com.alipay.security.mobile.module.b.b: java.lang.String b(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSubscriberId()",
+                "data controller": "Payment Libraries"
+            },
+            {
+                "class": "com.alipay.security.mobile.module.b.b",
+                "method": "<com.alipay.security.mobile.module.b.b: java.lang.String l(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()",
+                "data controller": "Payment Libraries"
+            },
+            {
+                "class": "com.alipay.security.mobile.module.b.b",
+                "method": "<com.alipay.security.mobile.module.b.b: java.lang.String l(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Payment Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.statistics.common.DeviceConfig",
+                "method": "<com.umeng.commonsdk.statistics.common.DeviceConfig: java.lang.String getImeiNew(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.taobao.accs.utl.UtilityImpl",
+                "method": "<com.taobao.accs.utl.UtilityImpl: java.lang.String i(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSubscriberId()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.internal.utils.a",
+                "method": "<com.umeng.commonsdk.internal.utils.a: java.lang.String k(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSubscriberId()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.xiaomi.mipush.sdk.MiPushClient",
+                "method": "<com.xiaomi.mipush.sdk.MiPushClient: boolean checkPermission(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.shijihaian.soexpress.utils.DeviceUtils",
+                "method": "<com.shijihaian.soexpress.utils.DeviceUtils: java.lang.String getDeviceID(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.umeng.commonsdk.statistics.common.DeviceConfig",
+                "method": "<com.umeng.commonsdk.statistics.common.DeviceConfig: java.lang.String getRegisteredOperator(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.huawei.hianalytics.c.c",
+                "method": "<com.huawei.hianalytics.c.c: java.lang.String c(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.xiaomi.push.bq",
+                "method": "<com.xiaomi.push.bq: java.lang.String b()>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.internal.utils.a",
+                "method": "<com.umeng.commonsdk.internal.utils.a: java.lang.String k(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.message.common.UmengMessageDeviceConfig",
+                "method": "<com.umeng.message.common.UmengMessageDeviceConfig: java.lang.String getDeviceId(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.acra.util.ReportUtils",
+                "method": "<org.acra.util.ReportUtils: java.lang.String getDeviceId(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "App Market Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.internal.utils.k",
+                "method": "<com.umeng.commonsdk.internal.utils.k: java.lang.String b(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.xiaomi.push.j",
+                "method": "<com.xiaomi.push.j: boolean b(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.message.common.UmengMessageDeviceConfig",
+                "method": "<com.umeng.message.common.UmengMessageDeviceConfig: java.lang.String getDeviceId(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.xiaomi.push.bq",
+                "method": "<com.xiaomi.push.bq: java.lang.String b()>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.statistics.common.DeviceConfig",
+                "method": "<com.umeng.commonsdk.statistics.common.DeviceConfig: java.lang.String getImei(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.taobao.agoo.a.a.c",
+                "method": "<com.taobao.agoo.a.a.c: byte[] a(android.content.Context,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.umeng.commonsdk.utils.UMUtils",
+                "method": "<com.umeng.commonsdk.utils.UMUtils: java.lang.String getImsi(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSubscriberId()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.statistics.common.DeviceConfig",
+                "method": "<com.umeng.commonsdk.statistics.common.DeviceConfig: java.lang.String getImei(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.statistics.common.DeviceConfig",
+                "method": "<com.umeng.commonsdk.statistics.common.DeviceConfig: java.lang.String getImsi(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.statistics.common.DeviceConfig",
+                "method": "<com.umeng.commonsdk.statistics.common.DeviceConfig: java.lang.String getDBencryptID(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "Development Aid Libraries"
+            }
+        ],
+        "android.permission.ACCESS_COARSE_LOCATION": [
+            {
+                "class": "com.facebook.places.internal.LocationScannerImpl",
+                "method": "<com.facebook.places.internal.LocationScannerImpl: android.location.Location getLastLocation(java.lang.String)>",
+                "invokedAPI": "android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.appsflyer.b",
+                "method": "<com.appsflyer.b: android.location.Location \u0971(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Mobile Analytics Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.internal.utils.a",
+                "method": "<com.umeng.commonsdk.internal.utils.a: java.util.List b(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.internal.utils.k",
+                "method": "<com.umeng.commonsdk.internal.utils.k: org.json.JSONObject d(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.proguard.a",
+                "method": "<com.umeng.commonsdk.proguard.a: void a(com.umeng.commonsdk.proguard.c)>",
+                "invokedAPI": "android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.xiaomi.push.fd",
+                "method": "<com.xiaomi.push.fd: boolean c()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.internal.utils.k",
+                "method": "<com.umeng.commonsdk.internal.utils.k: org.json.JSONObject d(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: android.telephony.CellLocation getCellLocation()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.appsflyer.b",
+                "method": "<com.appsflyer.b: android.location.Location \u0971(android.content.Context)>",
+                "invokedAPI": "android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)",
+                "data controller": "Mobile Analytics Libraries"
+            },
+            {
+                "class": "com.umeng.message.common.UmengMessageDeviceConfig",
+                "method": "<com.umeng.message.common.UmengMessageDeviceConfig: android.location.Location getLocation(android.content.Context)>",
+                "invokedAPI": "android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.facebook.places.internal.LocationScannerImpl",
+                "method": "<com.facebook.places.internal.LocationScannerImpl: android.location.Location getFreshLocation()>",
+                "invokedAPI": "android.location.LocationManager: void removeUpdates(android.location.LocationListener)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.umeng.message.common.UmengMessageDeviceConfig",
+                "method": "<com.umeng.message.common.UmengMessageDeviceConfig: android.location.Location getLocation(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.facebook.internal.Validate",
+                "method": "<com.facebook.internal.Validate: boolean hasLocationPermission(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.proguard.a",
+                "method": "<com.umeng.commonsdk.proguard.a: void a(com.umeng.commonsdk.proguard.c)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            }
+        ],
+        "android.permission.ACCESS_FINE_LOCATION": [
+            {
+                "class": "com.xiaomi.push.fd",
+                "method": "<com.xiaomi.push.fd: boolean c()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.internal.utils.k",
+                "method": "<com.umeng.commonsdk.internal.utils.k: org.json.JSONObject d(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.message.common.UmengMessageDeviceConfig",
+                "method": "<com.umeng.message.common.UmengMessageDeviceConfig: android.location.Location getLocation(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.facebook.internal.Validate",
+                "method": "<com.facebook.internal.Validate: boolean hasLocationPermission(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.proguard.a",
+                "method": "<com.umeng.commonsdk.proguard.a: void a(com.umeng.commonsdk.proguard.c)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.umeng.commonsdk.internal.utils.a",
+                "method": "<com.umeng.commonsdk.internal.utils.a: java.util.List b(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.appsflyer.b",
+                "method": "<com.appsflyer.b: android.location.Location \u0971(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Mobile Analytics Libraries"
+            }
+        ],
+        "android.permission.PACKAGE_USAGE_STATS": [
+            {
+                "class": "com.xiaomi.push.fb",
+                "method": "<com.xiaomi.push.fb: java.lang.String a()>",
+                "invokedAPI": "android.app.usage.UsageStatsManager: java.util.List queryUsageStats(int,long,long)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.shijihaian.soexpress.main_user.SettingActivity",
+                "method": "<com.shijihaian.soexpress.main_user.SettingActivity: boolean isNoSwitch()>",
+                "invokedAPI": "android.app.usage.UsageStatsManager: java.util.List queryUsageStats(int,long,long)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.shijihaian.soexpress.FloatBallService$FloatBallTask",
+                "method": "<com.shijihaian.soexpress.FloatBallService$FloatBallTask: android.app.usage.UsageStats getForegroundUsageStats(android.content.Context,long,long)>",
+                "invokedAPI": "android.app.usage.UsageStatsManager: java.util.List queryUsageStats(int,long,long)",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_EXTERNAL_STORAGE": [
+            {
+                "class": "com.shijihaian.soexpress.main.DisclaimerActivity$MyJsInterFace$1",
+                "method": "<com.shijihaian.soexpress.main.DisclaimerActivity$MyJsInterFace$1: void onShare(int)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Media: java.lang.String insertImage(android.content.ContentResolver,android.graphics.Bitmap,java.lang.String,java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.shijihaian.soexpress.weight.ImageShareDialog$1",
+                "method": "<com.shijihaian.soexpress.weight.ImageShareDialog$1: void run()>",
+                "invokedAPI": "android.provider.MediaStore$Images$Media: java.lang.String insertImage(android.content.ContentResolver,android.graphics.Bitmap,java.lang.String,java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.umeng.commonsdk.internal.utils.i",
+                "method": "<com.umeng.commonsdk.internal.utils.i: java.lang.String c(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.shijihaian.soexpress.weight.TeachDialog",
+                "method": "<com.shijihaian.soexpress.weight.TeachDialog: void saveBitmap(android.graphics.Bitmap,java.lang.String)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Media: java.lang.String insertImage(android.content.ContentResolver,java.lang.String,java.lang.String,java.lang.String)",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.CAMERA": [
+            {
+                "class": "com.journeyapps.barcodescanner.CaptureManager",
+                "method": "<com.journeyapps.barcodescanner.CaptureManager: void openCameraWithPermission()>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.umeng.commonsdk.internal.utils.j",
+                "method": "<com.umeng.commonsdk.internal.utils.j: java.util.List e(android.content.Context)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Development Aid Libraries"
+            }
+        ]
+    }
+}

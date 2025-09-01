@@ -1,0 +1,1712 @@
+{
+    "Hago": {
+        "android.permission.RECORD_AUDIO": [
+            {
+                "class": "org.twebrtc.voiceengine.WebRtcAudioRecord",
+                "method": "<org.twebrtc.voiceengine.WebRtcAudioRecord: void releaseAudioResources()>",
+                "invokedAPI": "android.media.AudioRecord: void release()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.WebRtcAudioRecord$AudioRecordThread",
+                "method": "<org.twebrtc.audio.WebRtcAudioRecord$AudioRecordThread: void run()>",
+                "invokedAPI": "android.media.AudioRecord: int getAudioFormat()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.m$b",
+                "method": "<com.yy.appbase.permission.checker.m$b: boolean f()>",
+                "invokedAPI": "android.media.AudioRecord: int getRecordingState()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.voiceengine.WebRtcAudioRecord$AudioRecordThread",
+                "method": "<org.twebrtc.voiceengine.WebRtcAudioRecord$AudioRecordThread: void run()>",
+                "invokedAPI": "android.media.AudioRecord: int getRecordingState()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.voiceengine.WebRtcAudioRecord$AudioRecordThread",
+                "method": "<org.twebrtc.voiceengine.WebRtcAudioRecord$AudioRecordThread: void run()>",
+                "invokedAPI": "android.media.AudioRecord: int read(java.nio.ByteBuffer,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.g",
+                "method": "<org.twebrtc.audio.g: android.media.AudioFormat a(android.media.AudioRecord)>",
+                "invokedAPI": "android.media.AudioRecord: android.media.AudioFormat getFormat()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.KT.hGN",
+                "method": "<com.bytedance.sdk.openadsdk.KT.hGN: org.json.JSONObject hGN(org.json.JSONObject)>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "org.twebrtc.audio.d",
+                "method": "<org.twebrtc.audio.d: int a(android.media.AudioRecord)>",
+                "invokedAPI": "android.media.AudioRecord: int getBufferSizeInFrames()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.record.h",
+                "method": "<com.yy.hiyo.record.h: void A()>",
+                "invokedAPI": "android.media.MediaRecorder: void reset()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.WebRtcAudioRecord$AudioRecordThread",
+                "method": "<org.twebrtc.audio.WebRtcAudioRecord$AudioRecordThread: void run()>",
+                "invokedAPI": "android.media.AudioRecord: int getRecordingState()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.voiceengine.WebRtcAudioRecord",
+                "method": "<org.twebrtc.voiceengine.WebRtcAudioRecord: void logMainParameters()>",
+                "invokedAPI": "android.media.AudioRecord: int getAudioSessionId()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.camera.album.extensions.ContextKt",
+                "method": "<com.yy.hiyo.camera.album.extensions.ContextKt: java.lang.String H(android.content.Context,int)>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.q",
+                "method": "<org.twebrtc.audio.q: int a(android.media.AudioRecordingConfiguration)>",
+                "invokedAPI": "android.media.AudioRecordingConfiguration: int getClientAudioSource()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.ycloud.mediarecord.AudioRecorder",
+                "method": "<com.ycloud.mediarecord.AudioRecorder: boolean startRecord()>",
+                "invokedAPI": "android.media.AudioRecord: void <init>(int,int,int,int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.e",
+                "method": "<com.yy.appbase.permission.e: void <clinit>()>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "app"
+            },
+            {
+                "class": "com.ycloud.mediarecord.audio.AudioRecordWrapper$AudioCaptureThread",
+                "method": "<com.ycloud.mediarecord.audio.AudioRecordWrapper$AudioCaptureThread: void run()>",
+                "invokedAPI": "android.media.AudioRecord: void stop()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.record.h",
+                "method": "<com.yy.hiyo.record.h: void <init>(com.yy.hiyo.record.base.AudioRecordInfo)>",
+                "invokedAPI": "android.media.MediaRecorder: void <init>()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.webrtc.audioengine.WebRtcAudioRecord",
+                "method": "<org.webrtc.audioengine.WebRtcAudioRecord: int initRecording(int,int,boolean,java.lang.Object)>",
+                "invokedAPI": "android.media.AudioRecord: int getState()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.record.h",
+                "method": "<com.yy.hiyo.record.h: void A()>",
+                "invokedAPI": "android.media.MediaRecorder: void setOnErrorListener(android.media.MediaRecorder$OnErrorListener)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.webrtc.audioengine.WebRtcAudioRecord",
+                "method": "<org.webrtc.audioengine.WebRtcAudioRecord: int initRecording(int,int,boolean,java.lang.Object)>",
+                "invokedAPI": "android.media.AudioRecord: void release()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.voiceengine.WebRtcAudioRecord",
+                "method": "<org.twebrtc.voiceengine.WebRtcAudioRecord: boolean startRecording()>",
+                "invokedAPI": "android.media.AudioRecord: void startRecording()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.webrtc.audioengine.WebRtcAudioRecord",
+                "method": "<org.webrtc.audioengine.WebRtcAudioRecord: int initRecording(int,int,boolean,java.lang.Object)>",
+                "invokedAPI": "android.media.AudioRecord: int getChannelCount()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.voiceengine.WebRtcAudioRecord",
+                "method": "<org.twebrtc.voiceengine.WebRtcAudioRecord: void logMainParameters()>",
+                "invokedAPI": "android.media.AudioRecord: int getChannelCount()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.WebRtcAudioRecord",
+                "method": "<org.twebrtc.audio.WebRtcAudioRecord: int initRecording(int,int)>",
+                "invokedAPI": "android.media.AudioRecord: int getMinBufferSize(int,int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.record.h$e",
+                "method": "<com.yy.hiyo.record.h$e: void run()>",
+                "invokedAPI": "android.media.MediaRecorder: void start()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.webrtc.audioengine.WebRtcAudioRecord",
+                "method": "<org.webrtc.audioengine.WebRtcAudioRecord: int initRecording(int,int,boolean,java.lang.Object)>",
+                "invokedAPI": "android.media.AudioRecord: void stop()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.h",
+                "method": "<org.twebrtc.audio.h: android.media.AudioDeviceInfo a(android.media.AudioRecord)>",
+                "invokedAPI": "android.media.AudioRecord: android.media.AudioDeviceInfo getRoutedDevice()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.webrtc.audioengine.WebRtcAudioRecord$AudioRecordThread",
+                "method": "<org.webrtc.audioengine.WebRtcAudioRecord$AudioRecordThread: void run()>",
+                "invokedAPI": "android.media.AudioRecord: int getRecordingState()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.KT.hGN",
+                "method": "<com.bytedance.sdk.openadsdk.KT.hGN: void eqQ(java.lang.String)>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "org.twebrtc.voiceengine.WebRtcAudioRecord",
+                "method": "<org.twebrtc.voiceengine.WebRtcAudioRecord: int initRecording(int,int)>",
+                "invokedAPI": "android.media.AudioRecord: int getState()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.record.h",
+                "method": "<com.yy.hiyo.record.h: void u(com.yy.hiyo.record.base.AudioRecordInfo)>",
+                "invokedAPI": "android.media.MediaRecorder: void setAudioEncodingBitRate(int)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.k",
+                "method": "<org.twebrtc.audio.k: android.media.AudioRecord$Builder a(android.media.AudioRecord$Builder,int)>",
+                "invokedAPI": "android.media.AudioRecord$Builder: android.media.AudioRecord$Builder setBufferSizeInBytes(int)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.webrtc.audioengine.d",
+                "method": "<org.webrtc.audioengine.d: android.media.AudioRecord$Builder a(android.media.AudioRecord$Builder,android.media.AudioPlaybackCaptureConfiguration)>",
+                "invokedAPI": "android.media.AudioRecord$Builder: android.media.AudioRecord$Builder setAudioPlaybackCaptureConfig(android.media.AudioPlaybackCaptureConfiguration)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.WebRtcAudioRecord",
+                "method": "<org.twebrtc.audio.WebRtcAudioRecord: int logRecordingConfigurations(android.media.AudioRecord,boolean)>",
+                "invokedAPI": "android.media.AudioRecord: int getAudioSource()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.WebRtcAudioRecord",
+                "method": "<org.twebrtc.audio.WebRtcAudioRecord: void logMainParameters()>",
+                "invokedAPI": "android.media.AudioRecord: int getAudioSessionId()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.o",
+                "method": "<org.twebrtc.audio.o: android.media.AudioFormat a(android.media.AudioRecordingConfiguration)>",
+                "invokedAPI": "android.media.AudioRecordingConfiguration: android.media.AudioFormat getFormat()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.WebRtcAudioRecord",
+                "method": "<org.twebrtc.audio.WebRtcAudioRecord: void logMainParameters()>",
+                "invokedAPI": "android.media.AudioRecord: int getSampleRate()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.record.h",
+                "method": "<com.yy.hiyo.record.h: void u(com.yy.hiyo.record.base.AudioRecordInfo)>",
+                "invokedAPI": "android.media.MediaRecorder: void setMaxDuration(int)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.webrtc.audioengine.WebRtcAudioRecord",
+                "method": "<org.webrtc.audioengine.WebRtcAudioRecord: int initRecording(int,int,boolean,java.lang.Object)>",
+                "invokedAPI": "android.media.AudioRecord: int getMinBufferSize(int,int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.fmod.a",
+                "method": "<org.fmod.a: void run()>",
+                "invokedAPI": "android.media.AudioRecord: void <init>(int,int,int,int,int)",
+                "data controller": "Game Engine Libraries"
+            },
+            {
+                "class": "org.twebrtc.audio.s",
+                "method": "<org.twebrtc.audio.s: android.media.AudioFormat a(android.media.AudioRecordingConfiguration)>",
+                "invokedAPI": "android.media.AudioRecordingConfiguration: android.media.AudioFormat getClientFormat()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.KT.sn",
+                "method": "<com.bytedance.sdk.openadsdk.KT.sn: boolean nz(android.content.Context,int)>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "org.twebrtc.voiceengine.WebRtcAudioRecord",
+                "method": "<org.twebrtc.voiceengine.WebRtcAudioRecord: void logMainParameters()>",
+                "invokedAPI": "android.media.AudioRecord: int getSampleRate()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.WebRtcAudioRecord",
+                "method": "<org.twebrtc.audio.WebRtcAudioRecord: int initRecording(int,int)>",
+                "invokedAPI": "android.media.AudioRecord: int getAudioSessionId()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.record.h",
+                "method": "<com.yy.hiyo.record.h: void u(com.yy.hiyo.record.base.AudioRecordInfo)>",
+                "invokedAPI": "android.media.MediaRecorder: void setAudioSource(int)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.WebRtcAudioRecord",
+                "method": "<org.twebrtc.audio.WebRtcAudioRecord: boolean startRecording()>",
+                "invokedAPI": "android.media.AudioRecord: int getRecordingState()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.record.h",
+                "method": "<com.yy.hiyo.record.h: void u(com.yy.hiyo.record.base.AudioRecordInfo)>",
+                "invokedAPI": "android.media.MediaRecorder: void setAudioChannels(int)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.fmod.a",
+                "method": "<org.fmod.a: void run()>",
+                "invokedAPI": "android.media.AudioRecord: int getRecordingState()",
+                "data controller": "Game Engine Libraries"
+            },
+            {
+                "class": "com.yy.hiyo.record.h$g",
+                "method": "<com.yy.hiyo.record.h$g: void run()>",
+                "invokedAPI": "android.media.MediaRecorder: void release()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.ycloud.mediarecord.audio.AudioRecorderCreator",
+                "method": "<com.ycloud.mediarecord.audio.AudioRecorderCreator: android.media.AudioRecord createAudioRecord(int,int,int,int)>",
+                "invokedAPI": "android.media.AudioRecord: void <init>(int,int,int,int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.WebRtcAudioRecord",
+                "method": "<org.twebrtc.audio.WebRtcAudioRecord: android.media.AudioRecord createAudioRecordOnMOrHigher(int,int,int,int,int)>",
+                "invokedAPI": "android.media.AudioRecord$Builder: void <init>()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.m$b",
+                "method": "<com.yy.appbase.permission.checker.m$b: boolean f()>",
+                "invokedAPI": "android.media.AudioRecord: void startRecording()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.webrtc.audioengine.WebRtcAudioRecord",
+                "method": "<org.webrtc.audioengine.WebRtcAudioRecord: int initBackgroundRecording(int,int,java.lang.Object,int)>",
+                "invokedAPI": "android.media.AudioRecord: int getState()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.ycloud.mediarecord.AudioRecorder",
+                "method": "<com.ycloud.mediarecord.AudioRecorder: void close()>",
+                "invokedAPI": "android.media.AudioRecord: void stop()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.m$b",
+                "method": "<com.yy.appbase.permission.checker.m$b: void h(android.media.AudioRecord)>",
+                "invokedAPI": "android.media.AudioRecord: void stop()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.ycloud.mediarecord.AudioRecorder",
+                "method": "<com.ycloud.mediarecord.AudioRecorder: void close()>",
+                "invokedAPI": "android.media.AudioRecord: void release()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.webrtc.audioengine.WebRtcAudioRecord$AudioRecordThread",
+                "method": "<org.webrtc.audioengine.WebRtcAudioRecord$AudioRecordThread: void run()>",
+                "invokedAPI": "android.media.AudioRecord: int read(java.nio.ByteBuffer,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.WebRtcAudioRecord",
+                "method": "<org.twebrtc.audio.WebRtcAudioRecord: boolean startRecording()>",
+                "invokedAPI": "android.media.AudioRecord: void startRecording()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.record.h",
+                "method": "<com.yy.hiyo.record.h: void A()>",
+                "invokedAPI": "android.media.MediaRecorder: void setPreviewDisplay(android.view.Surface)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.webrtc.audioengine.WebRtcAudioRecord",
+                "method": "<org.webrtc.audioengine.WebRtcAudioRecord: int initRecording(int,int,boolean,java.lang.Object)>",
+                "invokedAPI": "android.media.AudioRecord: int getSampleRate()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.webrtc.audioengine.WebRtcAudioRecord",
+                "method": "<org.webrtc.audioengine.WebRtcAudioRecord: int initBackgroundRecording(int,int,java.lang.Object,int)>",
+                "invokedAPI": "android.media.AudioRecord$Builder: void <init>()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.WebRtcAudioRecord",
+                "method": "<org.twebrtc.audio.WebRtcAudioRecord: int logRecordingConfigurations(android.media.AudioRecord,boolean)>",
+                "invokedAPI": "android.media.AudioRecord: int getAudioSessionId()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.fmod.a",
+                "method": "<org.fmod.a: void run()>",
+                "invokedAPI": "android.media.AudioRecord: void startRecording()",
+                "data controller": "Game Engine Libraries"
+            },
+            {
+                "class": "org.webrtc.audioengine.WebRtcAudioRecord$AudioRecordThread",
+                "method": "<org.webrtc.audioengine.WebRtcAudioRecord$AudioRecordThread: void run()>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.voiceengine.WebRtcAudioRecord$AudioRecordThread",
+                "method": "<org.twebrtc.voiceengine.WebRtcAudioRecord$AudioRecordThread: void run()>",
+                "invokedAPI": "android.media.AudioRecord: void stop()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.record.h",
+                "method": "<com.yy.hiyo.record.h: void u(com.yy.hiyo.record.base.AudioRecordInfo)>",
+                "invokedAPI": "android.media.MediaRecorder: void setOnErrorListener(android.media.MediaRecorder$OnErrorListener)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.record.h$f",
+                "method": "<com.yy.hiyo.record.h$f: void run()>",
+                "invokedAPI": "android.media.MediaRecorder: void release()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.tencent.tcr.sdk.plugin.webrtc.h",
+                "method": "<com.tencent.tcr.sdk.plugin.webrtc.h: void run()>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "org.twebrtc.voiceengine.WebRtcAudioRecord$AudioSamples",
+                "method": "<org.twebrtc.voiceengine.WebRtcAudioRecord$AudioSamples: void <init>(android.media.AudioRecord,byte[])>",
+                "invokedAPI": "android.media.AudioRecord: int getChannelCount()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.webrtc.audioengine.WebRtcAudioRecord",
+                "method": "<org.webrtc.audioengine.WebRtcAudioRecord: boolean stopRecording()>",
+                "invokedAPI": "android.media.AudioRecord: void release()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.fmod.a",
+                "method": "<org.fmod.a: void <init>(org.fmod.FMODAudioDevice,int,int)>",
+                "invokedAPI": "android.media.AudioRecord: int getMinBufferSize(int,int,int)",
+                "data controller": "Game Engine Libraries"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.m$b",
+                "method": "<com.yy.appbase.permission.checker.m$b: boolean f()>",
+                "invokedAPI": "android.media.AudioRecord: int getMinBufferSize(int,int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.m$b",
+                "method": "<com.yy.appbase.permission.checker.m$b: void h(android.media.AudioRecord)>",
+                "invokedAPI": "android.media.AudioRecord: int getState()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.WebRtcAudioRecord",
+                "method": "<org.twebrtc.audio.WebRtcAudioRecord: int initRecording(int,int)>",
+                "invokedAPI": "android.media.AudioRecord: int getState()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.WebRtcAudioRecord$AudioRecordThread",
+                "method": "<org.twebrtc.audio.WebRtcAudioRecord$AudioRecordThread: void run()>",
+                "invokedAPI": "android.media.AudioRecord: int getSampleRate()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.voiceengine.WebRtcAudioRecord$AudioSamples",
+                "method": "<org.twebrtc.voiceengine.WebRtcAudioRecord$AudioSamples: void <init>(android.media.AudioRecord,byte[])>",
+                "invokedAPI": "android.media.AudioRecord: int getSampleRate()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.j",
+                "method": "<org.twebrtc.audio.j: android.media.AudioRecord$Builder a(android.media.AudioRecord$Builder,android.media.AudioFormat)>",
+                "invokedAPI": "android.media.AudioRecord$Builder: android.media.AudioRecord$Builder setAudioFormat(android.media.AudioFormat)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.WebRtcAudioRecord",
+                "method": "<org.twebrtc.audio.WebRtcAudioRecord: void releaseAudioResources()>",
+                "invokedAPI": "android.media.AudioRecord: void release()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.webrtc.audioengine.WebRtcAudioRecord",
+                "method": "<org.webrtc.audioengine.WebRtcAudioRecord: boolean stopRecording()>",
+                "invokedAPI": "android.media.AudioRecord: void stop()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.ycloud.mediarecord.audio.AudioRecordWrapper",
+                "method": "<com.ycloud.mediarecord.audio.AudioRecordWrapper: boolean createAudioRecord()>",
+                "invokedAPI": "android.media.AudioRecord: int getMinBufferSize(int,int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.webrtc.audioengine.WebRtcAudioRecord",
+                "method": "<org.webrtc.audioengine.WebRtcAudioRecord: int initBackgroundRecording(int,int,java.lang.Object,int)>",
+                "invokedAPI": "android.media.AudioRecord: int getSampleRate()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.record.h",
+                "method": "<com.yy.hiyo.record.h: void u(com.yy.hiyo.record.base.AudioRecordInfo)>",
+                "invokedAPI": "android.media.MediaRecorder: void setAudioSamplingRate(int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.KT.hGN",
+                "method": "<com.bytedance.sdk.openadsdk.KT.hGN: org.json.JSONObject KT()>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "org.twebrtc.voiceengine.WebRtcAudioRecord",
+                "method": "<org.twebrtc.voiceengine.WebRtcAudioRecord: int initRecording(int,int)>",
+                "invokedAPI": "android.media.AudioRecord: int getAudioSessionId()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.ycloud.mediarecord.AudioRecorder",
+                "method": "<com.ycloud.mediarecord.AudioRecorder: void <init>()>",
+                "invokedAPI": "android.media.AudioRecord: int getMinBufferSize(int,int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.voiceengine.WebRtcAudioRecord",
+                "method": "<org.twebrtc.voiceengine.WebRtcAudioRecord: boolean startRecording()>",
+                "invokedAPI": "android.media.AudioRecord: int getRecordingState()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.voiceengine.WebRtcAudioManager",
+                "method": "<org.twebrtc.voiceengine.WebRtcAudioManager: int getMinInputFrameSize(int,int)>",
+                "invokedAPI": "android.media.AudioRecord: int getMinBufferSize(int,int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.ycloud.mediarecord.audio.AudioRecordWrapper$AudioCaptureThread",
+                "method": "<com.ycloud.mediarecord.audio.AudioRecordWrapper$AudioCaptureThread: void run()>",
+                "invokedAPI": "android.media.AudioRecord: void release()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.m$b",
+                "method": "<com.yy.appbase.permission.checker.m$b: boolean e()>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "app"
+            },
+            {
+                "class": "org.webrtc.audioengine.WebRtcAudioRecord",
+                "method": "<org.webrtc.audioengine.WebRtcAudioRecord: int initRecording(int,int,boolean,java.lang.Object)>",
+                "invokedAPI": "android.media.AudioRecord: void <init>(int,int,int,int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.webrtc.audioengine.WebRtcAudioRecord$AudioRecordThread",
+                "method": "<org.webrtc.audioengine.WebRtcAudioRecord$AudioRecordThread: void run()>",
+                "invokedAPI": "android.media.AudioRecord: void startRecording()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.record.h",
+                "method": "<com.yy.hiyo.record.h: void u(com.yy.hiyo.record.base.AudioRecordInfo)>",
+                "invokedAPI": "android.media.MediaRecorder: void setOnInfoListener(android.media.MediaRecorder$OnInfoListener)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.record.h",
+                "method": "<com.yy.hiyo.record.h: void u(com.yy.hiyo.record.base.AudioRecordInfo)>",
+                "invokedAPI": "android.media.MediaRecorder: void setOutputFormat(int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.record.h",
+                "method": "<com.yy.hiyo.record.h: int p()>",
+                "invokedAPI": "android.media.MediaRecorder: int getMaxAmplitude()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.WebRtcAudioRecord",
+                "method": "<org.twebrtc.audio.WebRtcAudioRecord: void logMainParameters()>",
+                "invokedAPI": "android.media.AudioRecord: int getChannelCount()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.fmod.a",
+                "method": "<org.fmod.a: void d()>",
+                "invokedAPI": "android.media.AudioRecord: int getState()",
+                "data controller": "Game Engine Libraries"
+            },
+            {
+                "class": "org.twebrtc.audio.WebRtcAudioRecord$AudioRecordThread",
+                "method": "<org.twebrtc.audio.WebRtcAudioRecord$AudioRecordThread: void run()>",
+                "invokedAPI": "android.media.AudioRecord: int read(java.nio.ByteBuffer,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.fmod.a",
+                "method": "<org.fmod.a: void run()>",
+                "invokedAPI": "android.media.AudioRecord: int read(java.nio.ByteBuffer,int)",
+                "data controller": "Game Engine Libraries"
+            },
+            {
+                "class": "org.fmod.a",
+                "method": "<org.fmod.a: void run()>",
+                "invokedAPI": "android.media.AudioRecord: int getState()",
+                "data controller": "Game Engine Libraries"
+            },
+            {
+                "class": "org.twebrtc.audio.WebRtcAudioManager",
+                "method": "<org.twebrtc.audio.WebRtcAudioManager: int getMinInputFrameSize(int,int)>",
+                "invokedAPI": "android.media.AudioRecord: int getMinBufferSize(int,int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.WebRtcAudioRecord$AudioRecordThread",
+                "method": "<org.twebrtc.audio.WebRtcAudioRecord$AudioRecordThread: void run()>",
+                "invokedAPI": "android.media.AudioRecord: int getChannelCount()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.voiceengine.WebRtcAudioRecord",
+                "method": "<org.twebrtc.voiceengine.WebRtcAudioRecord: int initRecording(int,int)>",
+                "invokedAPI": "android.media.AudioRecord: void <init>(int,int,int,int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.voiceengine.WebRtcAudioRecord",
+                "method": "<org.twebrtc.voiceengine.WebRtcAudioRecord: int initRecording(int,int)>",
+                "invokedAPI": "android.media.AudioRecord: int getMinBufferSize(int,int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.r",
+                "method": "<org.twebrtc.audio.r: int a(android.media.AudioRecordingConfiguration)>",
+                "invokedAPI": "android.media.AudioRecordingConfiguration: int getClientAudioSessionId()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.m$b",
+                "method": "<com.yy.appbase.permission.checker.m$b: boolean f()>",
+                "invokedAPI": "android.media.AudioRecord: void <init>(int,int,int,int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.record.h",
+                "method": "<com.yy.hiyo.record.h: void u(com.yy.hiyo.record.base.AudioRecordInfo)>",
+                "invokedAPI": "android.media.MediaRecorder: void setOutputFile(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.fmod.a",
+                "method": "<org.fmod.a: void d()>",
+                "invokedAPI": "android.media.AudioRecord: void release()",
+                "data controller": "Game Engine Libraries"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.v",
+                "method": "<com.yy.appbase.permission.checker.v: boolean q(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.voiceengine.WebRtcAudioRecord$AudioSamples",
+                "method": "<org.twebrtc.voiceengine.WebRtcAudioRecord$AudioSamples: void <init>(android.media.AudioRecord,byte[])>",
+                "invokedAPI": "android.media.AudioRecord: int getAudioFormat()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.WebRtcAudioRecord$AudioRecordThread",
+                "method": "<org.twebrtc.audio.WebRtcAudioRecord$AudioRecordThread: void run()>",
+                "invokedAPI": "android.media.AudioRecord: void stop()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.m$b",
+                "method": "<com.yy.appbase.permission.checker.m$b: boolean f()>",
+                "invokedAPI": "android.media.AudioRecord: int read(short[],int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.w",
+                "method": "<org.twebrtc.audio.w: int a(android.media.AudioRecord,android.media.AudioTimestamp,int)>",
+                "invokedAPI": "android.media.AudioRecord: int getTimestamp(android.media.AudioTimestamp,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.ycloud.mediarecord.audio.AudioRecordWrapper$AudioCaptureThread",
+                "method": "<com.ycloud.mediarecord.audio.AudioRecordWrapper$AudioCaptureThread: void run()>",
+                "invokedAPI": "android.media.AudioRecord: int read(byte[],int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.fmod.a",
+                "method": "<org.fmod.a: void d()>",
+                "invokedAPI": "android.media.AudioRecord: void stop()",
+                "data controller": "Game Engine Libraries"
+            },
+            {
+                "class": "org.twebrtc.audio.n",
+                "method": "<org.twebrtc.audio.n: android.media.AudioDeviceInfo a(android.media.AudioRecordingConfiguration)>",
+                "invokedAPI": "android.media.AudioRecordingConfiguration: android.media.AudioDeviceInfo getAudioDevice()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.m$b",
+                "method": "<com.yy.appbase.permission.checker.m$b: void h(android.media.AudioRecord)>",
+                "invokedAPI": "android.media.AudioRecord: void release()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.webrtc.audioengine.WebRtcAudioRecord",
+                "method": "<org.webrtc.audioengine.WebRtcAudioRecord: int initBackgroundRecording(int,int,java.lang.Object,int)>",
+                "invokedAPI": "android.media.AudioRecord: int getAudioFormat()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.record.h$e",
+                "method": "<com.yy.hiyo.record.h$e: void run()>",
+                "invokedAPI": "android.media.MediaRecorder: void prepare()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.WebRtcAudioRecord",
+                "method": "<org.twebrtc.audio.WebRtcAudioRecord: android.media.AudioRecord createAudioRecordOnLowerThanM(int,int,int,int,int)>",
+                "invokedAPI": "android.media.AudioRecord: void <init>(int,int,int,int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.ycloud.mediarecord.AudioRecorder",
+                "method": "<com.ycloud.mediarecord.AudioRecorder: boolean startRecord()>",
+                "invokedAPI": "android.media.AudioRecord: void startRecording()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.webrtc.audioengine.WebRtcAudioRecord",
+                "method": "<org.webrtc.audioengine.WebRtcAudioRecord: int initRecording(int,int,boolean,java.lang.Object)>",
+                "invokedAPI": "android.media.AudioRecord: int getAudioFormat()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.record.h$c$a",
+                "method": "<com.yy.hiyo.record.h$c$a: void run()>",
+                "invokedAPI": "android.media.MediaRecorder: void release()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.ycloud.mediarecord.audio.AudioRecordWrapper$AudioCaptureThread",
+                "method": "<com.ycloud.mediarecord.audio.AudioRecordWrapper$AudioCaptureThread: void run()>",
+                "invokedAPI": "android.media.AudioRecord: void startRecording()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.record.h",
+                "method": "<com.yy.hiyo.record.h: void u(com.yy.hiyo.record.base.AudioRecordInfo)>",
+                "invokedAPI": "android.media.MediaRecorder: void setAudioEncoder(int)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.t",
+                "method": "<org.twebrtc.audio.t: boolean a(android.media.AudioRecord,android.media.AudioDeviceInfo)>",
+                "invokedAPI": "android.media.AudioRecord: boolean setPreferredDevice(android.media.AudioDeviceInfo)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.webrtc.audioengine.WebRtcAudioRecord",
+                "method": "<org.webrtc.audioengine.WebRtcAudioRecord: int initBackgroundRecording(int,int,java.lang.Object,int)>",
+                "invokedAPI": "android.media.AudioRecord: int getChannelCount()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.record.h",
+                "method": "<com.yy.hiyo.record.h: void A()>",
+                "invokedAPI": "android.media.MediaRecorder: void setOnInfoListener(android.media.MediaRecorder$OnInfoListener)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.ycloud.mediarecord.AudioRecorder",
+                "method": "<com.ycloud.mediarecord.AudioRecorder: void writeDateTOFile()>",
+                "invokedAPI": "android.media.AudioRecord: int read(byte[],int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.l",
+                "method": "<org.twebrtc.audio.l: android.media.AudioRecord a(android.media.AudioRecord$Builder)>",
+                "invokedAPI": "android.media.AudioRecord$Builder: android.media.AudioRecord build()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.ycloud.mediarecord.audio.AudioRecorderCreator",
+                "method": "<com.ycloud.mediarecord.audio.AudioRecorderCreator: android.media.AudioRecord createAudioRecord(int,int,int,int)>",
+                "invokedAPI": "android.media.AudioRecord: int getState()",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.audio.i",
+                "method": "<org.twebrtc.audio.i: android.media.AudioRecord$Builder a(android.media.AudioRecord$Builder,int)>",
+                "invokedAPI": "android.media.AudioRecord$Builder: android.media.AudioRecord$Builder setAudioSource(int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.record.h",
+                "method": "<com.yy.hiyo.record.h: void A()>",
+                "invokedAPI": "android.media.MediaRecorder: void stop()",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_EXTERNAL_STORAGE": [
+            {
+                "class": "com.bytedance.sdk.openadsdk.KT.sn",
+                "method": "<com.bytedance.sdk.openadsdk.KT.sn: boolean nz(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "org.chromium.base.compat.p0",
+                "method": "<org.chromium.base.compat.p0: android.net.Uri a(android.net.Uri)>",
+                "invokedAPI": "android.provider.MediaStore: android.net.Uri setIncludePending(android.net.Uri)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.v",
+                "method": "<com.yy.appbase.permission.checker.v: boolean q(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.base.utils.o1",
+                "method": "<com.yy.base.utils.o1: android.net.Uri m(android.content.Context,java.io.File)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Media: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.camera.album.extensions.Context_storageKt",
+                "method": "<com.yy.hiyo.camera.album.extensions.Context_storageKt: android.net.Uri e(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.provider.MediaStore$Files: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiidostatis.inner.util.hdid.DeviceManagerV2",
+                "method": "<com.yy.hiidostatis.inner.util.hdid.DeviceManagerV2: java.lang.String getSdpm(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.camera.photo.d",
+                "method": "<com.yy.hiyo.camera.photo.d: void j(android.content.ContentResolver,android.net.Uri,android.graphics.Bitmap,android.content.Context)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Thumbnails: android.graphics.Bitmap getThumbnail(android.content.ContentResolver,long,int,android.graphics.BitmapFactory$Options)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.camera.base.ablum_select.mulitablumselect.internal.entity.Item",
+                "method": "<com.yy.hiyo.camera.base.ablum_select.mulitablumselect.internal.entity.Item: void <init>(long,java.lang.String,long,long,int,int)>",
+                "invokedAPI": "android.provider.MediaStore$Files: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.chromium.base.ApiCompatibilityUtils",
+                "method": "<org.chromium.base.ApiCompatibilityUtils: android.graphics.Bitmap getBitmapByUri(android.content.ContentResolver,android.net.Uri)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.KT.sn",
+                "method": "<com.bytedance.sdk.openadsdk.KT.sn: boolean nz(android.content.Context,int)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.yy.hiyo.camera.album.helpers.h",
+                "method": "<com.yy.hiyo.camera.album.helpers.h: java.util.LinkedHashSet k()>",
+                "invokedAPI": "android.provider.MediaStore$Files: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bumptech.glide.load.model.stream.f",
+                "method": "<com.bumptech.glide.load.model.stream.f: android.net.Uri a(android.net.Uri)>",
+                "invokedAPI": "android.provider.MediaStore: android.net.Uri setRequireOriginal(android.net.Uri)",
+                "data controller": "Payment Libraries"
+            },
+            {
+                "class": "com.yy.appbase.permission.e",
+                "method": "<com.yy.appbase.permission.e: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.module.push.lockscreen.LockScreenPushActivity",
+                "method": "<com.yy.hiyo.module.push.lockscreen.LockScreenPushActivity: void onCreate(android.os.Bundle)>",
+                "invokedAPI": "android.app.WallpaperManager: android.graphics.drawable.Drawable getDrawable()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.camera.base.ablum_select.mulitablumselect.internal.loader.b",
+                "method": "<com.yy.hiyo.camera.base.ablum_select.mulitablumselect.internal.loader.b: void <clinit>()>",
+                "invokedAPI": "android.provider.MediaStore$Files: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.camera.album.dialog.PropertiesDialog$2",
+                "method": "<com.yy.hiyo.camera.album.dialog.PropertiesDialog$2: void invoke()>",
+                "invokedAPI": "android.provider.MediaStore$Files: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.camera.album.asynctasks.CopyMoveTask",
+                "method": "<com.yy.hiyo.camera.album.asynctasks.CopyMoveTask: void f(java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.provider.MediaStore$Files: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.camera.album.fragments.n",
+                "method": "<com.yy.hiyo.camera.album.fragments.n: java.lang.String b(java.io.File)>",
+                "invokedAPI": "android.provider.MediaStore$Files: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.base.utils.filestorage.FileOperatorQ",
+                "method": "<com.yy.base.utils.filestorage.FileOperatorQ: boolean b(java.lang.String,boolean,java.lang.String)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Media: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.KT.hGN",
+                "method": "<com.bytedance.sdk.openadsdk.KT.hGN: org.json.JSONObject Ih()>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.yy.pushsvc.locknotification.LockActivity",
+                "method": "<com.yy.pushsvc.locknotification.LockActivity: void setBlurBackground()>",
+                "invokedAPI": "android.app.WallpaperManager: android.graphics.drawable.Drawable getDrawable()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.camera.album.helpers.h",
+                "method": "<com.yy.hiyo.camera.album.helpers.h: java.util.HashMap h(java.lang.String)>",
+                "invokedAPI": "android.provider.MediaStore$Files: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.helper.e",
+                "method": "<com.yy.appbase.permission.helper.e: void L(android.app.Activity,com.yy.appbase.permission.g,com.yy.appbase.permission.helper.a)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.base.imageloader.o$b",
+                "method": "<com.yy.base.imageloader.o$b: java.lang.String b(android.content.ContentResolver,java.lang.String,android.graphics.Bitmap,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Thumbnails: android.graphics.Bitmap getThumbnail(android.content.ContentResolver,long,int,android.graphics.BitmapFactory$Options)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.squareup.picasso.MediaStoreRequestHandler",
+                "method": "<com.squareup.picasso.MediaStoreRequestHandler: com.squareup.picasso.RequestHandler$Result load(com.squareup.picasso.Request,int)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Thumbnails: android.graphics.Bitmap getThumbnail(android.content.ContentResolver,long,int,android.graphics.BitmapFactory$Options)",
+                "data controller": "App Market Libraries"
+            },
+            {
+                "class": "com.yy.base.utils.filestorage.FileOperatorQ",
+                "method": "<com.yy.base.utils.filestorage.FileOperatorQ: boolean b(java.lang.String,boolean,java.lang.String)>",
+                "invokedAPI": "android.provider.MediaStore$Video$Media: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.camera.album.extensions.ContextKt",
+                "method": "<com.yy.hiyo.camera.album.extensions.ContextKt: java.lang.String H(android.content.Context,int)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.pushsvc.locknotification.LockActivity",
+                "method": "<com.yy.pushsvc.locknotification.LockActivity: void setBlurBackground()>",
+                "invokedAPI": "android.app.WallpaperManager: android.app.WallpaperManager getInstance(android.content.Context)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.camera.album.extensions.ContextKt",
+                "method": "<com.yy.hiyo.camera.album.extensions.ContextKt: android.net.Uri x(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.provider.MediaStore$Files: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.camera.album.helpers.h",
+                "method": "<com.yy.hiyo.camera.album.helpers.h: java.util.ArrayList i()>",
+                "invokedAPI": "android.provider.MediaStore$Files: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.module.push.lockscreen.LockScreenPushActivity",
+                "method": "<com.yy.hiyo.module.push.lockscreen.LockScreenPushActivity: void onCreate(android.os.Bundle)>",
+                "invokedAPI": "android.app.WallpaperManager: android.app.WallpaperManager getInstance(android.content.Context)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.camera.base.ablum_select.mulitablumselect.internal.loader.a",
+                "method": "<com.yy.hiyo.camera.base.ablum_select.mulitablumselect.internal.loader.a: void <clinit>()>",
+                "invokedAPI": "android.provider.MediaStore$Files: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.pushsvc.locknotification.LockActivity",
+                "method": "<com.yy.pushsvc.locknotification.LockActivity: void setBlurBackground()>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "org.chromium.base.compat.n0",
+                "method": "<org.chromium.base.compat.n0: java.util.Set a(android.content.Context)>",
+                "invokedAPI": "android.provider.MediaStore: java.util.Set getExternalVolumeNames(android.content.Context)",
+                "data controller": "app"
+            },
+            {
+                "class": "org.chromium.base.PathUtils",
+                "method": "<org.chromium.base.PathUtils: java.lang.String[] getExternalDownloadVolumesNames()>",
+                "invokedAPI": "android.provider.MediaStore$Files: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.KT.hGN",
+                "method": "<com.bytedance.sdk.openadsdk.KT.hGN: void oUa(java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Media: java.lang.String insertImage(android.content.ContentResolver,android.graphics.Bitmap,java.lang.String,java.lang.String)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.yy.hiyo.camera.album.extensions.ContextKt",
+                "method": "<com.yy.hiyo.camera.album.extensions.ContextKt: android.net.Uri q(android.content.Context,java.io.File,java.lang.String)>",
+                "invokedAPI": "android.provider.MediaStore$Files: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.base.utils.o1",
+                "method": "<com.yy.base.utils.o1: boolean z(java.lang.String)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Media: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.squareup.picasso.MediaStoreRequestHandler",
+                "method": "<com.squareup.picasso.MediaStoreRequestHandler: com.squareup.picasso.RequestHandler$Result load(com.squareup.picasso.Request,int)>",
+                "invokedAPI": "android.provider.MediaStore$Video$Thumbnails: android.graphics.Bitmap getThumbnail(android.content.ContentResolver,long,int,android.graphics.BitmapFactory$Options)",
+                "data controller": "App Market Libraries"
+            }
+        ],
+        "android.permission.ACCESS_COARSE_LOCATION": [
+            {
+                "class": "com.inmobi.media.v",
+                "method": "<com.inmobi.media.v: void h()>",
+                "invokedAPI": "android.telephony.TelephonyManager: android.telephony.CellLocation getCellLocation()",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.inmobi.sdk.InMobiSdk",
+                "method": "<com.inmobi.sdk.InMobiSdk: void b()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.google.android.gms.internal.ads.zzcev",
+                "method": "<com.google.android.gms.internal.ads.zzcev: void onGeolocationPermissionsShowPrompt(java.lang.String,android.webkit.GeolocationPermissions$Callback)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.yy.location.f",
+                "method": "<com.yy.location.f: boolean a(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.inmobi.media.v",
+                "method": "<com.inmobi.media.v: void h()>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.util.List getAllCellInfo()",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.inmobi.sdk.InMobiSdk",
+                "method": "<com.inmobi.sdk.InMobiSdk: void a(android.content.Context,com.inmobi.sdk.SdkInitializationListener,java.lang.String,org.json.JSONObject)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.inmobi.media.fc",
+                "method": "<com.inmobi.media.fc: void d()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.zing.zalo.zalosdk.core.helper.DeviceHelper",
+                "method": "<com.zing.zalo.zalosdk.core.helper.DeviceHelper: android.location.Location getLocation(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.inmobi.media.r6",
+                "method": "<com.inmobi.media.r6: java.util.HashMap a(android.location.Location,boolean,android.location.Location)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.zing.zalo.zalosdk.core.helper.DeviceHelper",
+                "method": "<com.zing.zalo.zalosdk.core.helper.DeviceHelper: android.location.Location getLocation(android.content.Context)>",
+                "invokedAPI": "android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.e",
+                "method": "<com.yy.appbase.permission.e: void <clinit>()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.inmobi.media.r6",
+                "method": "<com.inmobi.media.r6: kotlin.Unit a()>",
+                "invokedAPI": "android.location.LocationManager: void requestSingleUpdate(java.lang.String,android.location.LocationListener,android.os.Looper)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.applovin.impl.sdk.x",
+                "method": "<com.applovin.impl.sdk.x: boolean f()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.i$a",
+                "method": "<com.yy.appbase.permission.checker.i$a: boolean a()>",
+                "invokedAPI": "android.location.LocationManager: void removeUpdates(android.location.LocationListener)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.location.inner.NativeLocationServiceAdapter",
+                "method": "<com.yy.location.inner.NativeLocationServiceAdapter: android.location.Location a()>",
+                "invokedAPI": "android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.inmobi.media.fc",
+                "method": "<com.inmobi.media.fc: void e()>",
+                "invokedAPI": "android.location.LocationManager: void removeUpdates(android.location.LocationListener)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.inmobi.media.r6",
+                "method": "<com.inmobi.media.r6: void onLocationChanged(android.location.Location)>",
+                "invokedAPI": "android.location.LocationManager: void removeUpdates(android.location.LocationListener)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.applovin.impl.sdk.x",
+                "method": "<com.applovin.impl.sdk.x: boolean a()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.inmobi.media.r6",
+                "method": "<com.inmobi.media.r6: boolean d()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.hiyo.netquality.diagno.model.resource.wifimobile.a",
+                "method": "<com.hiyo.netquality.diagno.model.resource.wifimobile.a: void e(android.content.Context,com.hiyo.netquality.diagno.model.resource.wifimobile.NetBean)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.util.List getAllCellInfo()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.inmobi.media.r6",
+                "method": "<com.inmobi.media.r6: java.util.HashMap c()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.inmobi.media.d2",
+                "method": "<com.inmobi.media.d2: boolean b()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.yy.location.inner.NativeLocationServiceAdapter",
+                "method": "<com.yy.location.inner.NativeLocationServiceAdapter: void c(com.yy.location.inner.b)>",
+                "invokedAPI": "android.location.LocationManager: void requestSingleUpdate(java.lang.String,android.location.LocationListener,android.os.Looper)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.applovin.impl.sdk.x",
+                "method": "<com.applovin.impl.sdk.x: android.location.Location a(java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.inmobi.media.r6",
+                "method": "<com.inmobi.media.r6: android.location.Location a(int,int)>",
+                "invokedAPI": "android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.yy.base.utils.l0",
+                "method": "<com.yy.base.utils.l0: com.yy.base.utils.a1 a(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.util.List getAllCellInfo()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.v",
+                "method": "<com.yy.appbase.permission.checker.v: boolean q(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.GET_ACCOUNTS": [
+            {
+                "class": "org.chromium.net.HttpNegotiateAuthenticator",
+                "method": "<org.chromium.net.HttpNegotiateAuthenticator: void requestTokenWithActivity(android.content.Context,android.app.Activity,org.chromium.net.HttpNegotiateAuthenticator$RequestData,java.lang.String[])>",
+                "invokedAPI": "android.permission.GET_ACCOUNTS",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.measurement.internal.zzap",
+                "method": "<com.google.android.gms.measurement.internal.zzap: boolean zze()>",
+                "invokedAPI": "android.permission.GET_ACCOUNTS",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.v",
+                "method": "<com.yy.appbase.permission.checker.v: boolean q(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.GET_ACCOUNTS",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.measurement.internal.zzap",
+                "method": "<com.google.android.gms.measurement.internal.zzap: boolean zze()>",
+                "invokedAPI": "android.accounts.AccountManager: android.accounts.AccountManagerFuture getAccountsByTypeAndFeatures(java.lang.String,java.lang.String[],android.accounts.AccountManagerCallback,android.os.Handler)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.chromium.net.HttpNegotiateAuthenticator",
+                "method": "<org.chromium.net.HttpNegotiateAuthenticator: void requestTokenWithoutActivity(android.content.Context,org.chromium.net.HttpNegotiateAuthenticator$RequestData,java.lang.String[])>",
+                "invokedAPI": "android.permission.GET_ACCOUNTS",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.camera.album.extensions.ContextKt",
+                "method": "<com.yy.hiyo.camera.album.extensions.ContextKt: java.lang.String H(android.content.Context,int)>",
+                "invokedAPI": "android.permission.GET_ACCOUNTS",
+                "data controller": "app"
+            },
+            {
+                "class": "org.chromium.net.HttpNegotiateAuthenticator",
+                "method": "<org.chromium.net.HttpNegotiateAuthenticator: void requestTokenWithoutActivity(android.content.Context,org.chromium.net.HttpNegotiateAuthenticator$RequestData,java.lang.String[])>",
+                "invokedAPI": "android.accounts.AccountManager: android.accounts.AccountManagerFuture getAccountsByTypeAndFeatures(java.lang.String,java.lang.String[],android.accounts.AccountManagerCallback,android.os.Handler)",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_CALENDAR": [
+            {
+                "class": "com.yy.hiyo.camera.album.extensions.ContextKt",
+                "method": "<com.yy.hiyo.camera.album.extensions.ContextKt: java.lang.String H(android.content.Context,int)>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.b",
+                "method": "<com.yy.appbase.permission.checker.b: boolean a()>",
+                "invokedAPI": "android.provider.CalendarContract.Calendars.CONTENT_URI->query",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.v",
+                "method": "<com.yy.appbase.permission.checker.v: boolean q(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.e",
+                "method": "<com.yy.appbase.permission.e: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.WRITE_CALENDAR": [
+            {
+                "class": "com.yy.hiyo.camera.album.extensions.ContextKt",
+                "method": "<com.yy.hiyo.camera.album.extensions.ContextKt: java.lang.String H(android.content.Context,int)>",
+                "invokedAPI": "android.permission.WRITE_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.e",
+                "method": "<com.yy.appbase.permission.e: void <clinit>()>",
+                "invokedAPI": "android.permission.WRITE_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.v",
+                "method": "<com.yy.appbase.permission.checker.v: boolean q(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.WRITE_CALENDAR",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_MEDIA_IMAGES": [
+            {
+                "class": "com.bytedance.sdk.openadsdk.KT.sn",
+                "method": "<com.bytedance.sdk.openadsdk.KT.sn: boolean nz(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.KT.hGN",
+                "method": "<com.bytedance.sdk.openadsdk.KT.hGN: org.json.JSONObject Ih()>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.yy.appbase.permission.e",
+                "method": "<com.yy.appbase.permission.e: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.base.utils.o1",
+                "method": "<com.yy.base.utils.o1: android.net.Uri m(android.content.Context,java.io.File)>",
+                "invokedAPI": "android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI->query",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.KT.sn",
+                "method": "<com.bytedance.sdk.openadsdk.KT.sn: boolean nz(android.content.Context,int)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.yy.appbase.permission.helper.e",
+                "method": "<com.yy.appbase.permission.helper.e: void L(android.app.Activity,com.yy.appbase.permission.g,com.yy.appbase.permission.helper.a)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.WRITE_EXTERNAL_STORAGE": [
+            {
+                "class": "com.yy.appbase.permission.checker.v",
+                "method": "<com.yy.appbase.permission.checker.v: boolean q(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.camera.audio.AudioPlayActivity",
+                "method": "<com.yy.hiyo.camera.audio.AudioPlayActivity: void o0()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.KT.sn",
+                "method": "<com.bytedance.sdk.openadsdk.KT.sn: boolean nz(android.content.Context,int)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.zing.zalo.devicetrackingsdk.BaseAppInfoStorage",
+                "method": "<com.zing.zalo.devicetrackingsdk.BaseAppInfoStorage: boolean isExternalStorageWritable()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "tv.athena.util.h",
+                "method": "<tv.athena.util.h: boolean c(android.content.Context)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.internal.ads.zzbap",
+                "method": "<com.google.android.gms.internal.ads.zzbap: boolean zzc()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.yy.hiidostatis.inner.util.hdid.DeviceManagerV2",
+                "method": "<com.yy.hiidostatis.inner.util.hdid.DeviceManagerV2: java.lang.String getSdpm(android.content.Context)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.KT.sn",
+                "method": "<com.bytedance.sdk.openadsdk.KT.sn: boolean nz(android.content.Context)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.zing.zalo.devicetrackingsdk.BaseAppInfoStorage",
+                "method": "<com.zing.zalo.devicetrackingsdk.BaseAppInfoStorage: boolean isExternalStorageReadable()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiidostatis.inner.util.hdid.DeviceManagerV2",
+                "method": "<com.yy.hiidostatis.inner.util.hdid.DeviceManagerV2: void lambda$saveOuter$0(android.content.Context,com.yy.hiidostatis.inner.util.hdid.d)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.e",
+                "method": "<com.yy.appbase.permission.e: void <clinit>()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.s",
+                "method": "<com.yy.appbase.permission.checker.s: boolean c(android.content.Context,java.util.List)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.tradplus.ads.common.util.FileUtil",
+                "method": "<com.tradplus.ads.common.util.FileUtil: boolean hasSDCardPermission(android.content.Context)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.helper.e",
+                "method": "<com.yy.appbase.permission.helper.e: void L(android.app.Activity,com.yy.appbase.permission.g,com.yy.appbase.permission.helper.a)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.KT.hGN",
+                "method": "<com.bytedance.sdk.openadsdk.KT.hGN: org.json.JSONObject Ih()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.xiaomi.mipush.sdk.Logger",
+                "method": "<com.xiaomi.mipush.sdk.Logger: boolean hasWritePermission(android.content.Context)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "tv.athena.live.component.business.report.b",
+                "method": "<tv.athena.live.component.business.report.b: boolean k()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.tp.adx.sdk.util.FileUtil",
+                "method": "<com.tp.adx.sdk.util.FileUtil: boolean e(android.content.Context)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.base.utils.filestorage.b",
+                "method": "<com.yy.base.utils.filestorage.b: boolean y(android.content.Context)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.camera.album.extensions.ContextKt",
+                "method": "<com.yy.hiyo.camera.album.extensions.ContextKt: java.lang.String H(android.content.Context,int)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.PACKAGE_USAGE_STATS": [
+            {
+                "class": "com.yy.base.utils.usagestat.a",
+                "method": "<com.yy.base.utils.usagestat.a: boolean a()>",
+                "invokedAPI": "android.app.usage.UsageStatsManager: java.util.List queryUsageStats(int,long,long)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.base.utils.usagestat.a",
+                "method": "<com.yy.base.utils.usagestat.a: java.lang.String b()>",
+                "invokedAPI": "android.app.usage.UsageStatsManager: java.util.List queryUsageStats(int,long,long)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.channel.plugins.voiceroom.common.GangUp.GangUpPresenter",
+                "method": "<com.yy.hiyo.channel.plugins.voiceroom.common.GangUp.GangUpPresenter: boolean nf(android.content.Context)>",
+                "invokedAPI": "android.app.usage.UsageStatsManager: java.util.List queryUsageStats(int,long,long)",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.ACCESS_FINE_LOCATION": [
+            {
+                "class": "com.yy.appbase.permission.e",
+                "method": "<com.yy.appbase.permission.e: void <clinit>()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.v",
+                "method": "<com.yy.appbase.permission.checker.v: boolean q(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.applovin.impl.sdk.x",
+                "method": "<com.applovin.impl.sdk.x: boolean f()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.inmobi.media.d2",
+                "method": "<com.inmobi.media.d2: boolean b()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.inmobi.media.ke",
+                "method": "<com.inmobi.media.ke: boolean a()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.inmobi.media.r6",
+                "method": "<com.inmobi.media.r6: boolean d()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.inmobi.sdk.InMobiSdk",
+                "method": "<com.inmobi.sdk.InMobiSdk: void b()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.google.android.gms.internal.ads.zzcev",
+                "method": "<com.google.android.gms.internal.ads.zzcev: void onGeolocationPermissionsShowPrompt(java.lang.String,android.webkit.GeolocationPermissions$Callback)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.inmobi.sdk.InMobiSdk",
+                "method": "<com.inmobi.sdk.InMobiSdk: void a(android.content.Context,com.inmobi.sdk.SdkInitializationListener,java.lang.String,org.json.JSONObject)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.inmobi.media.fc",
+                "method": "<com.inmobi.media.fc: void d()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.yy.location.f",
+                "method": "<com.yy.location.f: boolean a(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.zing.zalo.zalosdk.core.helper.DeviceHelper",
+                "method": "<com.zing.zalo.zalosdk.core.helper.DeviceHelper: android.location.Location getLocation(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.inmobi.media.r6",
+                "method": "<com.inmobi.media.r6: java.util.HashMap c()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Advertisement Libraries"
+            }
+        ],
+        "android.permission.CAMERA": [
+            {
+                "class": "com.bytedance.sdk.openadsdk.KT.hGN",
+                "method": "<com.bytedance.sdk.openadsdk.KT.hGN: org.json.JSONObject hGN(org.json.JSONObject)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.yy.appbase.permission.e",
+                "method": "<com.yy.appbase.permission.e: void <clinit>()>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "org.twebrtc.Camera2Session",
+                "method": "<org.twebrtc.Camera2Session: void openCamera()>",
+                "invokedAPI": "android.hardware.camera2.CameraManager: void openCamera(java.lang.String,android.hardware.camera2.CameraDevice$StateCallback,android.os.Handler)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.ycloud.toolbox.camera.core.f",
+                "method": "<com.ycloud.toolbox.camera.core.f: boolean V()>",
+                "invokedAPI": "android.hardware.camera2.CameraManager: void openCamera(java.lang.String,android.hardware.camera2.CameraDevice$StateCallback,android.os.Handler)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.KT.sn",
+                "method": "<com.bytedance.sdk.openadsdk.KT.sn: boolean nz(android.content.Context,int)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.yy.hiyo.camera.camera.d",
+                "method": "<com.yy.hiyo.camera.camera.d: void NO()>",
+                "invokedAPI": "android.media.action.IMAGE_CAPTURE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.tencent.tcr.sdk.plugin.webrtc.g",
+                "method": "<com.tencent.tcr.sdk.plugin.webrtc.g: void run()>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.KT.hGN",
+                "method": "<com.bytedance.sdk.openadsdk.KT.hGN: org.json.JSONObject Dla()>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.v",
+                "method": "<com.yy.appbase.permission.checker.v: boolean q(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.KT.hGN",
+                "method": "<com.bytedance.sdk.openadsdk.KT.hGN: void eqQ(java.lang.String)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.yy.appbase.permission.helper.e",
+                "method": "<com.yy.appbase.permission.helper.e: void L(android.app.Activity,com.yy.appbase.permission.g,com.yy.appbase.permission.helper.a)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.unity3d.player.c",
+                "method": "<com.unity3d.player.c: boolean a(android.content.Context,int,int,int,int,int)>",
+                "invokedAPI": "android.hardware.camera2.CameraManager: void openCamera(java.lang.String,android.hardware.camera2.CameraDevice$StateCallback,android.os.Handler)",
+                "data controller": "Game Engine Libraries"
+            },
+            {
+                "class": "com.yy.hiyo.camera.album.extensions.ContextKt",
+                "method": "<com.yy.hiyo.camera.album.extensions.ContextKt: java.lang.String H(android.content.Context,int)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_MEDIA_AUDIO": [
+            {
+                "class": "com.yy.appbase.permission.helper.e",
+                "method": "<com.yy.appbase.permission.helper.e: void L(android.app.Activity,com.yy.appbase.permission.g,com.yy.appbase.permission.helper.a)>",
+                "invokedAPI": "android.permission.READ_MEDIA_AUDIO",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.e",
+                "method": "<com.yy.appbase.permission.e: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_MEDIA_AUDIO",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.camera.audio.util.b",
+                "method": "<com.yy.hiyo.camera.audio.util.b: java.util.List b(android.content.Context)>",
+                "invokedAPI": "android.provider.MediaStore.Audio.Media.EXTERNAL_CONTENT_URI->query",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.channel.component.music.addmusic.utils.ScanMusicManager",
+                "method": "<com.yy.hiyo.channel.component.music.addmusic.utils.ScanMusicManager: java.util.List getMusicData(android.content.Context)>",
+                "invokedAPI": "android.provider.MediaStore.Audio.Media.EXTERNAL_CONTENT_URI->query",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.camera.audio.util.b",
+                "method": "<com.yy.hiyo.camera.audio.util.b: java.util.List a(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.provider.MediaStore.Audio.Media.EXTERNAL_CONTENT_URI->query",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_CONTACTS": [
+            {
+                "class": "com.yy.appbase.permission.e",
+                "method": "<com.yy.appbase.permission.e: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_CONTACTS",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.f$a",
+                "method": "<com.yy.appbase.permission.checker.f$a: boolean a()>",
+                "invokedAPI": "android.provider.ContactsContract.Contacts.CONTENT_URI->query",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.im.session.base.utils.b",
+                "method": "<com.yy.hiyo.im.session.base.utils.b: java.util.List b(android.content.Context)>",
+                "invokedAPI": "android.provider.ContactsContract.Contacts.CONTENT_URI->query",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.hiyo.camera.album.extensions.ContextKt",
+                "method": "<com.yy.hiyo.camera.album.extensions.ContextKt: java.lang.String H(android.content.Context,int)>",
+                "invokedAPI": "android.permission.READ_CONTACTS",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.g",
+                "method": "<com.yy.appbase.permission.checker.g: boolean a()>",
+                "invokedAPI": "android.provider.ContactsContract.Data.CONTENT_URI->query",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.checker.v",
+                "method": "<com.yy.appbase.permission.checker.v: boolean q(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_CONTACTS",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_MEDIA_VIDEO": [
+            {
+                "class": "com.yy.appbase.permission.e",
+                "method": "<com.yy.appbase.permission.e: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_MEDIA_VIDEO",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yy.appbase.permission.helper.e",
+                "method": "<com.yy.appbase.permission.helper.e: void L(android.app.Activity,com.yy.appbase.permission.g,com.yy.appbase.permission.helper.a)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VIDEO",
+                "data controller": "app"
+            }
+        ]
+    }
+}

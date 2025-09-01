@@ -1,0 +1,454 @@
+{
+    "com.rainbirdgeo.app": {
+        "android.permission.ACCESS_COARSE_LOCATION": [
+            {
+                "class": "com.rainbirdgeo.app.activity.MainActivity",
+                "method": "<com.rainbirdgeo.app.activity.MainActivity: java.lang.String getShortAddress(com.google.android.gms.maps.model.LatLng)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.fragment.main.MainFragment",
+                "method": "<com.rainbirdgeo.app.fragment.main.MainFragment: void getLatLng()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.fragment.risk.RiskReport2Fragment",
+                "method": "<com.rainbirdgeo.app.fragment.risk.RiskReport2Fragment: void getAddress()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.activity.MainActivity",
+                "method": "<com.rainbirdgeo.app.activity.MainActivity: java.lang.String getAddress(com.google.android.gms.maps.model.LatLng)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.service.GPSService",
+                "method": "<com.rainbirdgeo.app.service.GPSService: void currentLocation()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: boolean checkLocation(android.app.Activity)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.service.ForegroundService",
+                "method": "<com.rainbirdgeo.app.service.ForegroundService: int onStartCommand(android.content.Intent,int,int)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: void requestCoarseLocation(android.app.Activity,int)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: void requestLocation(android.app.Activity,int)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: boolean checkCoarseLocation(android.app.Activity)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.service.LocationWork",
+                "method": "<com.rainbirdgeo.app.service.LocationWork: androidx.work.ListenableWorker$Result doWork()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.fragment.map.MapFragment",
+                "method": "<com.rainbirdgeo.app.fragment.map.MapFragment: void onMapReady(com.google.android.gms.maps.GoogleMap)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.activity.MainActivity",
+                "method": "<com.rainbirdgeo.app.activity.MainActivity: void onActivityResult(int,int,android.content.Intent)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.fragment.map.MapFragment2",
+                "method": "<com.rainbirdgeo.app.fragment.map.MapFragment2: void onMapReady(com.google.android.gms.maps.GoogleMap)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.fragment.main.MainFragment",
+                "method": "<com.rainbirdgeo.app.fragment.main.MainFragment: kotlin.Unit getLatLng$lambda$38(com.rainbirdgeo.app.fragment.main.MainFragment)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.ACCESS_FINE_LOCATION": [
+            {
+                "class": "com.rainbirdgeo.app.service.ForegroundService",
+                "method": "<com.rainbirdgeo.app.service.ForegroundService: int onStartCommand(android.content.Intent,int,int)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.service.GPSService",
+                "method": "<com.rainbirdgeo.app.service.GPSService: void currentLocation()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.activity.MainActivity",
+                "method": "<com.rainbirdgeo.app.activity.MainActivity: java.lang.String getAddress(com.google.android.gms.maps.model.LatLng)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: boolean checkLocation(android.app.Activity)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.activity.MainActivity",
+                "method": "<com.rainbirdgeo.app.activity.MainActivity: void onActivityResult(int,int,android.content.Intent)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: boolean checkFineLocation(android.app.Activity)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.fragment.map.MapFragment",
+                "method": "<com.rainbirdgeo.app.fragment.map.MapFragment: void onMapReady(com.google.android.gms.maps.GoogleMap)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: void requestFindLocation(android.app.Activity,int)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.fragment.map.MapFragment2",
+                "method": "<com.rainbirdgeo.app.fragment.map.MapFragment2: void onMapReady(com.google.android.gms.maps.GoogleMap)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.fragment.risk.RiskReport2Fragment",
+                "method": "<com.rainbirdgeo.app.fragment.risk.RiskReport2Fragment: void getAddress()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.service.LocationWork",
+                "method": "<com.rainbirdgeo.app.service.LocationWork: androidx.work.ListenableWorker$Result doWork()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.fragment.main.MainFragment",
+                "method": "<com.rainbirdgeo.app.fragment.main.MainFragment: kotlin.Unit getLatLng$lambda$38(com.rainbirdgeo.app.fragment.main.MainFragment)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.fragment.main.MainFragment",
+                "method": "<com.rainbirdgeo.app.fragment.main.MainFragment: void getLatLng()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.activity.MainActivity",
+                "method": "<com.rainbirdgeo.app.activity.MainActivity: java.lang.String getShortAddress(com.google.android.gms.maps.model.LatLng)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: void requestLocation(android.app.Activity,int)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_EXTERNAL_STORAGE": [
+            {
+                "class": "com.rainbirdgeo.app.activity.MainActivity",
+                "method": "<com.rainbirdgeo.app.activity.MainActivity: void onActivityResult(int,int,android.content.Intent)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: void requestReadStorage(android.app.Activity,int)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.squareup.picasso.MediaStoreRequestHandler",
+                "method": "<com.squareup.picasso.MediaStoreRequestHandler: com.squareup.picasso.RequestHandler$Result load(com.squareup.picasso.Request,int)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Thumbnails: android.graphics.Bitmap getThumbnail(android.content.ContentResolver,long,int,android.graphics.BitmapFactory$Options)",
+                "data controller": "App Market Libraries"
+            },
+            {
+                "class": "com.canhub.cropper.CropImageView$CropResult",
+                "method": "<com.canhub.cropper.CropImageView$CropResult: android.graphics.Bitmap getBitmap(android.content.Context)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.ckpushapi.imageproc.AppImage",
+                "method": "<com.rainbirdgeo.ckpushapi.imageproc.AppImage: void setWallpaper(android.content.Context,android.graphics.Bitmap)>",
+                "invokedAPI": "android.app.WallpaperManager: android.app.WallpaperManager getInstance(android.content.Context)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.squareup.picasso.MediaStoreRequestHandler",
+                "method": "<com.squareup.picasso.MediaStoreRequestHandler: com.squareup.picasso.RequestHandler$Result load(com.squareup.picasso.Request,int)>",
+                "invokedAPI": "android.provider.MediaStore$Video$Thumbnails: android.graphics.Bitmap getThumbnail(android.content.ContentResolver,long,int,android.graphics.BitmapFactory$Options)",
+                "data controller": "App Market Libraries"
+            },
+            {
+                "class": "com.rainbirdgeo.ckpushapi.imageproc.AppImage",
+                "method": "<com.rainbirdgeo.ckpushapi.imageproc.AppImage: void setWallpaper(android.content.Context,android.graphics.Bitmap)>",
+                "invokedAPI": "android.app.WallpaperManager: void setBitmap(android.graphics.Bitmap)",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.CAMERA": [
+            {
+                "class": "com.canhub.cropper.CropImageIntentChooser",
+                "method": "<com.canhub.cropper.CropImageIntentChooser: boolean isExplicitCameraPermissionRequired(android.content.Context)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.fragment.settings.alarm.monitoring.SettingsMonitoringAddFragment",
+                "method": "<com.rainbirdgeo.app.fragment.settings.alarm.monitoring.SettingsMonitoringAddFragment: void notifyEvent(com.rainbirdgeo.ckpushapi.core.AppNotifyData)>",
+                "invokedAPI": "android.media.action.IMAGE_CAPTURE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.fragment.risk.RiskReport2Fragment",
+                "method": "<com.rainbirdgeo.app.fragment.risk.RiskReport2Fragment: void notifyEvent(com.rainbirdgeo.ckpushapi.core.AppNotifyData)>",
+                "invokedAPI": "android.media.action.IMAGE_CAPTURE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.activity.MainActivity",
+                "method": "<com.rainbirdgeo.app.activity.MainActivity: void startCameraIntent(int)>",
+                "invokedAPI": "android.media.action.IMAGE_CAPTURE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: void requestOnlyCamera(android.app.Activity,int)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.canhub.cropper.CropImageIntentChooser",
+                "method": "<com.canhub.cropper.CropImageIntentChooser: java.util.List getCameraIntents(android.content.Context,android.content.pm.PackageManager)>",
+                "invokedAPI": "android.media.action.IMAGE_CAPTURE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: boolean checkOnlyCamera(android.app.Activity)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.fragment.settings.alarm.monitoring.SettingsMonitoringFragment",
+                "method": "<com.rainbirdgeo.app.fragment.settings.alarm.monitoring.SettingsMonitoringFragment: kotlin.Unit setupProfileImage$lambda$1(android.content.Context,com.rainbirdgeo.app.fragment.settings.alarm.monitoring.SettingsMonitoringFragment,int)>",
+                "invokedAPI": "android.media.action.IMAGE_CAPTURE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.canhub.cropper.CropImageIntentChooser",
+                "method": "<com.canhub.cropper.CropImageIntentChooser: boolean hasCameraPermissionInManifest(android.content.Context)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.fragment.settings.SettingsFragment",
+                "method": "<com.rainbirdgeo.app.fragment.settings.SettingsFragment: kotlin.Unit testApi$lambda$3(com.rainbirdgeo.app.fragment.settings.SettingsFragment,int)>",
+                "invokedAPI": "android.media.action.IMAGE_CAPTURE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.fragment.settings.alarm.monitoring.SettingsMonitoringEditFragment",
+                "method": "<com.rainbirdgeo.app.fragment.settings.alarm.monitoring.SettingsMonitoringEditFragment: void notifyEvent(com.rainbirdgeo.ckpushapi.core.AppNotifyData)>",
+                "invokedAPI": "android.media.action.IMAGE_CAPTURE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: void requestCamera(android.app.Activity,int)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.fragment.settings.SettingsFragment",
+                "method": "<com.rainbirdgeo.app.fragment.settings.SettingsFragment: kotlin.Unit testApi$lambda$3(com.rainbirdgeo.app.fragment.settings.SettingsFragment,int)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.fragment.settings.alarm.monitoring.SettingsMonitoringFragment",
+                "method": "<com.rainbirdgeo.app.fragment.settings.alarm.monitoring.SettingsMonitoringFragment: kotlin.Unit setupProfileImage$lambda$1(android.content.Context,com.rainbirdgeo.app.fragment.settings.alarm.monitoring.SettingsMonitoringFragment,int)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.fragment.settings.personal.SettingsPersonalInfoFragment",
+                "method": "<com.rainbirdgeo.app.fragment.settings.personal.SettingsPersonalInfoFragment: void notifyEvent(com.rainbirdgeo.ckpushapi.core.AppNotifyData)>",
+                "invokedAPI": "android.media.action.IMAGE_CAPTURE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: boolean checkCamera(android.app.Activity)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_MEDIA_IMAGES": [
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: void requestStorage(android.app.Activity,int)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: void requestCamera(android.app.Activity,int)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: void requestReadStorage(android.app.Activity,int)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: boolean checkCamera(android.app.Activity)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.GET_ACCOUNTS": [
+            {
+                "class": "com.google.android.gms.measurement.internal.zzam",
+                "method": "<com.google.android.gms.measurement.internal.zzam: boolean zzf()>",
+                "invokedAPI": "android.accounts.AccountManager: android.accounts.AccountManagerFuture getAccountsByTypeAndFeatures(java.lang.String,java.lang.String[],android.accounts.AccountManagerCallback,android.os.Handler)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.telerik.widget.calendar.events.read.EventReadAdapter$2",
+                "method": "<com.telerik.widget.calendar.events.read.EventReadAdapter$2: java.lang.String doInBackground(java.lang.Void[])>",
+                "invokedAPI": "android.permission.GET_ACCOUNTS",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.ckpushapi.common.AppUtil",
+                "method": "<com.rainbirdgeo.ckpushapi.common.AppUtil: android.accounts.Account getAccount(android.accounts.AccountManager)>",
+                "invokedAPI": "android.accounts.AccountManager: android.accounts.Account[] getAccountsByType(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.measurement.internal.zzam",
+                "method": "<com.google.android.gms.measurement.internal.zzam: boolean zzf()>",
+                "invokedAPI": "android.permission.GET_ACCOUNTS",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.telerik.widget.calendar.events.read.EventReadAdapter",
+                "method": "<com.telerik.widget.calendar.events.read.EventReadAdapter: java.lang.String getCurrentUser(android.content.Context)>",
+                "invokedAPI": "android.accounts.AccountManager: android.accounts.Account[] getAccounts()",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.ACCESS_BACKGROUND_LOCATION": [
+            {
+                "class": "com.rainbirdgeo.app.service.GPSService",
+                "method": "<com.rainbirdgeo.app.service.GPSService: void currentLocation()>",
+                "invokedAPI": "android.permission.ACCESS_BACKGROUND_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.activity.MainActivity",
+                "method": "<com.rainbirdgeo.app.activity.MainActivity: void onRequestPermissionsResult$lambda$91(com.rainbirdgeo.app.activity.MainActivity,android.content.DialogInterface,int)>",
+                "invokedAPI": "android.permission.ACCESS_BACKGROUND_LOCATION",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.WRITE_EXTERNAL_STORAGE": [
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: void requestStorage(android.app.Activity,int)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: void requestCamera(android.app.Activity,int)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: boolean checkStorage(android.app.Activity)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: void requestRecordVoice(android.app.Activity,int)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: boolean checkCamera(android.app.Activity)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_CONTACTS": [
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: void requestReadContact(android.app.Activity,int)>",
+                "invokedAPI": "android.permission.READ_CONTACTS",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.handler.PermissionHandler",
+                "method": "<com.rainbirdgeo.app.handler.PermissionHandler: boolean checkReadContacts(android.app.Activity)>",
+                "invokedAPI": "android.permission.READ_CONTACTS",
+                "data controller": "app"
+            },
+            {
+                "class": "com.rainbirdgeo.app.activity.MainActivity",
+                "method": "<com.rainbirdgeo.app.activity.MainActivity: void displayContact()>",
+                "invokedAPI": "android.permission.READ_CONTACTS",
+                "data controller": "app"
+            }
+        ]
+    }
+}

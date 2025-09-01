@@ -1,0 +1,626 @@
+{
+    "MSN Weather_29.2.420920002": {
+        "android.permission.RECORD_AUDIO": [
+            {
+                "class": "com.microsoft.clarity.i1.b",
+                "method": "<com.microsoft.clarity.i1.b: void c(android.media.AudioRecord$Builder,android.content.Context)>",
+                "invokedAPI": "android.media.AudioRecord$Builder: android.media.AudioRecord$Builder setContext(android.content.Context)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.g20.f",
+                "method": "<com.microsoft.clarity.g20.f: void <init>(com.microsoft.clarity.h20.c)>",
+                "invokedAPI": "android.media.AudioRecord$Builder: void <init>()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.g20.f",
+                "method": "<com.microsoft.clarity.g20.f: void <init>(com.microsoft.clarity.h20.c)>",
+                "invokedAPI": "android.media.AudioRecord$Builder: android.media.AudioRecord$Builder setAudioSource(int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.z00.n",
+                "method": "<com.microsoft.clarity.z00.n: void d(com.microsoft.onecore.webviewinterface.WebViewDelegate)>",
+                "invokedAPI": "android.media.AudioRecord: int getMinBufferSize(int,int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.st.d",
+                "method": "<com.microsoft.clarity.st.d: void run()>",
+                "invokedAPI": "android.media.AudioRecord: int read(byte[],int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.z00.k",
+                "method": "<com.microsoft.clarity.z00.k: void stop()>",
+                "invokedAPI": "android.media.AudioRecord: void stop()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.dt.c",
+                "method": "<com.microsoft.clarity.dt.c: void realPrepare()>",
+                "invokedAPI": "android.media.MediaRecorder: void prepare()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.dt.c",
+                "method": "<com.microsoft.clarity.dt.c: void realSetOutputFile(java.lang.String)>",
+                "invokedAPI": "android.media.MediaRecorder: void setOutputFile(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.mw.s",
+                "method": "<com.microsoft.clarity.mw.s: void A(int,java.lang.String[],int[])>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.mw.s",
+                "method": "<com.microsoft.clarity.mw.s: boolean u(com.microsoft.onecore.webviewinterface.PermissionRequestDelegate)>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.z00.k",
+                "method": "<com.microsoft.clarity.z00.k: void start()>",
+                "invokedAPI": "android.media.AudioRecord: void startRecording()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.dt.c",
+                "method": "<com.microsoft.clarity.dt.c: void realStart()>",
+                "invokedAPI": "android.media.MediaRecorder: void start()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.sapphire.app.browser.extensions.voice.a",
+                "method": "<com.microsoft.sapphire.app.browser.extensions.voice.a: boolean J(com.microsoft.sapphire.app.browser.extensions.voice.VoiceEntryPoint,org.json.JSONObject)>",
+                "invokedAPI": "android.media.AudioRecord: int getMinBufferSize(int,int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.mw.s",
+                "method": "<com.microsoft.clarity.mw.s: void j(int,int,android.content.Intent)>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.dt.c",
+                "method": "<com.microsoft.clarity.dt.c: void realSetOutputFile(java.io.File)>",
+                "invokedAPI": "android.media.MediaRecorder: void setOutputFile(java.io.File)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.g20.f",
+                "method": "<com.microsoft.clarity.g20.f: void <init>(com.microsoft.clarity.h20.c)>",
+                "invokedAPI": "android.media.AudioRecord$Builder: android.media.AudioRecord$Builder setAudioFormat(android.media.AudioFormat)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.uw.b",
+                "method": "<com.microsoft.clarity.uw.b: void invoke(java.lang.Object[])>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.v00.p0",
+                "method": "<com.microsoft.clarity.v00.p0: void p(android.content.Context,com.microsoft.sapphire.app.browser.extensions.voice.VoiceEntryPoint,com.microsoft.sapphire.app.search.models.VoiceAppSource,org.json.JSONObject)>",
+                "invokedAPI": "android.media.AudioRecord: int getMinBufferSize(int,int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.g20.f",
+                "method": "<com.microsoft.clarity.g20.f: void <init>(com.microsoft.clarity.h20.c)>",
+                "invokedAPI": "android.media.AudioRecord$Builder: android.media.AudioRecord build()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.dt.c",
+                "method": "<com.microsoft.clarity.dt.c: void <init>()>",
+                "invokedAPI": "android.media.MediaRecorder: void <init>()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.dt.c",
+                "method": "<com.microsoft.clarity.dt.c: void realSetOutputFile(java.io.FileDescriptor)>",
+                "invokedAPI": "android.media.MediaRecorder: void setOutputFile(java.io.FileDescriptor)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.g20.s",
+                "method": "<com.microsoft.clarity.g20.s: void e()>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.sapphire.runtime.utils.PermissionUtils$Permissions",
+                "method": "<com.microsoft.sapphire.runtime.utils.PermissionUtils$Permissions: void <clinit>()>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.v00.r0",
+                "method": "<com.microsoft.clarity.v00.r0: void invoke(java.lang.Object[])>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.dt.c",
+                "method": "<com.microsoft.clarity.dt.c: void realStop()>",
+                "invokedAPI": "android.media.MediaRecorder: void stop()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.g20.f",
+                "method": "<com.microsoft.clarity.g20.f: int read(byte[])>",
+                "invokedAPI": "android.media.AudioRecord: int read(byte[],int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.z00.k",
+                "method": "<com.microsoft.clarity.z00.k: void start()>",
+                "invokedAPI": "android.media.AudioRecord: void <init>(int,int,int,int,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.g20.f",
+                "method": "<com.microsoft.clarity.g20.f: void <init>(com.microsoft.clarity.h20.c)>",
+                "invokedAPI": "android.media.AudioRecord: void startRecording()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.g20.f",
+                "method": "<com.microsoft.clarity.g20.f: void close()>",
+                "invokedAPI": "android.media.AudioRecord: void release()",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_PHONE_STATE": [
+            {
+                "class": "com.microsoft.clarity.tn.d",
+                "method": "<com.microsoft.clarity.tn.d: java.util.ArrayList b(java.util.ArrayList)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.yn.a",
+                "method": "<com.microsoft.clarity.yn.a: java.util.ArrayList b(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.yn.a",
+                "method": "<com.microsoft.clarity.yn.a: java.util.ArrayList b(android.content.Context)>",
+                "invokedAPI": "android.telephony.SubscriptionManager: java.util.List getActiveSubscriptionInfoList()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.tn.d",
+                "method": "<com.microsoft.clarity.tn.d: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.c30.h",
+                "method": "<com.microsoft.clarity.c30.h: void e(com.microsoft.clarity.c30.h,android.net.NetworkCapabilities)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.ACCESS_COARSE_LOCATION": [
+            {
+                "class": "com.microsoft.maps.MapView",
+                "method": "<com.microsoft.maps.MapView: void onRequestPermissionsResult(java.lang.String[],int[])>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.s.f$k",
+                "method": "<com.microsoft.clarity.s.f$k: int c()>",
+                "invokedAPI": "android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.b80.a",
+                "method": "<com.microsoft.clarity.b80.a: void b(com.microsoft.clarity.h80.d)>",
+                "invokedAPI": "android.location.LocationManager: void removeUpdates(android.location.LocationListener)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.maps.GPSMapLocationProvider",
+                "method": "<com.microsoft.maps.GPSMapLocationProvider: void internalStopTracking()>",
+                "invokedAPI": "android.location.LocationManager: void removeUpdates(android.location.LocationListener)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.b80.a",
+                "method": "<com.microsoft.clarity.b80.a: boolean a(com.microsoft.clarity.h80.d)>",
+                "invokedAPI": "android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.maps.GPSMapLocationProvider",
+                "method": "<com.microsoft.maps.GPSMapLocationProvider: com.microsoft.maps.MapUserLocationTrackingState internalStartTracking()>",
+                "invokedAPI": "android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.s.f$k",
+                "method": "<com.microsoft.clarity.s.f$k: int c()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.xq.m3",
+                "method": "<com.microsoft.clarity.xq.m3: boolean b(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.commute.mobile.w",
+                "method": "<com.microsoft.commute.mobile.w: void f(com.microsoft.commute.mobile.w$a)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.maps.PermissionHelper",
+                "method": "<com.microsoft.maps.PermissionHelper: boolean isCoarseLocationPermissionGranted(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.xq.u6",
+                "method": "<com.microsoft.clarity.xq.u6: void a(java.lang.Object)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.ap.g",
+                "method": "<com.microsoft.clarity.ap.g: boolean c(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.xq.m3",
+                "method": "<com.microsoft.clarity.xq.m3: boolean c(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.sapphire.runtime.utils.PermissionUtils$Permissions",
+                "method": "<com.microsoft.sapphire.runtime.utils.PermissionUtils$Permissions: void <clinit>()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_EXTERNAL_STORAGE": [
+            {
+                "class": "com.microsoft.clarity.t20.n3",
+                "method": "<com.microsoft.clarity.t20.n3: void run()>",
+                "invokedAPI": "android.app.WallpaperManager: boolean isSetWallpaperAllowed()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.qz.g",
+                "method": "<com.microsoft.clarity.qz.g: void c(java.lang.Object)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.h50.a",
+                "method": "<com.microsoft.clarity.h50.a: void e(java.lang.String)>",
+                "invokedAPI": "android.app.WallpaperManager: android.app.WallpaperManager getInstance(android.content.Context)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.mw.s",
+                "method": "<com.microsoft.clarity.mw.s: boolean u(com.microsoft.onecore.webviewinterface.PermissionRequestDelegate)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.t20.n3",
+                "method": "<com.microsoft.clarity.t20.n3: void run()>",
+                "invokedAPI": "android.app.WallpaperManager: android.app.WallpaperManager getInstance(android.content.Context)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.h50.a",
+                "method": "<com.microsoft.clarity.h50.a: void e(java.lang.String)>",
+                "invokedAPI": "android.app.WallpaperManager: android.app.WallpaperInfo getWallpaperInfo()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.cx.p",
+                "method": "<com.microsoft.clarity.cx.p: boolean a(android.app.Activity,android.view.View,int)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.jd0.j",
+                "method": "<com.microsoft.clarity.jd0.j: void onClick(android.view.View)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.t20.n3",
+                "method": "<com.microsoft.clarity.t20.n3: void run()>",
+                "invokedAPI": "android.app.WallpaperManager: int setBitmap(android.graphics.Bitmap,android.graphics.Rect,boolean,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.md.f",
+                "method": "<com.microsoft.clarity.md.f: android.net.Uri a(android.net.Uri)>",
+                "invokedAPI": "android.provider.MediaStore: android.net.Uri setRequireOriginal(android.net.Uri)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.sapphire.runtime.utils.PermissionUtils$Permissions",
+                "method": "<com.microsoft.sapphire.runtime.utils.PermissionUtils$Permissions: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.yr.a",
+                "method": "<com.microsoft.clarity.yr.a: void onClick(android.view.View)>",
+                "invokedAPI": "android.app.WallpaperManager: android.app.WallpaperManager getInstance(android.content.Context)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.yr.a",
+                "method": "<com.microsoft.clarity.yr.a: void onClick(android.view.View)>",
+                "invokedAPI": "android.app.WallpaperManager: void clear()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.sapphire.features.wallpaper.auto.WallpaperManager",
+                "method": "<com.microsoft.sapphire.features.wallpaper.auto.WallpaperManager: boolean b(android.content.Context)>",
+                "invokedAPI": "android.app.WallpaperManager: android.app.WallpaperManager getInstance(android.content.Context)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.sapphire.features.wallpaper.auto.WallpaperManager",
+                "method": "<com.microsoft.sapphire.features.wallpaper.auto.WallpaperManager: boolean b(android.content.Context)>",
+                "invokedAPI": "android.app.WallpaperManager: android.app.WallpaperInfo getWallpaperInfo()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.t20.n3",
+                "method": "<com.microsoft.clarity.t20.n3: void run()>",
+                "invokedAPI": "android.app.WallpaperManager: boolean isWallpaperSupported()",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.WRITE_EXTERNAL_STORAGE": [
+            {
+                "class": "com.microsoft.sapphire.app.browser.extensions.WebUrlLongPressExtension",
+                "method": "<com.microsoft.sapphire.app.browser.extensions.WebUrlLongPressExtension: void A(int,java.lang.String[],int[])>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.sapphire.runtime.utils.PermissionUtils$Permissions",
+                "method": "<com.microsoft.sapphire.runtime.utils.PermissionUtils$Permissions: void <clinit>()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.cx.p",
+                "method": "<com.microsoft.clarity.cx.p: boolean a(android.app.Activity,android.view.View,int)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.sw.j",
+                "method": "<com.microsoft.clarity.sw.j: void A(int,java.lang.String[],int[])>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.CAMERA": [
+            {
+                "class": "com.microsoft.clarity.jd0.j",
+                "method": "<com.microsoft.clarity.jd0.j: void onClick(android.view.View)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.mw.m",
+                "method": "<com.microsoft.clarity.mw.m: void H()>",
+                "invokedAPI": "android.media.action.IMAGE_CAPTURE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.h0.m0",
+                "method": "<com.microsoft.clarity.h0.m0: void d(java.lang.String,com.microsoft.clarity.u0.g,android.hardware.camera2.CameraDevice$StateCallback)>",
+                "invokedAPI": "android.hardware.camera2.CameraManager: void openCamera(java.lang.String,java.util.concurrent.Executor,android.hardware.camera2.CameraDevice$StateCallback)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.jd0.j",
+                "method": "<com.microsoft.clarity.jd0.j: void a0()>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.h0.n0",
+                "method": "<com.microsoft.clarity.h0.n0: void d(java.lang.String,com.microsoft.clarity.u0.g,android.hardware.camera2.CameraDevice$StateCallback)>",
+                "invokedAPI": "android.hardware.camera2.CameraManager: void openCamera(java.lang.String,java.util.concurrent.Executor,android.hardware.camera2.CameraDevice$StateCallback)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.mw.s",
+                "method": "<com.microsoft.clarity.mw.s: boolean u(com.microsoft.onecore.webviewinterface.PermissionRequestDelegate)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.qz.g",
+                "method": "<com.microsoft.clarity.qz.g: void c(java.lang.Object)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.sapphire.runtime.utils.PermissionUtils$Permissions",
+                "method": "<com.microsoft.sapphire.runtime.utils.PermissionUtils$Permissions: void <clinit>()>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.identity.common.internal.providers.oauth2.WebViewAuthorizationFragment",
+                "method": "<com.microsoft.identity.common.internal.providers.oauth2.WebViewAuthorizationFragment: boolean isCameraPermissionGranted()>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.iz.i",
+                "method": "<com.microsoft.clarity.iz.i: void onRequestPermissionsResult(int,java.lang.String[],int[])>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.pdfviewer.PdfFragmentImageSelectHandler",
+                "method": "<com.microsoft.pdfviewer.PdfFragmentImageSelectHandler: void startCameraIntent()>",
+                "invokedAPI": "android.media.action.IMAGE_CAPTURE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.mw.s",
+                "method": "<com.microsoft.clarity.mw.s: void j(int,int,android.content.Intent)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.identity.common.internal.providers.oauth2.WebViewAuthorizationFragment",
+                "method": "<com.microsoft.identity.common.internal.providers.oauth2.WebViewAuthorizationFragment: void requestCameraPermissionFromUser()>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.mw.s",
+                "method": "<com.microsoft.clarity.mw.s: void A(int,java.lang.String[],int[])>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.identity.common.internal.providers.oauth2.WebViewAuthorizationFragment$3",
+                "method": "<com.microsoft.identity.common.internal.providers.oauth2.WebViewAuthorizationFragment$3: void onPermissionRequest(android.webkit.PermissionRequest)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.h0.p0",
+                "method": "<com.microsoft.clarity.h0.p0: void d(java.lang.String,com.microsoft.clarity.u0.g,android.hardware.camera2.CameraDevice$StateCallback)>",
+                "invokedAPI": "android.hardware.camera2.CameraManager: void openCamera(java.lang.String,android.hardware.camera2.CameraDevice$StateCallback,android.os.Handler)",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.ACCESS_FINE_LOCATION": [
+            {
+                "class": "com.microsoft.maps.MapView",
+                "method": "<com.microsoft.maps.MapView: void onRequestPermissionsResult(java.lang.String[],int[])>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.xq.m3",
+                "method": "<com.microsoft.clarity.xq.m3: boolean c(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.commute.mobile.w",
+                "method": "<com.microsoft.commute.mobile.w: void f(com.microsoft.commute.mobile.w$a)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.sapphire.runtime.utils.PermissionUtils$Permissions",
+                "method": "<com.microsoft.sapphire.runtime.utils.PermissionUtils$Permissions: void <clinit>()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.s.f$k",
+                "method": "<com.microsoft.clarity.s.f$k: int c()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.xq.u6",
+                "method": "<com.microsoft.clarity.xq.u6: void a(java.lang.Object)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.maps.PermissionHelper",
+                "method": "<com.microsoft.maps.PermissionHelper: boolean isFineLocationPermissionGranted(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.a40.a$b$c",
+                "method": "<com.microsoft.clarity.a40.a$b$c: java.lang.Object invoke(java.lang.Object)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.clarity.up.b",
+                "method": "<com.microsoft.clarity.up.b: boolean b(com.microsoft.beacon.util.ActiveLocationTrackingStatus)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.GET_ACCOUNTS": [
+            {
+                "class": "com.microsoft.aad.adal.BrokerProxy",
+                "method": "<com.microsoft.aad.adal.BrokerProxy: boolean verifyBrokerPermissionsAPI23AndHigher()>",
+                "invokedAPI": "android.permission.GET_ACCOUNTS",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.aad.adal.BrokerProxy",
+                "method": "<com.microsoft.aad.adal.BrokerProxy: android.accounts.Account getTargetAccount(com.microsoft.aad.adal.AuthenticationRequest)>",
+                "invokedAPI": "android.accounts.AccountManager: android.accounts.Account[] getAccountsByType(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.aad.adal.BrokerProxy",
+                "method": "<com.microsoft.aad.adal.BrokerProxy: void removeAccountFromAccountManager()>",
+                "invokedAPI": "android.accounts.AccountManager: android.accounts.Account[] getAccountsByType(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.aad.adal.BrokerProxy",
+                "method": "<com.microsoft.aad.adal.BrokerProxy: com.microsoft.aad.adal.UserInfo[] getUserInfoFromAccountManager()>",
+                "invokedAPI": "android.accounts.AccountManager: android.accounts.Account[] getAccountsByType(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.aad.adal.BrokerProxy",
+                "method": "<com.microsoft.aad.adal.BrokerProxy: boolean checkAccount(android.accounts.AccountManager,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.accounts.AccountManager: android.accounts.Account[] getAccountsByType(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.aad.adal.BrokerProxy",
+                "method": "<com.microsoft.aad.adal.BrokerProxy: java.lang.String getCurrentUser()>",
+                "invokedAPI": "android.accounts.AccountManager: android.accounts.Account[] getAccountsByType(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.aad.adal.AuthenticationActivity$TokenTask",
+                "method": "<com.microsoft.aad.adal.AuthenticationActivity$TokenTask: void setAccount(com.microsoft.aad.adal.AuthenticationActivity$TokenTaskResult)>",
+                "invokedAPI": "android.accounts.AccountManager: android.accounts.Account[] getAccountsByType(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.microsoft.identity.common.internal.broker.AccountManagerBrokerAccount",
+                "method": "<com.microsoft.identity.common.internal.broker.AccountManagerBrokerAccount: android.accounts.Account getAccount(android.accounts.AccountManager,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.accounts.AccountManager: android.accounts.Account[] getAccountsByType(java.lang.String)",
+                "data controller": "app"
+            }
+        ]
+    }
+}

@@ -1,0 +1,570 @@
+afzkl/development/mColorPicker,Development Aid
+android/content/pm,Development Aid
+android/opengl,Development Aid
+android/support/design,Development Aid
+android/support/multidex,Development Aid
+android/support/v13,Development Aid
+android/support/v4,Development Aid
+android/support/v7,Development Aid
+android/widget,GUI Component
+anet/channel,Development Aid
+anetwork/channel/aidl,Development Aid
+anywheresoftware,Development Aid
+appinventor,Development Aid
+appmachine,Development Aid
+au/com/bytecode/opencsv,Development Aid
+aurelienribon,Development Aid
+biz/neoline,Development Aid
+bolts,Development Aid
+butterknife,GUI Component
+ch/boye/httpclientandroidlib,Development Aid
+ch/qos/logback,Development Aid
+cn/domob,Advertisement
+cn/jiguang,Development Aid
+cn/jpush/android,Development Aid
+cn/sharesdk/evernote,Social Network
+cn/sharesdk/framework,Social Network
+cn/sharesdk/onekeyshare,Social Network
+cn/sharesdk/socialization,Social Network
+cn/sharesdk/tencent,Social Network
+cn/smssdk,Development Aid
+cn/uc/gamesdk,Game Engine
+com/ace/universalimageloader,Development Aid
+com/actionbarsherlock,Development Aid
+com/activeandroid,Development Aid
+com/adfonic,Advertisement
+com/adjust/sdk,Mobile Analytics
+com/admob,Advertisement
+com/adobe/air,Development Aid
+com/adobe/flashplayer,Development Aid
+com/adobe/flashruntime,Development Aid
+com/adobe/fre,Development Aid
+com/adobe/plugin,Development Aid
+com/adobe/xmp,Development Aid
+com/adsdk,Advertisement
+com/adsmogo,Advertisement
+com/adtech,Advertisement
+com/adwhirl,Advertisement
+com/adwo/adsdk,Advertisement
+com/alibaba/fastjson,Development Aid
+com/alibaba/mtl,Development Aid
+com/alimama/mobile,Social Network
+com/alipay,Payment
+com/aliyun,Development Aid
+com/amap,Map/LBS
+com/amazon/ags,Game Engine
+com/amazon/device/ads,Advertisement
+com/amazon/device/associates,Advertisement
+com/amazon/device/iap,Payment
+com/amazon/identity/auth,Digital Identity
+com/amazon/inapp,Payment
+com/amazon/insights,Mobile Analytics
+com/amazonaws,Development Aid
+com/android/vending,App Market
+com/android/volley,Development Aid
+com/androidplot,Development Aid
+com/androidquery,Development Aid
+com/ansca/corona,Development Aid
+com/anzhi/market,App Market
+com/appbrain,Development Aid
+com/appbyme,Development Aid
+com/apperhand,Advertisement
+com/appflood,Advertisement
+com/applovin,Advertisement
+com/appmakr,Development Aid
+com/appodeal/ads,Advertisement
+com/appquanta,Mobile Analytics
+com/appquanta/,Mobile Analytics
+com/appsflyer,Mobile Analytics
+com/appyet,Development Aid
+com/astuetz,GUI Component
+com/auth0/android,Development Aid
+com/auth0/jwt,Development Aid
+com/autonavi/aps/amapapi,Map/LBS
+com/aviary,Development Aid
+com/avos/avoscloud,Development Aid
+com/avos/avoscloud/okhttp,Development Aid
+com/badlogic,Game Engine
+com/baidu/android,Development Aid
+com/baidu/android/pushservice,Development Aid
+com/baidu/appx,Advertisement
+com/baidu/autoupdatesdk,Development Aid
+com/baidu/bdgame/sdk,Social Network
+com/baidu/cyberplayer,Development Aid
+com/baidu/frontia,Development Aid
+com/baidu/location,Map/LBS
+com/baidu/mapapi,Map/LBS
+com/baidu/mapapi/,Map/LBS
+com/baidu/mobads,Advertisement
+com/baidu/mobstat,Mobile Analytics
+com/baidu/mtjstatsdk,Development Aid
+com/baidu/navi,Map/LBS
+com/baidu/navisdk,Map/LBS
+com/baidu/paysdk,Payment
+com/baidu/platform,Development Aid
+com/baidu/sapi2,Development Aid
+com/baidu/searchsdk,Development Aid
+com/baidu/tiebasdk,Social Network
+com/baidu/wallet,Payment
+com/batch,Mobile Analytics
+com/bda/controller,Game Engine
+com/bea/xml/stream,Development Aid
+com/biznessapps,Development Aid
+com/bugsense,Development Aid
+com/bumptech/glide,Development Aid
+com/chartboost/sdk,Advertisement
+com/chineseall/reader,Development Aid
+com/commonsware/cwac/merge,Development Aid
+com/commonsware/cwac/sacklist,Development Aid
+com/comscore,Mobile Analytics
+com/conduit/app,Development Aid
+com/coolcloud/uac/android,Development Aid
+com/coremedia/iso,Development Aid
+com/crashlytics/android,Mobile Analytics
+com/crowdcompass,Development Aid
+com/daggertech,Development Aid
+com/daimajia/androidanimations,GUI Component
+com/db4o,Development Aid
+com/deploygate,Development Aid
+com/digits/sdk/vcard,Mobile Analytics
+com/doapps,Development Aid
+com/dobao,Development Aid
+com/dropbox/client2,Development Aid
+com/duoku/platform,Social Network
+com/easemob/,Development Aid
+com/esotericsoftware,Development Aid
+com/espian/showcaseview,GUI Component
+com/everyplay,Game Engine
+com/facebook,Social Network
+com/fasterxml,Development Aid
+com/flurry/android,Mobile Analytics
+com/flurry/org,Mobile Analytics
+com/flurry/sdk,Mobile Analytics
+com/fyber,Advertisement
+com/github,Development Aid
+com/goodbarber,Development Aid
+com/google/ads,Advertisement
+com/google/analytics,Mobile Analytics
+com/google/android/apps/dashclock/api,Development Aid
+com/google/android/exoplayer,Development Aid
+com/google/android/gcm,Development Aid
+com/google/android/gms,Development Aid
+com/google/android/net,Development Aid
+com/google/android/vending,App Market
+com/google/android/youtube/player,Development Aid
+com/google/api/client,Development Aid
+com/google/appinventor,Development Aid
+com/google/common,Development Aid
+com/google/firebase,Development Aid
+com/google/gdata,Development Aid
+com/google/gson,Development Aid
+com/google/i18n,Development Aid
+com/google/inject,Development Aid
+com/google/maps/android,Map/LBS
+com/google/protobuf,Development Aid
+com/google/tagmanager,Mobile Analytics
+com/google/thirdparty,Development Aid
+com/google/zxing,Development Aid
+com/googlecode/apdfviewer,Development Aid
+com/handmark/pulltorefresh,GUI Component
+com/heyzap,Development Aid
+com/huawei/android,Development Aid
+com/huawei/ecs,Development Aid
+com/huntmads,Advertisement
+com/iapppay,Payment
+com/ibm/icu,Development Aid
+com/iflytek,Development Aid
+com/iflytek/speech,Development Aid
+com/iflytek/speech/aidl,Development Aid
+com/iflytek/sunflower,Development Aid
+com/iflytek/thirdparty,Development Aid
+com/igaworks,Advertisement
+com/igexin,Development Aid
+com/immersion/hapticmediasdk,Development Aid
+com/inmobi,Advertisement
+com/inneractive,Advertisement
+com/ironsource,Development Aid
+com/iwanvi,Development Aid
+com/j256,Development Aid
+com/jakewharton/disklrucache,Development Aid
+com/jakewharton/disklrucache/,Development Aid
+com/jasonkostempski,Development Aid
+com/jayway/jsonpath,Development Aid
+com/jcodecraeer/xrecyclerview/progressindicator/indicator,Development Aid
+com/jcraft/jsch,Development Aid
+com/jirbo/adcolony,Development Aid
+com/jumptap,Advertisement
+com/kakao/talk,Social Network
+com/kbeanie/imagechooser,Development Aid
+com/koushikdutta/async,Development Aid
+com/kuguo/ad,Advertisement
+com/leadbolt,Development Aid
+com/lenovo/lps,Development Aid
+com/letv/adlib,Advertisement
+com/letv/datastatistics,Mobile Analytics
+com/letv/lepaysdk,Payment
+com/letv/sdk,Development Aid
+com/letvcloud,Development Aid
+com/lidroid/xutils,Development Aid
+com/loopj,Development Aid
+com/madhouse/android/ads,Advertisement
+com/magtab,Development Aid
+com/mashape/relocation,Development Aid
+com/maximono,Social Network
+com/melnykov/fab,GUI Component
+com/milkmangames/extensions/android/coremobile,Development Aid
+com/millennialmedia,Advertisement
+com/mindprod/ledatastream,Development Aid
+com/mob/commons,Social Network
+com/mob/tools,Development Aid
+com/mobcent,Social Network
+com/mobclick/android,Mobile Analytics
+com/mobeta,GUI Component
+com/mobfox,Development Aid
+com/mobisage/android,Advertisement
+com/mongodb,Development Aid
+com/mopub,Advertisement
+com/myappengine,Game Engine
+com/myshare/dynamic,Social Network
+com/naef/jnlua,Development Aid
+com/nd/dianjin,Advertisement
+com/neatplug/u3d/plugins,Development Aid
+com/nerd/TapdaqUnityPlugin,Development Aid
+com/netease/nim,Development Aid
+com/newrelic,Development Aid
+com/ngpinc/,Mobile Analytics
+com/nhaarman/listviewanimations,Development Aid
+com/nineoldandroids,Development Aid
+com/nokia/payment/iap,Payment
+com/nostra13,Development Aid
+com/nuance,Development Aid
+com/nv/support/pulltorefresh,GUI Component
+com/onbarcode,Development Aid
+com/openfeint,Game Engine
+com/outlinegames,Payment
+com/papaya,Development Aid
+com/parse,Mobile Analytics
+com/path/android/jobqueue,Development Aid
+com/paypal,Payment
+com/phonegap,Development Aid
+com/playhaven,Advertisement
+com/pocketchange/,Payment
+com/polites,GUI Component
+com/pollfish,Development Aid
+com/prime31,Development Aid
+com/purplebrain/adbuddiz,Advertisement
+com/qihoo/gamecenter/sdk,Social Network
+com/qihoo/psdk,Development Aid
+com/qihoo/stat,Development Aid
+com/qihoopp/framework,Development Aid
+com/qihoopp/qcoinpay,Payment
+com/qmoney/ui,Payment
+com/qoppa,Development Aid
+com/qwapi,Development Aid
+com/radiusnetworks,Development Aid
+com/readystatesoftware/sqliteasset,Development Aid
+com/renn/rennsdk,Development Aid
+com/revmob,Advertisement
+com/samsung/spen,GUI Component
+com/scoreloop,Game Engine
+com/sec/android/iap,Payment
+com/sina/sso,Social Network
+com/sina/weibo,Social Network
+com/skplanet,Development Aid
+com/slidingmenu,GUI Component
+com/smaato,Advertisement
+com/spoledge,Development Aid
+com/sponsorpay,Advertisement
+com/squareup/okhttp,Development Aid
+com/squareup/otto,Development Aid
+com/squareup/picasso,Development Aid
+com/squareup/pollexor,Development Aid
+com/squareup/seismic,Development Aid
+com/squareup/tape,Development Aid
+com/squareup/timessquare,Development Aid
+com/startapp,Advertisement
+com/stericson/RootTools,Development Aid
+com/subsplash,Development Aid
+com/sun/activation,Development Aid
+com/sun/mail,Development Aid
+com/supersonic/adapters/supersonicads,Advertisement
+com/supersonic/mediationsdk,Development Aid
+com/supersonicads/sdk,Advertisement
+com/taobao/accs,Development Aid
+com/tapdaq/sdk,Development Aid
+com/tapdaq/tapdaqunityads,Advertisement
+com/tapit,Development Aid
+com/tapjoy,Advertisement
+com/tencent/android/tpush,Development Aid
+com/tencent/bugly,Mobile Analytics
+com/tencent/common,Social Network
+com/tencent/connect,Social Network
+com/tencent/jsutil,Social Network
+com/tencent/lbs,Map/LBS
+com/tencent/map,Map/LBS
+com/tencent/mm,Social Network
+com/tencent/mobwin,Advertisement
+com/tencent/mta,Mobile Analytics
+com/tencent/open,Social Network
+com/tencent/plus,Social Network
+com/tencent/qqconnect,Social Network
+com/tencent/qzone,Social Network
+com/tencent/record,Social Network
+com/tencent/sdkutil,Development Aid
+com/tencent/smtt,Social Network
+com/tencent/stat,Mobile Analytics
+com/tencent/t,Social Network
+com/tencent/tauth,Social Network
+com/tencent/utils,Social Network
+com/tencent/webnet,Development Aid
+com/tencent/weibo,Social Network
+com/tencent/weiyun,Mobile Analytics
+com/tencent/wpa,Development Aid
+com/tencent/wxop,Social Network
+com/tendcloud/tenddata,Mobile Analytics
+com/thirdparty,Development Aid
+com/threatmetrix,Digital Identity
+com/turbomanage/httpclient,Development Aid
+com/umeng/analytics,Mobile Analytics
+com/umeng/api,Development Aid
+com/umeng/common,Development Aid
+com/umeng/fb,Mobile Analytics
+com/umeng/message,Development Aid
+com/umeng/newxp,Development Aid
+com/umeng/socialize,Social Network
+com/umeng/socom,Social Network
+com/umeng/update,Development Aid
+com/umeng/xp,Development Aid
+com/unionpay/mobile/android,Payment
+com/unionpay/tsmservice,Payment
+com/unity3d,Game Engine
+com/unity3d/ads,Advertisement
+com/urbanairship,Mobile Analytics
+com/uservoice/uservoicesdk,Social Network
+com/ut/mini,Development Aid
+com/uzmap/pkg/uzkit/fineHttp,Development Aid
+com/vercoop,Development Aid
+com/verizon,Development Aid
+com/viewpagerindicator,Development Aid
+com/vividsolutions/jts,Development Aid
+com/vjianke/pulltorefresh,GUI Component
+com/vl/pulltorefresh,GUI Component
+com/vpon,Advertisement
+com/vungle,Advertisement
+com/wm/pulltorefresh,GUI Component
+com/xiaomi/mipush/sdk,Development Aid
+com/xiaomi/push,Development Aid
+com/xiaomi/smack,Development Aid
+com/xiaomi/xmpush,Development Aid
+com/yandex/mobile/ads,Advertisement
+com/yixia,Development Aid
+cz/msebera/android/httpclient,Development Aid
+dagger,Development Aid
+de/greenrobot/dao,Development Aid
+de/greenrobot/event,Development Aid
+de/keyboardsurfer,GUI Component
+flexjson,Development Aid
+fr/castorfle,GUI Component
+gnu/commonlisp,Development Aid
+gnu/ecmascript,Development Aid
+gnu/kawa,Development Aid
+gnu/mapping,Development Aid
+gnu/xml,Development Aid
+greendroid,GUI Component
+hirondelle/date4j,Development Aid
+im/quar,Development Aid
+info/guardianproject/bouncycastle,Development Aid
+io/dcloud,Development Aid
+io/fabric/sdk/android,Development Aid
+it/gmariotti/cardslib,Development Aid
+it/sauronsoftware/ftp4j,Development Aid
+javax/activation,Development Aid
+javax/annotation,Development Aid
+javax/jmdns,Development Aid
+javax/mail,Development Aid
+javax/servlet,Development Aid
+javax/ws/rs,Development Aid
+jcifs,Development Aid
+jsr166y,Development Aid
+junit,Development Aid
+jxl,Development Aid
+kankan/wheel,GUI Component
+kawa,Development Aid
+me/apla/cordova,Development Aid
+me/kiip,Advertisement
+me/zhanghai/android/materialprogressbar,Development Aid
+microsoft/mappoint,Map/LBS
+mm/purchasesdk,Payment
+mobisocial/omlib,Social Network
+mono/android,Development Aid
+net/authorize,Development Aid
+net/hockeyapp/android,Mobile Analytics
+net/lingala/zip4j,Development Aid
+net/minidev/json,Development Aid
+net/simonvt/menudrawer,Development Aid
+net/sourceforge/pinyin4j,Development Aid
+net/sourceforge/zbar,Development Aid
+net/tsz/afinal,Advertisement
+net/youmi,Advertisement
+nl/siegmann/epublib,Development Aid
+oauth/signpost,Development Aid
+okhttp3,Development Aid
+okio,Development Aid
+opentk,Development Aid
+org/achartengine,Development Aid
+org/acra,Development Aid
+org/anddev/andengine,Game Engine
+org/andengine,Game Engine
+org/android/agoo,Development Aid
+org/androidannotations,Development Aid
+org/apache/commons,Development Aid
+org/apache/cordova,Development Aid
+org/apache/harmony,Development Aid
+org/apache/http,Development Aid
+org/apache/james,Development Aid
+org/apache/log4j,Development Aid
+org/apache/tools/ant,Development Aid
+org/appcelerator,Development Aid
+org/aspectj,Development Aid
+org/bouncycastle,Development Aid
+org/ccil/cowan/tagsoup,Development Aid
+org/cocos2d,Game Engine
+org/cocos2dx,Game Engine
+org/codehaus/jackson,Development Aid
+org/dom4j,Development Aid
+org/ebookdroid/ui/library/tasks,Development Aid
+org/fmod,Game Engine
+org/geometerplus/zlibrary,Development Aid
+org/hamcrest,Development Aid
+org/htmlcleaner,Development Aid
+org/ice4j,Development Aid
+org/ini4j,Development Aid
+org/jaudiotagger,Development Aid
+org/java_websocket,Development Aid
+org/jaxen,Development Aid
+org/jdeferred,Development Aid
+org/jdom,Development Aid
+org/jdom2,Development Aid
+org/jivesoftware/smack,Payment
+org/jivesoftware/smackx,Development Aid
+org/joda/time,Development Aid
+org/json,Development Aid
+org/jsoup,Development Aid
+org/junit,Development Aid
+org/kde/necessitas/ministro/,Development Aid
+org/kobjects,Development Aid
+org/ksoap2,Development Aid
+org/kxml2,Development Aid
+org/lobobrowser,Development Aid
+org/mapsforge,Map/LBS
+org/metalev/multitouch,GUI Component
+org/mozilla/intl/chardet,Development Aid
+org/mozilla/javascript,Development Aid
+org/mozilla/universalchardet,Development Aid
+org/msgpack,Development Aid
+org/nexage,Advertisement
+org/nexage/sourcekit/mraid,Advertisement
+org/ocpsoft/prettytime,Development Aid
+org/openudid,Development Aid
+org/osmdroid,Map/LBS
+org/scribe,Development Aid
+org/simpleframework,Development Aid
+org/slf4j,Development Aid
+org/spongycastle,Development Aid
+org/springframework,Development Aid
+org/tukaani/xz,Development Aid
+org/vudroid,Development Aid
+org/xbill/DNS,Development Aid
+org/xinhua/analytics,Mobile Analytics
+org/xmlpull,Development Aid
+org/yaml/snakeyaml,Development Aid
+org/zywx/wbpalmstar,Development Aid
+pagerslidingtabstrip,GUI Component
+pdftron,Development Aid
+pl/polidea,Development Aid
+pts/PhoneGap,Development Aid
+rajawali/wallpaper,Development Aid
+retrofit,Development Aid
+roboguice,Development Aid
+rx/internal,Development Aid
+ti/imagefactory,Development Aid
+ti/map,Map/LBS
+ti/modules/titanium,Development Aid
+twitter4j,Social Network
+u/aly,Mobile Analytics
+uk/co/senab/actionbarpulltorefresh,GUI Component
+v2/com/playhaven,Advertisement
+xamarin,Development Aid
+zfee/sdk,Development Aid
+com/facebook/ad,Advertisement
+com/startapp,Advertisement
+com/applovin,Advertisement
+com/vungle,Advertisement
+com/chartboost/sdk,Advertisement
+com/unity3d/ads,Advertisement
+com/jirbo/adcolony,Advertisement
+com/ironsource,Advertisement
+com/inmobi,Advertisement
+com/tapjoy,Advertisement
+com/my/target,Advertisement
+com/amazonaws,Mobile Analytics
+com/appsflyer,Mobile Analytics
+com/crittercism,Mobile Analytics
+net/hockeyapp/android,Mobile Analytics
+com/segment/analytics,Mobile Analytics
+com/urbanairship,Mobile Analytics
+org/acra,App Market
+com/koushikdutta/async,App Market
+android/support,App Market
+com/google/analytics,App Market
+com/bumptech/glide,App Market
+org/altbeacon,Map/LBS
+pl/droidsonroids/gif,App Market
+com/clevertap/android/sdk,App Market
+butterknife,App Market
+io/fabric/sdk/android,App Market
+org/greenrobot/eventbus,App Market
+com/orhanobut/logger,App Market
+com/newrelic/agent/android,App Market
+com/squareup/picasso,App Market
+com/github/nisrulz/sensey,App Market
+com/yalantis/ucrop,App Market
+com/ace/universalimageloader,App Market
+com/google/android/gms/maps,App Market
+com/dropbox,Development Aid
+com/parse,Development Aid
+com/facebook,Social Network
+twitter4j,Social Network
+com/vk/sdk,Social Network
+com/google/gson,Development Aid
+cz/msebera/android/httpclient,Development Aid
+bolts,Development Aid
+com/braintreepayments/api,Development Aid
+com/daggertech,Development Aid
+com/fasterxml/jackson/core,Development Aid
+com/google/common,Development Aid
+com/google/inject,Development Aid
+org/joda/time,Development Aid
+com/squareup/leakcanary,Development Aid
+com/mapbox/mapboxsdk,Development Aid
+org/msgpack,Development Aid
+com/avos/avoscloud/okhttp,Development Aid
+com/squareup/okhttp,Development Aid
+okio,Development Aid
+com/j256/ormlite,Development Aid
+com/paypal/android/sdk,Development Aid
+org/ocpsoft/prettytime,Development Aid
+retrofit,Development Aid
+roboguice,Development Aid
+org/scribe,Development Aid
+com/bytedance/sdk/openadsdk,Advertisement
+com/microsoft/clarity,Mobile Analytics
+com/microsoft/identity/common,Digital Identity
+com/amplitude,Mobile Analytics
+github/nisrulz/easydeviceinfo,Development Aid
+com/zoontek,Development Aid
+com/learnium,Development Aid
+com/reactnativecommunity,Development Aid
+org/reactnative,Development Aid
+expo/modules,Development Aid
+com/shopgun,Advertisement/Marketing

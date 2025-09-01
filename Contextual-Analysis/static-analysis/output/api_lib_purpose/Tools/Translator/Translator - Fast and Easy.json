@@ -1,0 +1,200 @@
+{
+    "Translator - Fast and Easy": {
+        "android.permission.READ_PHONE_STATE": [
+            {
+                "class": "github.nisrulz.easydeviceinfo.base.EasySimMod",
+                "method": "<github.nisrulz.easydeviceinfo.base.EasySimMod: java.lang.String getSIMSerial()>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "github.nisrulz.easydeviceinfo.base.EasyDeviceMod",
+                "method": "<github.nisrulz.easydeviceinfo.base.EasyDeviceMod: java.lang.String getSerial()>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "github.nisrulz.easydeviceinfo.base.EasySimMod",
+                "method": "<github.nisrulz.easydeviceinfo.base.EasySimMod: java.lang.String getIMSI()>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSubscriberId()",
+                "data controller": "app"
+            },
+            {
+                "class": "github.nisrulz.easydeviceinfo.base.EasyDeviceMod",
+                "method": "<github.nisrulz.easydeviceinfo.base.EasyDeviceMod: java.lang.String getIMEI()>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "github.nisrulz.easydeviceinfo.base.EasySimMod",
+                "method": "<github.nisrulz.easydeviceinfo.base.EasySimMod: java.lang.String getIMSI()>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "github.nisrulz.easydeviceinfo.base.EasyDeviceMod",
+                "method": "<github.nisrulz.easydeviceinfo.base.EasyDeviceMod: java.lang.String getSerial()>",
+                "invokedAPI": "android.os.Build: java.lang.String getSerial()",
+                "data controller": "app"
+            },
+            {
+                "class": "github.nisrulz.easydeviceinfo.base.EasyDeviceMod",
+                "method": "<github.nisrulz.easydeviceinfo.base.EasyDeviceMod: java.lang.String getIMEI()>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "app"
+            },
+            {
+                "class": "github.nisrulz.easydeviceinfo.base.EasySimMod",
+                "method": "<github.nisrulz.easydeviceinfo.base.EasySimMod: java.lang.String getSIMSerial()>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()",
+                "data controller": "app"
+            },
+            {
+                "class": "github.nisrulz.easydeviceinfo.base.EasySimMod",
+                "method": "<github.nisrulz.easydeviceinfo.base.EasySimMod: java.util.List getActiveMultiSimInfo()>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "github.nisrulz.easydeviceinfo.base.EasyDeviceMod",
+                "method": "<github.nisrulz.easydeviceinfo.base.EasyDeviceMod: java.lang.String getPhoneNo()>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "github.nisrulz.easydeviceinfo.base.EasySimMod",
+                "method": "<github.nisrulz.easydeviceinfo.base.EasySimMod: java.util.List getActiveMultiSimInfo()>",
+                "invokedAPI": "android.telephony.SubscriptionManager: java.util.List getActiveSubscriptionInfoList()",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.WRITE_EXTERNAL_STORAGE": [
+            {
+                "class": "com.ticktalk.translateeasy.MainActivity",
+                "method": "<com.ticktalk.translateeasy.MainActivity: boolean getGrantedWriteExternalPermission()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.ticktalk.translateeasy.Fragment.talk.FragmentTalk",
+                "method": "<com.ticktalk.translateeasy.Fragment.talk.FragmentTalk: void requestWriteExternalPermission(int)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.ticktalk.translateeasy.Fragment.talk.FragmentTalk",
+                "method": "<com.ticktalk.translateeasy.Fragment.talk.FragmentTalk: boolean getGrantedWriteExternalPermission()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.ticktalk.translateeasy.MainActivity",
+                "method": "<com.ticktalk.translateeasy.MainActivity: void requestWriteExternalPermission(int)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.ticktalk.translateeasy.settings.SettingsActivity",
+                "method": "<com.ticktalk.translateeasy.settings.SettingsActivity: void requestWriteExternalPermission(int)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.appgroup.extensions.PermisionUtilsKt",
+                "method": "<com.appgroup.extensions.PermisionUtilsKt: boolean needsRequestPermission(android.content.Context)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.ticktalk.translateeasy.settings.SettingsActivity",
+                "method": "<com.ticktalk.translateeasy.settings.SettingsActivity: boolean getGrantedWriteExternalPermission()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.internal.ads.zzbii",
+                "method": "<com.google.android.gms.internal.ads.zzbii: boolean zzc()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            }
+        ],
+        "android.permission.READ_EXTERNAL_STORAGE": [
+            {
+                "class": "com.bumptech.glide.load.model.stream.QMediaStoreUriLoader$QMediaStoreUriFetcher",
+                "method": "<com.bumptech.glide.load.model.stream.QMediaStoreUriLoader$QMediaStoreUriFetcher: com.bumptech.glide.load.model.ModelLoader$LoadData buildDelegateData()>",
+                "invokedAPI": "android.provider.MediaStore: android.net.Uri setRequireOriginal(android.net.Uri)",
+                "data controller": "Payment Libraries"
+            },
+            {
+                "class": "com.appgroup.extensions.BitmapUtilKt",
+                "method": "<com.appgroup.extensions.BitmapUtilKt: boolean saveImageToStorage(android.graphics.Bitmap,android.content.Context,java.lang.String,java.io.File,java.lang.String,android.graphics.Bitmap$CompressFormat,int)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Media: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.appgroup.extensions.UriHelperKt",
+                "method": "<com.appgroup.extensions.UriHelperKt: android.graphics.Bitmap getBitmap(android.net.Uri,android.content.Context)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)",
+                "data controller": "app"
+            },
+            {
+                "class": "permissions.dispatcher.PermissionUtils",
+                "method": "<permissions.dispatcher.PermissionUtils: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.ticktalk.helper.FilesUtil",
+                "method": "<com.ticktalk.helper.FilesUtil: java.util.ArrayList getDocumentsFromInternal(java.lang.String,android.content.Context)>",
+                "invokedAPI": "android.provider.MediaStore$Files: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.ACCESS_COARSE_LOCATION": [
+            {
+                "class": "github.nisrulz.easydeviceinfo.base.EasyLocationMod",
+                "method": "<github.nisrulz.easydeviceinfo.base.EasyLocationMod: void <init>(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.internal.ads.zzcmm",
+                "method": "<com.google.android.gms.internal.ads.zzcmm: void onGeolocationPermissionsShowPrompt(java.lang.String,android.webkit.GeolocationPermissions$Callback)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "github.nisrulz.easydeviceinfo.base.EasyLocationMod",
+                "method": "<github.nisrulz.easydeviceinfo.base.EasyLocationMod: double[] getLatLong()>",
+                "invokedAPI": "android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.GET_ACCOUNTS": [
+            {
+                "class": "github.nisrulz.easydeviceinfo.base.EasyIdMod",
+                "method": "<github.nisrulz.easydeviceinfo.base.EasyIdMod: java.lang.String[] getAccounts()>",
+                "invokedAPI": "android.permission.GET_ACCOUNTS",
+                "data controller": "app"
+            },
+            {
+                "class": "github.nisrulz.easydeviceinfo.base.EasyIdMod",
+                "method": "<github.nisrulz.easydeviceinfo.base.EasyIdMod: java.lang.String[] getAccounts()>",
+                "invokedAPI": "android.accounts.AccountManager: android.accounts.Account[] getAccountsByType(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.measurement.internal.zzao",
+                "method": "<com.google.android.gms.measurement.internal.zzao: boolean zze()>",
+                "invokedAPI": "android.permission.GET_ACCOUNTS",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.google.android.gms.measurement.internal.zzao",
+                "method": "<com.google.android.gms.measurement.internal.zzao: boolean zze()>",
+                "invokedAPI": "android.accounts.AccountManager: android.accounts.AccountManagerFuture getAccountsByTypeAndFeatures(java.lang.String,java.lang.String[],android.accounts.AccountManagerCallback,android.os.Handler)",
+                "data controller": "Development Aid Libraries"
+            }
+        ]
+    }
+}

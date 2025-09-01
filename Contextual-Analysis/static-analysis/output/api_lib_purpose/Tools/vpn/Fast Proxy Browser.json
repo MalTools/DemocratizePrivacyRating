@@ -1,0 +1,112 @@
+{
+    "Fast Proxy Browser": {
+        "android.permission.WRITE_EXTERNAL_STORAGE": [
+            {
+                "class": "com.google.android.gms.internal.ads.zzbbs",
+                "method": "<com.google.android.gms.internal.ads.zzbbs: boolean zzc()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.hitechnolabs.browser.antiblokir.ui.setting.SettingFragment",
+                "method": "<com.hitechnolabs.browser.antiblokir.ui.setting.SettingFragment: boolean hasStoragePermission()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hitechnolabs.browser.antiblokir.ui.component.Helpers",
+                "method": "<com.hitechnolabs.browser.antiblokir.ui.component.Helpers: void requestStoragePermission(android.app.Activity)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hitechnolabs.browser.antiblokir.ui.scan.ScanQrActivity",
+                "method": "<com.hitechnolabs.browser.antiblokir.ui.scan.ScanQrActivity: void onStart()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hitechnolabs.browser.antiblokir.ui.setting.SettingFragment",
+                "method": "<com.hitechnolabs.browser.antiblokir.ui.setting.SettingFragment: void requestStoragePermission()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hitechnolabs.browser.antiblokir.ui.component.Helpers",
+                "method": "<com.hitechnolabs.browser.antiblokir.ui.component.Helpers: boolean hasStoragePermission(android.app.Activity)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hitechnolabs.browser.antiblokir.ui.browser.BrowserActivity",
+                "method": "<com.hitechnolabs.browser.antiblokir.ui.browser.BrowserActivity: boolean hasStoragePermission()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hitechnolabs.browser.antiblokir.ui.browser.BrowserActivity",
+                "method": "<com.hitechnolabs.browser.antiblokir.ui.browser.BrowserActivity: void lambda$initialize$3(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hitechnolabs.browser.antiblokir.ui.file_picker.FilePickerActivity",
+                "method": "<com.hitechnolabs.browser.antiblokir.ui.file_picker.FilePickerActivity: void onStart()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hitechnolabs.browser.antiblokir.ui.browser.BrowserActivity",
+                "method": "<com.hitechnolabs.browser.antiblokir.ui.browser.BrowserActivity: void requestStoragePermission()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_EXTERNAL_STORAGE": [
+            {
+                "class": "com.applovin.impl.sdk.nativeAd.a",
+                "method": "<com.applovin.impl.sdk.nativeAd.a: void run()>",
+                "invokedAPI": "android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.hitechnolabs.browser.antiblokir.ui.file_picker.FilePickerActivity",
+                "method": "<com.hitechnolabs.browser.antiblokir.ui.file_picker.FilePickerActivity: void onStart()>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hitechnolabs.browser.antiblokir.ui.scan.ScanQrActivity",
+                "method": "<com.hitechnolabs.browser.antiblokir.ui.scan.ScanQrActivity: void onStart()>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "s3",
+                "method": "<s3: android.net.Uri h(android.net.Uri)>",
+                "invokedAPI": "android.provider.MediaStore: android.net.Uri setRequireOriginal(android.net.Uri)",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.CAMERA": [
+            {
+                "class": "com.hitechnolabs.browser.antiblokir.ui.browser.BrowserActivity$MyWebChromeClient",
+                "method": "<com.hitechnolabs.browser.antiblokir.ui.browser.BrowserActivity$MyWebChromeClient: boolean onShowFileChooser(android.webkit.WebView,android.webkit.ValueCallback,android.webkit.WebChromeClient$FileChooserParams)>",
+                "invokedAPI": "android.media.action.IMAGE_CAPTURE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.journeyapps.barcodescanner.CaptureManager",
+                "method": "<com.journeyapps.barcodescanner.CaptureManager: void openCameraWithPermission()>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hitechnolabs.browser.antiblokir.ui.scan.ScanQrActivity",
+                "method": "<com.hitechnolabs.browser.antiblokir.ui.scan.ScanQrActivity: void onStart()>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            }
+        ]
+    }
+}

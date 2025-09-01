@@ -1,0 +1,128 @@
+{
+    "Translator Pro -All in One App": {
+        "android.permission.WRITE_EXTERNAL_STORAGE": [
+            {
+                "class": "com.google.android.gms.internal.ads.zzaam",
+                "method": "<com.google.android.gms.internal.ads.zzaam: boolean zzrd()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "expo.modules.permissions.PermissionsModule",
+                "method": "<expo.modules.permissions.PermissionsModule: void onCreate(org.unimodules.core.ModuleRegistry)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "expo.modules.imagepicker.ImagePickerModule$launchCameraAsync$permissionsResponseHandler$1",
+                "method": "<expo.modules.imagepicker.ImagePickerModule$launchCameraAsync$permissionsResponseHandler$1: void onResult(java.util.Map)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.reactnativecommunity.webview.RNCWebViewModule",
+                "method": "<com.reactnativecommunity.webview.RNCWebViewModule: boolean grantFileDownloaderPermissions()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "expo.modules.imagepicker.ImagePickerModule",
+                "method": "<expo.modules.imagepicker.ImagePickerModule: void launchCameraAsync(java.util.Map,org.unimodules.core.Promise)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "expo.modules.imagepicker.ImagePickerModule",
+                "method": "<expo.modules.imagepicker.ImagePickerModule: java.lang.String[] getMediaLibraryPermissions(boolean)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_EXTERNAL_STORAGE": [
+            {
+                "class": "com.theartofdev.edmodo.cropper.CropImageActivity",
+                "method": "<com.theartofdev.edmodo.cropper.CropImageActivity: void onActivityResult(int,int,android.content.Intent)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "expo.modules.imagepicker.ImagePickerModule",
+                "method": "<expo.modules.imagepicker.ImagePickerModule: java.lang.String[] getMediaLibraryPermissions(boolean)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.theartofdev.edmodo.cropper.CropImage",
+                "method": "<com.theartofdev.edmodo.cropper.CropImage: boolean isReadExternalStoragePermissionsRequired(android.content.Context,android.net.Uri)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.facebook.imagepipeline.producers.LocalContentUriThumbnailFetchProducer",
+                "method": "<com.facebook.imagepipeline.producers.LocalContentUriThumbnailFetchProducer: com.facebook.imagepipeline.image.EncodedImage getThumbnail(com.facebook.imagepipeline.common.ResizeOptions,long)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Thumbnails: android.database.Cursor queryMiniThumbnail(android.content.ContentResolver,long,int,java.lang.String[])",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "expo.modules.permissions.PermissionsModule",
+                "method": "<expo.modules.permissions.PermissionsModule: void onCreate(org.unimodules.core.ModuleRegistry)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.facebook.react.modules.camera.CameraRollManager$GetMediaTask",
+                "method": "<com.facebook.react.modules.camera.CameraRollManager$GetMediaTask: void doInBackgroundGuarded(java.lang.Void[])>",
+                "invokedAPI": "android.provider.MediaStore$Files: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.google.android.exoplayer2.util.Util",
+                "method": "<com.google.android.exoplayer2.util.Util: boolean maybeRequestReadExternalStoragePermission(android.app.Activity,android.net.Uri[])>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.theartofdev.edmodo.cropper.CropImageActivity",
+                "method": "<com.theartofdev.edmodo.cropper.CropImageActivity: void onCreate(android.os.Bundle)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.WRITE_CALENDAR": [
+            {
+                "class": "expo.modules.permissions.PermissionsModule",
+                "method": "<expo.modules.permissions.PermissionsModule: void onCreate(org.unimodules.core.ModuleRegistry)>",
+                "invokedAPI": "android.permission.WRITE_CALENDAR",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_PHONE_STATE": [
+            {
+                "class": "com.learnium.RNDeviceInfo.RNDeviceModule",
+                "method": "<com.learnium.RNDeviceInfo.RNDeviceModule: java.lang.String getPhoneNumberSync()>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.learnium.RNDeviceInfo.RNDeviceModule",
+                "method": "<com.learnium.RNDeviceInfo.RNDeviceModule: java.lang.String getSerialNumberSync()>",
+                "invokedAPI": "android.os.Build: java.lang.String getSerial()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.learnium.RNDeviceInfo.RNDeviceModule",
+                "method": "<com.learnium.RNDeviceInfo.RNDeviceModule: java.lang.String getSerialNumberSync()>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_CALENDAR": [
+            {
+                "class": "expo.modules.permissions.PermissionsModule",
+                "method": "<expo.modules.permissions.PermissionsModule: void onCreate(org.unimodules.core.ModuleRegistry)>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            }
+        ]
+    }
+}

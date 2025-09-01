@@ -1,0 +1,558 @@
+{
+    "My Event App": {
+        "android.permission.BODY_SENSORS": [
+            {
+                "class": "org.apache.cordova.health.HealthPlugin",
+                "method": "<org.apache.cordova.health.HealthPlugin: void requestDynamicPermissions()>",
+                "invokedAPI": "android.permission.BODY_SENSORS",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.BODY_SENSORS",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.WRITE_CALENDAR": [
+            {
+                "class": "nl.xservices.plugins.Calendar",
+                "method": "<nl.xservices.plugins.Calendar: void createCalendar(org.json.JSONArray)>",
+                "invokedAPI": "android.permission.WRITE_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.Calendar",
+                "method": "<nl.xservices.plugins.Calendar: void deleteEvent(org.json.JSONArray)>",
+                "invokedAPI": "android.permission.WRITE_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.Calendar",
+                "method": "<nl.xservices.plugins.Calendar: void hasWritePermission()>",
+                "invokedAPI": "android.permission.WRITE_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.Calendar",
+                "method": "<nl.xservices.plugins.Calendar: void requestReadWritePermission(int)>",
+                "invokedAPI": "android.permission.WRITE_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.Calendar",
+                "method": "<nl.xservices.plugins.Calendar: void deleteEventById(org.json.JSONArray)>",
+                "invokedAPI": "android.permission.WRITE_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.Calendar",
+                "method": "<nl.xservices.plugins.Calendar: void requestWritePermission(int)>",
+                "invokedAPI": "android.permission.WRITE_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.Calendar",
+                "method": "<nl.xservices.plugins.Calendar: void deleteCalendar(org.json.JSONArray)>",
+                "invokedAPI": "android.permission.WRITE_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.Calendar",
+                "method": "<nl.xservices.plugins.Calendar: void hasReadWritePermission()>",
+                "invokedAPI": "android.permission.WRITE_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.Calendar",
+                "method": "<nl.xservices.plugins.Calendar: void createEvent(org.json.JSONArray)>",
+                "invokedAPI": "android.permission.WRITE_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.WRITE_CALENDAR",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_CALENDAR": [
+            {
+                "class": "nl.xservices.plugins.Calendar",
+                "method": "<nl.xservices.plugins.Calendar: void listCalendars()>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.accessor.AbstractCalendarAccessor",
+                "method": "<nl.xservices.plugins.accessor.AbstractCalendarAccessor: java.lang.String createCalendar(java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.provider.CalendarContract.Calendars.CONTENT_URI->query",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.Calendar",
+                "method": "<nl.xservices.plugins.Calendar: void requestReadPermission(int)>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.Calendar",
+                "method": "<nl.xservices.plugins.Calendar: void requestReadWritePermission(int)>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.accessor.AbstractCalendarAccessor",
+                "method": "<nl.xservices.plugins.accessor.AbstractCalendarAccessor: void deleteCrashingCalendars(android.content.ContentResolver)>",
+                "invokedAPI": "android.provider.CalendarContract.Calendars.CONTENT_URI->query",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.Calendar",
+                "method": "<nl.xservices.plugins.Calendar: void hasReadPermission()>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.Calendar",
+                "method": "<nl.xservices.plugins.Calendar: void deleteEvent(org.json.JSONArray)>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.accessor.CalendarProviderAccessor",
+                "method": "<nl.xservices.plugins.accessor.CalendarProviderAccessor: android.database.Cursor queryEvents(java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>",
+                "invokedAPI": "android.provider.CalendarContract.Events.CONTENT_URI->query",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.Calendar",
+                "method": "<nl.xservices.plugins.Calendar: void findEvents(org.json.JSONArray)>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.Calendar",
+                "method": "<nl.xservices.plugins.Calendar: void deleteCalendar(org.json.JSONArray)>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.accessor.CalendarProviderAccessor",
+                "method": "<nl.xservices.plugins.accessor.CalendarProviderAccessor: android.database.Cursor queryCalendars(java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>",
+                "invokedAPI": "android.provider.CalendarContract.Calendars.CONTENT_URI->query",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.Calendar",
+                "method": "<nl.xservices.plugins.Calendar: void createEvent(org.json.JSONArray)>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.Calendar",
+                "method": "<nl.xservices.plugins.Calendar: void hasReadWritePermission()>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.Calendar",
+                "method": "<nl.xservices.plugins.Calendar: void createCalendar(org.json.JSONArray)>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.accessor.AbstractCalendarAccessor",
+                "method": "<nl.xservices.plugins.accessor.AbstractCalendarAccessor: void deleteCalendar(java.lang.String)>",
+                "invokedAPI": "android.provider.CalendarContract.Calendars.CONTENT_URI->query",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.Calendar",
+                "method": "<nl.xservices.plugins.Calendar: void listEventsInRange(org.json.JSONArray)>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "nl.xservices.plugins.accessor.CalendarProviderAccessor",
+                "method": "<nl.xservices.plugins.accessor.CalendarProviderAccessor: android.database.Cursor queryAttendees(java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>",
+                "invokedAPI": "android.provider.CalendarContract.Attendees.CONTENT_URI->query",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.WRITE_EXTERNAL_STORAGE": [
+            {
+                "class": "org.apache.cordova.camera.CameraLauncher",
+                "method": "<org.apache.cordova.camera.CameraLauncher: java.lang.String[] getPermissions(boolean,int)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.apache.cordova.file.FileUtils",
+                "method": "<org.apache.cordova.file.FileUtils: void getWritePermission(java.lang.String,int,org.apache.cordova.CallbackContext)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.apache.cordova.mediacapture.Capture",
+                "method": "<org.apache.cordova.mediacapture.Capture: void <clinit>()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "org.apache.cordova.file.FileUtils",
+                "method": "<org.apache.cordova.file.FileUtils: boolean hasWritePermission()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            }
+        ],
+        "android.permission.READ_CONTACTS": [
+            {
+                "class": "org.apache.cordova.contacts.ContactAccessorSdk5",
+                "method": "<org.apache.cordova.contacts.ContactAccessorSdk5: org.json.JSONArray search(org.json.JSONArray,org.json.JSONObject)>",
+                "invokedAPI": "android.provider.ContactsContract.Data.CONTENT_URI->query",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.apache.cordova.contacts.ContactManager",
+                "method": "<org.apache.cordova.contacts.ContactManager: boolean execute(java.lang.String,org.json.JSONArray,org.apache.cordova.CallbackContext)>",
+                "invokedAPI": "android.permission.READ_CONTACTS",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_CONTACTS",
+                "data controller": "app"
+            },
+            {
+                "class": "org.apache.cordova.contacts.ContactAccessorSdk5",
+                "method": "<org.apache.cordova.contacts.ContactAccessorSdk5: org.json.JSONObject getContactById(java.lang.String,org.json.JSONArray)>",
+                "invokedAPI": "android.provider.ContactsContract.Data.CONTENT_URI->query",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.apache.cordova.contacts.ContactAccessorSdk5",
+                "method": "<org.apache.cordova.contacts.ContactAccessorSdk5: boolean remove(java.lang.String)>",
+                "invokedAPI": "android.provider.ContactsContract.Contacts.CONTENT_URI->query",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.apache.cordova.contacts.ContactManager",
+                "method": "<org.apache.cordova.contacts.ContactManager: void onActivityResult(int,int,android.content.Intent)>",
+                "invokedAPI": "android.provider.ContactsContract.RawContacts.CONTENT_URI->query",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.apache.cordova.contacts.ContactManager",
+                "method": "<org.apache.cordova.contacts.ContactManager: void getReadPermission(int)>",
+                "invokedAPI": "android.permission.READ_CONTACTS",
+                "data controller": "Development Aid Libraries"
+            }
+        ],
+        "android.permission.READ_MEDIA_IMAGES": [
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "org.apache.cordova.file.FileUtils",
+                "method": "<org.apache.cordova.file.FileUtils: boolean hasReadPermission()>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.apache.cordova.camera.CameraLauncher",
+                "method": "<org.apache.cordova.camera.CameraLauncher: java.lang.String[] getPermissions(boolean,int)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.apache.cordova.mediacapture.Capture",
+                "method": "<org.apache.cordova.mediacapture.Capture: void captureImage(org.apache.cordova.mediacapture.PendingRequests$Request)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.apache.cordova.file.FileUtils",
+                "method": "<org.apache.cordova.file.FileUtils: void getReadPermission(java.lang.String,int,org.apache.cordova.CallbackContext)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "Development Aid Libraries"
+            }
+        ],
+        "android.permission.READ_MEDIA_VIDEO": [
+            {
+                "class": "org.apache.cordova.file.FileUtils",
+                "method": "<org.apache.cordova.file.FileUtils: void getReadPermission(java.lang.String,int,org.apache.cordova.CallbackContext)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VIDEO",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.apache.cordova.camera.CameraLauncher",
+                "method": "<org.apache.cordova.camera.CameraLauncher: java.lang.String[] getPermissions(boolean,int)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VIDEO",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.apache.cordova.mediacapture.Capture",
+                "method": "<org.apache.cordova.mediacapture.Capture: void captureVideo(org.apache.cordova.mediacapture.PendingRequests$Request)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VIDEO",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.apache.cordova.file.FileUtils",
+                "method": "<org.apache.cordova.file.FileUtils: boolean hasReadPermission()>",
+                "invokedAPI": "android.permission.READ_MEDIA_VIDEO",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_MEDIA_VIDEO",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.CAMERA": [
+            {
+                "class": "org.apache.cordova.camera.CameraLauncher",
+                "method": "<org.apache.cordova.camera.CameraLauncher: void takePicture(int,int)>",
+                "invokedAPI": "android.media.action.IMAGE_CAPTURE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "org.apache.cordova.mediacapture.Capture",
+                "method": "<org.apache.cordova.mediacapture.Capture: void pluginInitialize()>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.phonegap.plugins.barcodescanner.BarcodeScanner",
+                "method": "<com.phonegap.plugins.barcodescanner.BarcodeScanner: void <init>()>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.apache.cordova.engine.SystemWebChromeClient",
+                "method": "<org.apache.cordova.engine.SystemWebChromeClient: boolean onShowFileChooser(android.webkit.WebView,android.webkit.ValueCallback,android.webkit.WebChromeClient$FileChooserParams)>",
+                "invokedAPI": "android.media.action.IMAGE_CAPTURE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.apache.cordova.mediacapture.Capture",
+                "method": "<org.apache.cordova.mediacapture.Capture: void captureImage(org.apache.cordova.mediacapture.PendingRequests$Request)>",
+                "invokedAPI": "android.media.action.IMAGE_CAPTURE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.apache.cordova.camera.CameraLauncher",
+                "method": "<org.apache.cordova.camera.CameraLauncher: java.lang.String[] getPermissions(boolean,int)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.apache.cordova.camera.CameraLauncher",
+                "method": "<org.apache.cordova.camera.CameraLauncher: void callTakePicture(int,int)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.apache.cordova.mediacapture.Capture",
+                "method": "<org.apache.cordova.mediacapture.Capture: void captureVideo(org.apache.cordova.mediacapture.PendingRequests$Request)>",
+                "invokedAPI": "android.media.action.VIDEO_CAPTURE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.apache.cordova.mediacapture.Capture",
+                "method": "<org.apache.cordova.mediacapture.Capture: boolean isMissingCameraPermissions(org.apache.cordova.mediacapture.PendingRequests$Request,java.lang.String)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Development Aid Libraries"
+            }
+        ],
+        "android.permission.ACCESS_COARSE_LOCATION": [
+            {
+                "class": "org.altbeacon.beacon.service.scanner.CycledLeScanner",
+                "method": "<org.altbeacon.beacon.service.scanner.CycledLeScanner: boolean checkLocationPermission()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Map/LBS Libraries"
+            },
+            {
+                "class": "com.unarin.cordova.beacon.LocationManager",
+                "method": "<com.unarin.cordova.beacon.LocationManager: void tryToRequestMarshmallowLocationPermission()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "org.apache.cordova.health.HealthPlugin",
+                "method": "<org.apache.cordova.health.HealthPlugin: void requestDynamicPermissions()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.unarin.cordova.beacon.LocationManager$1",
+                "method": "<com.unarin.cordova.beacon.LocationManager$1: void onDismiss(android.content.DialogInterface)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.GET_ACCOUNTS": [
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.GET_ACCOUNTS",
+                "data controller": "app"
+            },
+            {
+                "class": "org.apache.cordova.contacts.ContactAccessorSdk5",
+                "method": "<org.apache.cordova.contacts.ContactAccessorSdk5: java.lang.String save(org.json.JSONObject)>",
+                "invokedAPI": "android.accounts.AccountManager: android.accounts.Account[] getAccounts()",
+                "data controller": "Development Aid Libraries"
+            }
+        ],
+        "android.permission.WRITE_CONTACTS": [
+            {
+                "class": "org.apache.cordova.contacts.ContactManager",
+                "method": "<org.apache.cordova.contacts.ContactManager: boolean execute(java.lang.String,org.json.JSONArray,org.apache.cordova.CallbackContext)>",
+                "invokedAPI": "android.permission.WRITE_CONTACTS",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.WRITE_CONTACTS",
+                "data controller": "app"
+            },
+            {
+                "class": "org.apache.cordova.contacts.ContactManager",
+                "method": "<org.apache.cordova.contacts.ContactManager: void getWritePermission(int)>",
+                "invokedAPI": "android.permission.WRITE_CONTACTS",
+                "data controller": "Development Aid Libraries"
+            }
+        ],
+        "android.permission.READ_EXTERNAL_STORAGE": [
+            {
+                "class": "org.apache.cordova.camera.CameraLauncher",
+                "method": "<org.apache.cordova.camera.CameraLauncher: java.lang.String[] getPermissions(boolean,int)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "org.apache.cordova.file.FileUtils",
+                "method": "<org.apache.cordova.file.FileUtils: void getReadPermission(java.lang.String,int,org.apache.cordova.CallbackContext)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.apache.cordova.mediacapture.Capture",
+                "method": "<org.apache.cordova.mediacapture.Capture: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.apache.cordova.file.FileUtils",
+                "method": "<org.apache.cordova.file.FileUtils: boolean hasReadPermission()>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            }
+        ],
+        "android.permission.READ_MEDIA_AUDIO": [
+            {
+                "class": "org.apache.cordova.file.FileUtils",
+                "method": "<org.apache.cordova.file.FileUtils: boolean hasReadPermission()>",
+                "invokedAPI": "android.permission.READ_MEDIA_AUDIO",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "org.apache.cordova.mediacapture.Capture",
+                "method": "<org.apache.cordova.mediacapture.Capture: void captureAudio(org.apache.cordova.mediacapture.PendingRequests$Request)>",
+                "invokedAPI": "android.permission.READ_MEDIA_AUDIO",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_MEDIA_AUDIO",
+                "data controller": "app"
+            },
+            {
+                "class": "org.apache.cordova.file.FileUtils",
+                "method": "<org.apache.cordova.file.FileUtils: void getReadPermission(java.lang.String,int,org.apache.cordova.CallbackContext)>",
+                "invokedAPI": "android.permission.READ_MEDIA_AUDIO",
+                "data controller": "Development Aid Libraries"
+            }
+        ],
+        "android.permission.ACTIVITY_RECOGNITION": [
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.ACTIVITY_RECOGNITION",
+                "data controller": "app"
+            },
+            {
+                "class": "org.apache.cordova.health.HealthPlugin",
+                "method": "<org.apache.cordova.health.HealthPlugin: void requestDynamicPermissions()>",
+                "invokedAPI": "android.permission.ACTIVITY_RECOGNITION",
+                "data controller": "Development Aid Libraries"
+            }
+        ],
+        "android.permission.ACCESS_FINE_LOCATION": [
+            {
+                "class": "org.altbeacon.beacon.service.scanner.CycledLeScanner",
+                "method": "<org.altbeacon.beacon.service.scanner.CycledLeScanner: boolean checkLocationPermission()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Map/LBS Libraries"
+            },
+            {
+                "class": "org.altbeacon.beacon.BeaconManager",
+                "method": "<org.altbeacon.beacon.BeaconManager: void verifyLocationPermissionGrantedForForegroundService()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Map/LBS Libraries"
+            },
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.RECORD_AUDIO": [
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "app"
+            }
+        ]
+    }
+}

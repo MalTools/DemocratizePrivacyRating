@@ -1,0 +1,78 @@
+{
+    "Messages_ MERI DAIRY SMS": {
+        "android.permission.SEND_SMS": [
+            {
+                "class": "com.b2infosoft.meridairysms.UtilityMethod",
+                "method": "<com.b2infosoft.meridairysms.UtilityMethod: void SendSMSMERIDAIRY(android.content.Context,java.lang.String,java.lang.String,com.b2infosoft.meridairysms.SMSStatus,java.lang.String)>",
+                "invokedAPI": "android.telephony.SmsManager: void sendMultipartTextMessage(java.lang.String,java.lang.String,java.util.ArrayList,java.util.ArrayList,java.util.ArrayList)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.b2infosoft.meridairysms.UtilityMethod",
+                "method": "<com.b2infosoft.meridairysms.UtilityMethod: void SendSMSMERIDAIRY(android.content.Context,java.lang.String,java.lang.String,com.b2infosoft.meridairysms.SMSStatus,java.lang.String)>",
+                "invokedAPI": "android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.b2infosoft.meridairysms.UtilityMethod",
+                "method": "<com.b2infosoft.meridairysms.UtilityMethod: void <clinit>()>",
+                "invokedAPI": "android.permission.SEND_SMS",
+                "data controller": "app"
+            },
+            {
+                "class": "com.b2infosoft.meridairysms.UtilityMethod",
+                "method": "<com.b2infosoft.meridairysms.UtilityMethod: void SendSMS(android.content.Context,java.lang.String,java.lang.String,com.b2infosoft.meridairysms.SMSStatus,java.lang.String,boolean)>",
+                "invokedAPI": "android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.b2infosoft.meridairysms.UtilityMethod",
+                "method": "<com.b2infosoft.meridairysms.UtilityMethod: void SendSMS(android.content.Context,java.lang.String,java.lang.String,com.b2infosoft.meridairysms.SMSStatus,java.lang.String,boolean)>",
+                "invokedAPI": "android.telephony.SmsManager: void sendMultipartTextMessage(java.lang.String,java.lang.String,java.util.ArrayList,java.util.ArrayList,java.util.ArrayList)",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.RECEIVE_SMS": [
+            {
+                "class": "com.b2infosoft.meridairysms.UtilityMethod",
+                "method": "<com.b2infosoft.meridairysms.UtilityMethod: void <clinit>()>",
+                "invokedAPI": "android.permission.RECEIVE_SMS",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_PHONE_STATE": [
+            {
+                "class": "com.b2infosoft.meridairysms.CreateMessageActivity",
+                "method": "<com.b2infosoft.meridairysms.CreateMessageActivity: void selectSim()>",
+                "invokedAPI": "android.telephony.SubscriptionManager: java.util.List getActiveSubscriptionInfoList()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.b2infosoft.meridairysms.UtilityMethod",
+                "method": "<com.b2infosoft.meridairysms.UtilityMethod: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.b2infosoft.meridairysms.CreateMessageActivity",
+                "method": "<com.b2infosoft.meridairysms.CreateMessageActivity: void selectSim()>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.b2infosoft.meridairysms.CreateMessageActivity",
+                "method": "<com.b2infosoft.meridairysms.CreateMessageActivity: void onCreate(android.os.Bundle)>",
+                "invokedAPI": "android.telephony.SubscriptionManager: java.util.List getActiveSubscriptionInfoList()",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_SMS": [
+            {
+                "class": "com.b2infosoft.meridairysms.UtilityMethod",
+                "method": "<com.b2infosoft.meridairysms.UtilityMethod: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_SMS",
+                "data controller": "app"
+            }
+        ]
+    }
+}

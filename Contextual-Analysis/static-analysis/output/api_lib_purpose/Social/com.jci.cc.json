@@ -1,0 +1,1416 @@
+{
+    "com.jci.cc": {
+        "android.permission.READ_MEDIA_VISUAL_USER_SELECTED": [
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV34",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV34: boolean isGrantedPermission(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkReadMediaVisualUserSelectedPermission(java.util.List)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.Permission",
+                "method": "<com.hjq.permissions.Permission: int getDangerPermissionFromAndroidVersion(java.lang.String)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+                "data controller": "app"
+            },
+            {
+                "class": "com.dmcbig.mediapicker.PickerActivity",
+                "method": "<com.dmcbig.mediapicker.PickerActivity: void onRequestPermissionsResult(int,java.lang.String[],int[])>",
+                "invokedAPI": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.js.gallery.GalleryFeatureImpl$a",
+                "method": "<io.dcloud.js.gallery.GalleryFeatureImpl$a: void onDenied(java.lang.String)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV34",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV34: boolean isDoNotAskAgainPermission(android.app.Activity,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.js.gallery.GalleryFeatureImpl",
+                "method": "<io.dcloud.js.gallery.GalleryFeatureImpl: java.lang.String execute(io.dcloud.common.DHInterface.IWebview,java.lang.String,java.lang.String[])>",
+                "invokedAPI": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV23",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV23: boolean isDoNotAskAgainPermission(android.app.Activity,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkTargetSdkVersion(android.content.Context,java.util.List)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV23",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV23: boolean isGrantedPermission(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+                "data controller": "app"
+            },
+            {
+                "class": "com.dmcbig.mediapicker.PickerActivity",
+                "method": "<com.dmcbig.mediapicker.PickerActivity: void onActivityResult(int,int,android.content.Intent)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_MEDIA_VIDEO": [
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV34",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV34: boolean isGrantedPermission(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VIDEO",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void optimizeDeprecatedPermission(java.util.List)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VIDEO",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkStoragePermission(android.content.Context,java.util.List,com.hjq.permissions.AndroidManifestInfo)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VIDEO",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkReadMediaVisualUserSelectedPermission(java.util.List)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VIDEO",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkMediaLocationPermission(android.content.Context,java.util.List)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VIDEO",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.Permission",
+                "method": "<com.hjq.permissions.Permission: int getDangerPermissionFromAndroidVersion(java.lang.String)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VIDEO",
+                "data controller": "app"
+            },
+            {
+                "class": "com.facebook.imagepipeline.producers.LocalVideoThumbnailProducer",
+                "method": "<com.facebook.imagepipeline.producers.LocalVideoThumbnailProducer: java.lang.String getLocalFilePath(com.facebook.imagepipeline.request.ImageRequest)>",
+                "invokedAPI": "android.provider.MediaStore.Video.Media.EXTERNAL_CONTENT_URI->query",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "io.dcloud.js.gallery.GalleryFeatureImpl$a",
+                "method": "<io.dcloud.js.gallery.GalleryFeatureImpl$a: void onDenied(java.lang.String)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VIDEO",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV33",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV33: boolean isGrantedPermission(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VIDEO",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: boolean useSystemPermission(android.app.Activity,java.lang.String,io.dcloud.common.adapter.util.PermissionUtil$Request)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VIDEO",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV23",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV23: boolean isDoNotAskAgainPermission(android.app.Activity,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VIDEO",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV23",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV23: boolean isGrantedPermission(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VIDEO",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkManifestPermissions(android.content.Context,java.util.List,com.hjq.permissions.AndroidManifestInfo)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VIDEO",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV33",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV33: boolean isDoNotAskAgainPermission(android.app.Activity,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_MEDIA_VIDEO",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionUtils",
+                "method": "<com.hjq.permissions.PermissionUtils: void optimizePermissionResults(android.app.Activity,java.lang.String[],int[])>",
+                "invokedAPI": "android.permission.READ_MEDIA_VIDEO",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.ACCESS_COARSE_LOCATION": [
+            {
+                "class": "io.dcloud.js.geolocation.system.b",
+                "method": "<io.dcloud.js.geolocation.system.b: void b()>",
+                "invokedAPI": "android.location.LocationManager: void removeUpdates(android.location.LocationListener)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: boolean useSystemPermission(android.app.Activity,java.lang.String,io.dcloud.common.adapter.util.PermissionUtil$Request)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.cardinalcommerce.a.setScaleX",
+                "method": "<com.cardinalcommerce.a.setScaleX: void cca_continue()>",
+                "invokedAPI": "android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.js.geolocation.system.c",
+                "method": "<io.dcloud.js.geolocation.system.c: void a()>",
+                "invokedAPI": "android.location.LocationManager: void removeUpdates(android.location.LocationListener)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.paypal.pyplcheckout.instrumentation.amplitude.models.DeviceInfo",
+                "method": "<com.paypal.pyplcheckout.instrumentation.amplitude.models.DeviceInfo: boolean checkLocationPermissionAllowed(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Payment Libraries"
+            },
+            {
+                "class": "lib.android.paypal.com.magnessdk.i",
+                "method": "<lib.android.paypal.com.magnessdk.i: org.json.JSONObject a(lib.android.paypal.com.magnessdk.MagnesSettings,lib.android.paypal.com.magnessdk.d,lib.android.paypal.com.magnessdk.e,java.lang.String,java.lang.String,java.util.HashMap,android.os.Handler)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV31",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV31: boolean isDoNotAskAgainPermission(android.app.Activity,java.lang.String)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "lib.android.paypal.com.magnessdk.i",
+                "method": "<lib.android.paypal.com.magnessdk.i: android.location.Location a(android.location.LocationManager)>",
+                "invokedAPI": "android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.paypal.pyplcheckout.instrumentation.amplitude.models.DeviceInfo",
+                "method": "<com.paypal.pyplcheckout.instrumentation.amplitude.models.DeviceInfo: android.location.Location getMostRecentLocation()>",
+                "invokedAPI": "android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)",
+                "data controller": "Payment Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.weex.extend.PlusModule",
+                "method": "<io.dcloud.feature.weex.extend.PlusModule: com.alibaba.fastjson.JSONObject getAppAuthorizeSetting()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.h.a.d.b.f",
+                "method": "<io.dcloud.h.a.d.b.f: org.json.JSONObject a(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkLocationPermission(java.util.List)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.onesignal.LocationController",
+                "method": "<com.onesignal.LocationController: void getLocation(android.content.Context,boolean,boolean,com.onesignal.LocationController$LocationHandler)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.cardinalcommerce.a.setHorizontalFadingEdgeEnabled",
+                "method": "<com.cardinalcommerce.a.setHorizontalFadingEdgeEnabled: void configure(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: boolean checkLocationPermission(android.app.Activity)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.amplitude.api.Utils",
+                "method": "<com.amplitude.api.Utils: boolean checkLocationPermissionAllowed(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkManifestPermissions(android.content.Context,java.util.List,com.hjq.permissions.AndroidManifestInfo)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.h.a.d.b.f",
+                "method": "<io.dcloud.h.a.d.b.f: java.util.Map a(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.telephony.TelephonyManager: android.telephony.CellLocation getCellLocation()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.onesignal.LocationController",
+                "method": "<com.onesignal.LocationController: boolean hasLocationPermission(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: java.lang.String convert2SystemPermission(java.lang.String)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: int trycatchGetPermission(android.app.Activity,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.cardinalcommerce.a.setClickable",
+                "method": "<com.cardinalcommerce.a.setClickable: void getInstance()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: java.lang.String convert2StreamPermission(java.lang.String)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.amplitude.api.DeviceInfo",
+                "method": "<com.amplitude.api.DeviceInfo: android.location.Location getMostRecentLocation()>",
+                "invokedAPI": "android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "lib.android.paypal.com.magnessdk.i",
+                "method": "<lib.android.paypal.com.magnessdk.i: void b(android.telephony.TelephonyManager)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.util.List getAllCellInfo()",
+                "data controller": "app"
+            },
+            {
+                "class": "lib.android.paypal.com.magnessdk.i",
+                "method": "<lib.android.paypal.com.magnessdk.i: void b(android.telephony.TelephonyManager)>",
+                "invokedAPI": "android.telephony.TelephonyManager: android.telephony.CellLocation getCellLocation()",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.WRITE_EXTERNAL_STORAGE": [
+            {
+                "class": "lib.android.paypal.com.magnessdk.i",
+                "method": "<lib.android.paypal.com.magnessdk.i: org.json.JSONObject a(lib.android.paypal.com.magnessdk.MagnesSettings,lib.android.paypal.com.magnessdk.d,lib.android.paypal.com.magnessdk.e,java.lang.String,java.lang.String,java.util.HashMap,android.os.Handler)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV33",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV33: boolean isGrantedPermission(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionUtils",
+                "method": "<com.hjq.permissions.PermissionUtils: android.content.Intent getSmartPermissionIntent(android.content.Context,java.util.List)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: boolean useSystemPermission(android.app.Activity,java.lang.String,io.dcloud.common.adapter.util.PermissionUtil$Request)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.b",
+                "method": "<io.dcloud.b: void onActivityResult(int,int,android.content.Intent)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: int trycatchGetPermission(android.app.Activity,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.nostra13.dcloudimageloader.utils.StorageUtils",
+                "method": "<com.nostra13.dcloudimageloader.utils.StorageUtils: boolean hasExternalStoragePermission(android.content.Context)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: java.lang.String convert2StreamPermission(java.lang.String)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkStoragePermission(android.content.Context,java.util.List,com.hjq.permissions.AndroidManifestInfo)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.dmcbig.mediapicker.utils.FileUtils",
+                "method": "<com.dmcbig.mediapicker.utils.FileUtils: boolean hasExternalStoragePermission(android.content.Context)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.Permission$Group",
+                "method": "<com.hjq.permissions.Permission$Group: void <clinit>()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV23",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV23: boolean isGrantedPermission(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.b",
+                "method": "<io.dcloud.b: void checkAndRequestStoragePermission()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.util.TelephonyUtil",
+                "method": "<io.dcloud.common.util.TelephonyUtil: java.lang.String getRandomId(android.content.Context)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.taobao.weex.ui.component.WXImage",
+                "method": "<com.taobao.weex.ui.component.WXImage: void save(com.taobao.weex.bridge.JSCallback)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void optimizeDeprecatedPermission(java.util.List)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkMediaLocationPermission(android.content.Context,java.util.List)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV33",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV33: boolean isDoNotAskAgainPermission(android.app.Activity,java.lang.String)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: java.lang.String convert2SystemPermission(java.lang.String)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionUtils",
+                "method": "<com.hjq.permissions.PermissionUtils: void optimizePermissionResults(android.app.Activity,java.lang.String[],int[])>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkManifestPermissions(android.content.Context,java.util.List,com.hjq.permissions.AndroidManifestInfo)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_EXTERNAL_STORAGE": [
+            {
+                "class": "com.facebook.imagepipeline.producers.LocalContentUriThumbnailFetchProducer",
+                "method": "<com.facebook.imagepipeline.producers.LocalContentUriThumbnailFetchProducer: com.facebook.imagepipeline.image.EncodedImage getThumbnail(com.facebook.imagepipeline.common.ResizeOptions,long)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Thumbnails: android.database.Cursor queryMiniThumbnail(android.content.ContentResolver,long,int,java.lang.String[])",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV29",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV29: boolean hasReadStoragePermission(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV23",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV23: boolean isGrantedPermission(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.taobao.weex.utils.WXViewToImageUtil",
+                "method": "<com.taobao.weex.utils.WXViewToImageUtil: java.lang.String saveBitmapToGallery(android.content.Context,android.graphics.Bitmap,com.taobao.weex.utils.WXViewToImageUtil$OnImageSavedCallback)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Media: java.lang.String insertImage(android.content.ContentResolver,java.lang.String,java.lang.String,java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.dmcbig.mediapicker.data.MediaLoader",
+                "method": "<com.dmcbig.mediapicker.data.MediaLoader: android.content.Loader onCreateLoader(int,android.os.Bundle)>",
+                "invokedAPI": "android.provider.MediaStore$Files: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionFragment",
+                "method": "<com.hjq.permissions.PermissionFragment: void requestDangerousPermission()>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void optimizeDeprecatedPermission(java.util.List)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkStoragePermission(android.content.Context,java.util.List,com.hjq.permissions.AndroidManifestInfo)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.dmcbig.mediapicker.adapter.MediaGridAdapter",
+                "method": "<com.dmcbig.mediapicker.adapter.MediaGridAdapter: void lambda$onBindViewHolder$1$com-dmcbig-mediapicker-adapter-MediaGridAdapter(android.net.Uri,com.dmcbig.mediapicker.entity.Media,com.dmcbig.mediapicker.adapter.MediaGridAdapter$MyViewHolder)>",
+                "invokedAPI": "android.provider.MediaStore$Video$Thumbnails: android.graphics.Bitmap getThumbnail(android.content.ContentResolver,long,int,android.graphics.BitmapFactory$Options)",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.common.util.FileUtil",
+                "method": "<io.dcloud.common.util.FileUtil: android.net.Uri getContentUriForSuffix(java.lang.String)>",
+                "invokedAPI": "android.provider.MediaStore$Files: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkManifestPermissions(android.content.Context,java.util.List,com.hjq.permissions.AndroidManifestInfo)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.common.util.FileUtil",
+                "method": "<io.dcloud.common.util.FileUtil: java.io.InputStream getFileInputStream(android.content.Context,java.io.File)>",
+                "invokedAPI": "android.provider.MediaStore$Files: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "lib.android.paypal.com.magnessdk.i",
+                "method": "<lib.android.paypal.com.magnessdk.i: org.json.JSONObject a(lib.android.paypal.com.magnessdk.MagnesSettings,lib.android.paypal.com.magnessdk.d,lib.android.paypal.com.magnessdk.e,java.lang.String,java.lang.String,java.util.HashMap,android.os.Handler)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkMediaLocationPermission(android.content.Context,java.util.List)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.common.util.FileUtil",
+                "method": "<io.dcloud.common.util.FileUtil: android.net.Uri createPublicDocumentsFile(android.content.Context,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.provider.MediaStore$Files: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.dmcbig.mediapicker.data.VideoLoader",
+                "method": "<com.dmcbig.mediapicker.data.VideoLoader: android.content.Loader onCreateLoader(int,android.os.Bundle)>",
+                "invokedAPI": "android.provider.MediaStore$Files: android.net.Uri getContentUri(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.dmcbig.mediapicker.adapter.MediaGridAdapter",
+                "method": "<com.dmcbig.mediapicker.adapter.MediaGridAdapter: void lambda$onBindViewHolder$1$com-dmcbig-mediapicker-adapter-MediaGridAdapter(android.net.Uri,com.dmcbig.mediapicker.entity.Media,com.dmcbig.mediapicker.adapter.MediaGridAdapter$MyViewHolder)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Thumbnails: android.graphics.Bitmap getThumbnail(android.content.ContentResolver,long,int,android.graphics.BitmapFactory$Options)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV33",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV33: boolean isDoNotAskAgainPermission(android.app.Activity,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.squareup.picasso.MediaStoreRequestHandler",
+                "method": "<com.squareup.picasso.MediaStoreRequestHandler: com.squareup.picasso.RequestHandler$Result load(com.squareup.picasso.Request,int)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Thumbnails: android.graphics.Bitmap getThumbnail(android.content.ContentResolver,long,int,android.graphics.BitmapFactory$Options)",
+                "data controller": "App Market Libraries"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV23",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV23: boolean isDoNotAskAgainPermission(android.app.Activity,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.squareup.picasso.MediaStoreRequestHandler",
+                "method": "<com.squareup.picasso.MediaStoreRequestHandler: com.squareup.picasso.RequestHandler$Result load(com.squareup.picasso.Request,int)>",
+                "invokedAPI": "android.provider.MediaStore$Video$Thumbnails: android.graphics.Bitmap getThumbnail(android.content.ContentResolver,long,int,android.graphics.BitmapFactory$Options)",
+                "data controller": "App Market Libraries"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionUtils",
+                "method": "<com.hjq.permissions.PermissionUtils: android.content.Intent getSmartPermissionIntent(android.content.Context,java.util.List)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.Permission$Group",
+                "method": "<com.hjq.permissions.Permission$Group: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV33",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV33: boolean isGrantedPermission(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.RECORD_AUDIO": [
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: int trycatchGetPermission(android.app.Activity,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.media.MediaRecorder: void prepare()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: java.lang.String convert2SystemPermission(java.lang.String)>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.RecorderTask",
+                "method": "<io.dcloud.feature.audio.recorder.RecorderTask: boolean isFound()>",
+                "invokedAPI": "android.media.AudioRecord: int getMinBufferSize(int,int,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.AudioRecorder",
+                "method": "<io.dcloud.feature.audio.recorder.AudioRecorder: void <init>(io.dcloud.feature.audio.recorder.RecordOption)>",
+                "invokedAPI": "android.media.MediaRecorder: void setAudioSource(int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: int trycatchGetPermission(android.app.Activity,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.media.MediaRecorder: void setAudioSource(int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.AudioRecorder",
+                "method": "<io.dcloud.feature.audio.recorder.AudioRecorder: void stop()>",
+                "invokedAPI": "android.media.MediaRecorder: void stop()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.AudioRecorder",
+                "method": "<io.dcloud.feature.audio.recorder.AudioRecorder: void <init>(io.dcloud.feature.audio.recorder.RecordOption)>",
+                "invokedAPI": "android.media.MediaRecorder: void setAudioEncoder(int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.AudioRecorder",
+                "method": "<io.dcloud.feature.audio.recorder.AudioRecorder: void start()>",
+                "invokedAPI": "android.media.MediaRecorder: void start()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.RecorderTask",
+                "method": "<io.dcloud.feature.audio.recorder.RecorderTask: void run()>",
+                "invokedAPI": "android.media.AudioRecord: void startRecording()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.RecorderTask",
+                "method": "<io.dcloud.feature.audio.recorder.RecorderTask: void run()>",
+                "invokedAPI": "android.media.AudioRecord: int getSampleRate()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.AudioRecorder",
+                "method": "<io.dcloud.feature.audio.recorder.AudioRecorder: void <init>(io.dcloud.feature.audio.recorder.RecordOption)>",
+                "invokedAPI": "android.media.MediaRecorder: void setOutputFile(java.lang.String)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: int trycatchGetPermission(android.app.Activity,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.media.MediaRecorder: void stop()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.RecorderTask",
+                "method": "<io.dcloud.feature.audio.recorder.RecorderTask: void init()>",
+                "invokedAPI": "android.media.AudioRecord: int setPositionNotificationPeriod(int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: int trycatchGetPermission(android.app.Activity,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.media.MediaRecorder: void setAudioSamplingRate(int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.RecorderTask",
+                "method": "<io.dcloud.feature.audio.recorder.RecorderTask: void init()>",
+                "invokedAPI": "android.media.AudioRecord: int getAudioFormat()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.RecorderTask",
+                "method": "<io.dcloud.feature.audio.recorder.RecorderTask: boolean isFound()>",
+                "invokedAPI": "android.media.AudioRecord: int getState()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: java.lang.String convert2StreamPermission(java.lang.String)>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.AudioRecorder",
+                "method": "<io.dcloud.feature.audio.recorder.AudioRecorder: void <init>(io.dcloud.feature.audio.recorder.RecordOption)>",
+                "invokedAPI": "android.media.MediaRecorder: void setOutputFormat(int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: int trycatchGetPermission(android.app.Activity,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.media.MediaRecorder: void setOutputFile(java.lang.String)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: int trycatchGetPermission(android.app.Activity,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: int trycatchGetPermission(android.app.Activity,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.media.MediaRecorder: void <init>()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: int trycatchGetPermission(android.app.Activity,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.media.MediaRecorder: void setAudioEncoder(int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.RecorderTask",
+                "method": "<io.dcloud.feature.audio.recorder.RecorderTask: void run()>",
+                "invokedAPI": "android.media.AudioRecord: int read(byte[],int,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.RecorderTask",
+                "method": "<io.dcloud.feature.audio.recorder.RecorderTask: void stopRecord()>",
+                "invokedAPI": "android.media.AudioRecord: void stop()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: int trycatchGetPermission(android.app.Activity,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.media.MediaRecorder: void setOutputFormat(int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.RecorderTask",
+                "method": "<io.dcloud.feature.audio.recorder.RecorderTask: void createRecord(int,int,int)>",
+                "invokedAPI": "android.media.AudioRecord: void <init>(int,int,int,int,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.RecorderTask",
+                "method": "<io.dcloud.feature.audio.recorder.RecorderTask: void run()>",
+                "invokedAPI": "android.media.AudioRecord: void stop()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.AudioRecorder",
+                "method": "<io.dcloud.feature.audio.recorder.AudioRecorder: void <init>(io.dcloud.feature.audio.recorder.RecordOption)>",
+                "invokedAPI": "android.media.MediaRecorder: void setAudioSamplingRate(int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.RecorderTask",
+                "method": "<io.dcloud.feature.audio.recorder.RecorderTask: void run()>",
+                "invokedAPI": "android.media.AudioRecord: int read(short[],int,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.weex.extend.PlusModule",
+                "method": "<io.dcloud.feature.weex.extend.PlusModule: com.alibaba.fastjson.JSONObject getAppAuthorizeSetting()>",
+                "invokedAPI": "android.permission.RECORD_AUDIO",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.RecorderTask",
+                "method": "<io.dcloud.feature.audio.recorder.RecorderTask: void init()>",
+                "invokedAPI": "android.media.AudioRecord: int getChannelCount()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.RecorderTask",
+                "method": "<io.dcloud.feature.audio.recorder.RecorderTask: void run()>",
+                "invokedAPI": "android.media.AudioRecord: int getChannelCount()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.RecorderTask",
+                "method": "<io.dcloud.feature.audio.recorder.RecorderTask: void stopRecord()>",
+                "invokedAPI": "android.media.AudioRecord: void release()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.AudioRecorder",
+                "method": "<io.dcloud.feature.audio.recorder.AudioRecorder: void release()>",
+                "invokedAPI": "android.media.MediaRecorder: void release()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.AudioRecorder",
+                "method": "<io.dcloud.feature.audio.recorder.AudioRecorder: void <init>(io.dcloud.feature.audio.recorder.RecordOption)>",
+                "invokedAPI": "android.media.MediaRecorder: void reset()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.RecorderTask",
+                "method": "<io.dcloud.feature.audio.recorder.RecorderTask: void init()>",
+                "invokedAPI": "android.media.AudioRecord: int getSampleRate()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.AudioRecorder",
+                "method": "<io.dcloud.feature.audio.recorder.AudioRecorder: void <init>(io.dcloud.feature.audio.recorder.RecordOption)>",
+                "invokedAPI": "android.media.MediaRecorder: void <init>()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: int trycatchGetPermission(android.app.Activity,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.media.MediaRecorder: void release()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.RecorderTask",
+                "method": "<io.dcloud.feature.audio.recorder.RecorderTask: void run()>",
+                "invokedAPI": "android.media.AudioRecord: int getAudioFormat()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.RecorderTask",
+                "method": "<io.dcloud.feature.audio.recorder.RecorderTask: void init()>",
+                "invokedAPI": "android.media.AudioRecord: void setRecordPositionUpdateListener(android.media.AudioRecord$OnRecordPositionUpdateListener,android.os.Handler)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: int trycatchGetPermission(android.app.Activity,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.media.MediaRecorder: void start()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: int trycatchGetPermission(android.app.Activity,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.media.MediaRecorder: void reset()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.audio.recorder.AudioRecorder",
+                "method": "<io.dcloud.feature.audio.recorder.AudioRecorder: void <init>(io.dcloud.feature.audio.recorder.RecordOption)>",
+                "invokedAPI": "android.media.MediaRecorder: void prepare()",
+                "data controller": "Development Aid Libraries"
+            }
+        ],
+        "android.permission.READ_MEDIA_IMAGES": [
+            {
+                "class": "com.dmcbig.mediapicker.PickerActivity",
+                "method": "<com.dmcbig.mediapicker.PickerActivity: void onRequestPermissionsResult(int,java.lang.String[],int[])>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV33",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV33: boolean isGrantedPermission(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "com.dmcbig.mediapicker.PickerActivity$3",
+                "method": "<com.dmcbig.mediapicker.PickerActivity$3: void onAddMore()>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "com.dmcbig.mediapicker.PickerActivity",
+                "method": "<com.dmcbig.mediapicker.PickerActivity: void lambda$permissionBar$0$com-dmcbig-mediapicker-PickerActivity(android.view.View)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkManifestPermissions(android.content.Context,java.util.List,com.hjq.permissions.AndroidManifestInfo)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.js.gallery.GalleryFeatureImpl$a",
+                "method": "<io.dcloud.js.gallery.GalleryFeatureImpl$a: void onDenied(java.lang.String)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV23",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV23: boolean isGrantedPermission(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionUtils",
+                "method": "<com.hjq.permissions.PermissionUtils: void optimizePermissionResults(android.app.Activity,java.lang.String[],int[])>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV29",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV29: boolean hasReadStoragePermission(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkReadMediaVisualUserSelectedPermission(java.util.List)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "com.dmcbig.mediapicker.PickerActivity",
+                "method": "<com.dmcbig.mediapicker.PickerActivity: void checkoutNeedShowPermissionBar()>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkStoragePermission(android.content.Context,java.util.List,com.hjq.permissions.AndroidManifestInfo)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV34",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV34: boolean isGrantedPermission(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.Permission",
+                "method": "<com.hjq.permissions.Permission: int getDangerPermissionFromAndroidVersion(java.lang.String)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void optimizeDeprecatedPermission(java.util.List)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkMediaLocationPermission(android.content.Context,java.util.List)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: boolean useSystemPermission(android.app.Activity,java.lang.String,io.dcloud.common.adapter.util.PermissionUtil$Request)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.dmcbig.mediapicker.PickerActivity",
+                "method": "<com.dmcbig.mediapicker.PickerActivity: void onActivityResult(int,int,android.content.Intent)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV23",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV23: boolean isDoNotAskAgainPermission(android.app.Activity,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "com.dmcbig.mediapicker.PickerActivity",
+                "method": "<com.dmcbig.mediapicker.PickerActivity: void permissionBar()>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV33",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV33: boolean isDoNotAskAgainPermission(android.app.Activity,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.js.gallery.GalleryFeatureImpl",
+                "method": "<io.dcloud.js.gallery.GalleryFeatureImpl: java.lang.String execute(io.dcloud.common.DHInterface.IWebview,java.lang.String,java.lang.String[])>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: java.lang.String convert2SystemPermission(java.lang.String)>",
+                "invokedAPI": "android.permission.READ_MEDIA_IMAGES",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.share.a",
+                "method": "<io.dcloud.share.a: android.net.Uri a(android.content.Context,java.io.File,android.content.Intent)>",
+                "invokedAPI": "android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI->query",
+                "data controller": "Development Aid Libraries"
+            }
+        ],
+        "android.permission.READ_PHONE_STATE": [
+            {
+                "class": "com.cardinalcommerce.a.setClickable",
+                "method": "<com.cardinalcommerce.a.setClickable: void getInstance()>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.h.a.d.b.d",
+                "method": "<io.dcloud.h.a.d.b.d: java.lang.String d(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.device.DeviceFeatureImpl",
+                "method": "<io.dcloud.feature.device.DeviceFeatureImpl: java.lang.String execute(io.dcloud.common.DHInterface.IWebview,java.lang.String,java.lang.String[])>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.b$j",
+                "method": "<io.dcloud.b$j: void onDenied(java.lang.String)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.b",
+                "method": "<io.dcloud.b: void onActivityResult(int,int,android.content.Intent)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.paypal.android.platform.authsdk.authcommon.utils.DeviceInfoFactory",
+                "method": "<com.paypal.android.platform.authsdk.authcommon.utils.DeviceInfoFactory: java.lang.String lookupNetworkType(android.content.Context,android.telephony.TelephonyManager)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Payment Libraries"
+            },
+            {
+                "class": "lib.android.paypal.com.magnessdk.i",
+                "method": "<lib.android.paypal.com.magnessdk.i: org.json.JSONObject a(lib.android.paypal.com.magnessdk.MagnesSettings,lib.android.paypal.com.magnessdk.d,lib.android.paypal.com.magnessdk.e,java.lang.String,java.lang.String,java.util.HashMap,android.os.Handler)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "lib.android.paypal.com.magnessdk.i",
+                "method": "<lib.android.paypal.com.magnessdk.i: void a(int,lib.android.paypal.com.magnessdk.MagnesSettings)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSubscriberId()",
+                "data controller": "app"
+            },
+            {
+                "class": "lib.android.paypal.com.magnessdk.i",
+                "method": "<lib.android.paypal.com.magnessdk.i: void a(int,lib.android.paypal.com.magnessdk.MagnesSettings)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()",
+                "data controller": "app"
+            },
+            {
+                "class": "lib.android.paypal.com.magnessdk.i",
+                "method": "<lib.android.paypal.com.magnessdk.i: void a(int,lib.android.paypal.com.magnessdk.MagnesSettings)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.b$l",
+                "method": "<io.dcloud.b$l: void onClick(android.content.DialogInterface,int)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void optimizeDeprecatedPermission(java.util.List)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV23",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV23: boolean isGrantedPermission(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.common.util.TelephonyUtil",
+                "method": "<io.dcloud.common.util.TelephonyUtil: java.lang.String getIMSI(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "retrofit2.Platform$$ExternalSyntheticApiModelOutline0",
+                "method": "<retrofit2.Platform$$ExternalSyntheticApiModelOutline0: java.lang.String m$1(android.telephony.TelephonyManager)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getMeid()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.h.a.d.b.d",
+                "method": "<io.dcloud.h.a.d.b.d: java.lang.String[] f(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV23",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV23: boolean isDoNotAskAgainPermission(android.app.Activity,java.lang.String)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "retrofit2.Platform$$ExternalSyntheticApiModelOutline0",
+                "method": "<retrofit2.Platform$$ExternalSyntheticApiModelOutline0: java.lang.String m(android.telephony.TelephonyManager)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getImei()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.h.a.d.b.d",
+                "method": "<io.dcloud.h.a.d.b.d: java.lang.String c(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.util.TelephonyUtil",
+                "method": "<io.dcloud.common.util.TelephonyUtil: java.lang.String getAId(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.cardinalcommerce.a.setHorizontalFadingEdgeEnabled",
+                "method": "<com.cardinalcommerce.a.setHorizontalFadingEdgeEnabled: void configure(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.h.a.d.b.d",
+                "method": "<io.dcloud.h.a.d.b.d: java.lang.String c(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.b",
+                "method": "<io.dcloud.b: void checkAndRequestPhoneState()>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.util.TelephonyUtil",
+                "method": "<io.dcloud.common.util.TelephonyUtil: java.lang.String[] getMultiIMEI(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.h.a.d.b.d",
+                "method": "<io.dcloud.h.a.d.b.d: java.lang.String b(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getSubscriberId()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "retrofit2.Platform$$ExternalSyntheticApiModelOutline0",
+                "method": "<retrofit2.Platform$$ExternalSyntheticApiModelOutline0: java.lang.String m()>",
+                "invokedAPI": "android.os.Build: java.lang.String getSerial()",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkManifestPermissions(android.content.Context,java.util.List,com.hjq.permissions.AndroidManifestInfo)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.h.a.d.b.d",
+                "method": "<io.dcloud.h.a.d.b.d: java.lang.String[] f(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.h.a.d.b.d",
+                "method": "<io.dcloud.h.a.d.b.d: java.lang.String[] f(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: java.lang.String getDeviceId(int)",
+                "data controller": "Development Aid Libraries"
+            }
+        ],
+        "android.permission.ACCESS_FINE_LOCATION": [
+            {
+                "class": "com.paypal.pyplcheckout.instrumentation.amplitude.models.DeviceInfo",
+                "method": "<com.paypal.pyplcheckout.instrumentation.amplitude.models.DeviceInfo: boolean checkLocationPermissionAllowed(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Payment Libraries"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkLocationPermission(java.util.List)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.cardinalcommerce.a.setClickable",
+                "method": "<com.cardinalcommerce.a.setClickable: void getInstance()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void optimizeDeprecatedPermission(java.util.List)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkNearbyDevicesPermission(java.util.List,com.hjq.permissions.AndroidManifestInfo)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.amplitude.api.Utils",
+                "method": "<com.amplitude.api.Utils: boolean checkLocationPermissionAllowed(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.h.a.d.b.f",
+                "method": "<io.dcloud.h.a.d.b.f: org.json.JSONObject a(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.h.a.d.b.f",
+                "method": "<io.dcloud.h.a.d.b.f: java.util.Map a(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV23",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV23: boolean isGrantedPermission(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.onesignal.LocationController",
+                "method": "<com.onesignal.LocationController: void getLocation(android.content.Context,boolean,boolean,com.onesignal.LocationController$LocationHandler)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.onesignal.LocationController",
+                "method": "<com.onesignal.LocationController: boolean hasLocationPermission(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV29",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV29: boolean isDoNotAskAgainPermission(android.app.Activity,java.lang.String)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: boolean useSystemPermission(android.app.Activity,java.lang.String,io.dcloud.common.adapter.util.PermissionUtil$Request)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV23",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV23: boolean isDoNotAskAgainPermission(android.app.Activity,java.lang.String)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionChecker",
+                "method": "<com.hjq.permissions.PermissionChecker: void checkManifestPermissions(android.content.Context,java.util.List,com.hjq.permissions.AndroidManifestInfo)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.hjq.permissions.PermissionDelegateImplV31",
+                "method": "<com.hjq.permissions.PermissionDelegateImplV31: boolean isDoNotAskAgainPermission(android.app.Activity,java.lang.String)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "lib.android.paypal.com.magnessdk.i",
+                "method": "<lib.android.paypal.com.magnessdk.i: org.json.JSONObject a(lib.android.paypal.com.magnessdk.MagnesSettings,lib.android.paypal.com.magnessdk.d,lib.android.paypal.com.magnessdk.e,java.lang.String,java.lang.String,java.util.HashMap,android.os.Handler)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.feature.weex.extend.PlusModule",
+                "method": "<io.dcloud.feature.weex.extend.PlusModule: com.alibaba.fastjson.JSONObject getAppAuthorizeSetting()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.cardinalcommerce.a.setHorizontalFadingEdgeEnabled",
+                "method": "<com.cardinalcommerce.a.setHorizontalFadingEdgeEnabled: void configure(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.GET_ACCOUNTS": [
+            {
+                "class": "com.hjq.permissions.Permission$Group",
+                "method": "<com.hjq.permissions.Permission$Group: void <clinit>()>",
+                "invokedAPI": "android.permission.GET_ACCOUNTS",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.CAMERA": [
+            {
+                "class": "io.dcloud.common.adapter.ui.FileChooseDialog",
+                "method": "<io.dcloud.common.adapter.ui.FileChooseDialog: void <init>(android.content.Context,android.app.Activity,android.content.Intent)>",
+                "invokedAPI": "android.media.action.VIDEO_CAPTURE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.js.camera.CameraFeatureImpl$b",
+                "method": "<io.dcloud.js.camera.CameraFeatureImpl$b: void onGranted(java.lang.String)>",
+                "invokedAPI": "android.media.action.VIDEO_CAPTURE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.ui.FileChooseDialog$2",
+                "method": "<io.dcloud.common.adapter.ui.FileChooseDialog$2: void onClick(android.view.View)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.gallery.imageedit.IMGEditActivity",
+                "method": "<io.dcloud.feature.gallery.imageedit.IMGEditActivity: void f()>",
+                "invokedAPI": "android.media.action.IMAGE_CAPTURE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.dmcbig.mediapicker.TakePhotoActivity",
+                "method": "<com.dmcbig.mediapicker.TakePhotoActivity: void onCreate(android.os.Bundle)>",
+                "invokedAPI": "android.media.action.IMAGE_CAPTURE",
+                "data controller": "app"
+            },
+            {
+                "class": "io.dcloud.feature.weex_barcode.BarcodeView",
+                "method": "<io.dcloud.feature.weex_barcode.BarcodeView: void start()>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: java.lang.String convert2SystemPermission(java.lang.String)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: java.lang.String convert2StreamPermission(java.lang.String)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.js.camera.CameraFeatureImpl",
+                "method": "<io.dcloud.js.camera.CameraFeatureImpl: java.lang.String execute(io.dcloud.common.DHInterface.IWebview,java.lang.String,java.lang.String[])>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: int trycatchGetPermission(android.app.Activity,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.ui.FileChooseDialog",
+                "method": "<io.dcloud.common.adapter.ui.FileChooseDialog: void <init>(android.content.Context,android.app.Activity,android.content.Intent)>",
+                "invokedAPI": "android.media.action.IMAGE_CAPTURE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.js.camera.CameraFeatureImpl$a",
+                "method": "<io.dcloud.js.camera.CameraFeatureImpl$a: void onGranted(java.lang.String)>",
+                "invokedAPI": "android.media.action.IMAGE_CAPTURE",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.feature.weex.extend.PlusModule",
+                "method": "<io.dcloud.feature.weex.extend.PlusModule: com.alibaba.fastjson.JSONObject getAppAuthorizeSetting()>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Development Aid Libraries"
+            }
+        ],
+        "android.permission.WRITE_CONTACTS": [
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: java.lang.String convert2SystemPermission(java.lang.String)>",
+                "invokedAPI": "android.permission.WRITE_CONTACTS",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: java.lang.String convert2StreamPermission(java.lang.String)>",
+                "invokedAPI": "android.permission.WRITE_CONTACTS",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "io.dcloud.common.adapter.util.PermissionUtil",
+                "method": "<io.dcloud.common.adapter.util.PermissionUtil: int trycatchGetPermission(android.app.Activity,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.permission.WRITE_CONTACTS",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.hjq.permissions.Permission$Group",
+                "method": "<com.hjq.permissions.Permission$Group: void <clinit>()>",
+                "invokedAPI": "android.permission.WRITE_CONTACTS",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_CONTACTS": [
+            {
+                "class": "com.hjq.permissions.Permission$Group",
+                "method": "<com.hjq.permissions.Permission$Group: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_CONTACTS",
+                "data controller": "app"
+            }
+        ]
+    }
+}

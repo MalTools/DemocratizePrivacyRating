@@ -1,0 +1,52 @@
+{
+    "QR and Barcode Scanner Android": {
+        "android.permission.CAMERA": [
+            {
+                "class": "com.haianhemteam.qrbarcodescannerandroid.view.fragment.ScannerFragment",
+                "method": "<com.haianhemteam.qrbarcodescannerandroid.view.fragment.ScannerFragment: void handleCheckCameraPermission()>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.haianhemteam.qrbarcodescannerandroid.view.fragment.ScannerFragment",
+                "method": "<com.haianhemteam.qrbarcodescannerandroid.view.fragment.ScannerFragment: void onPause()>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.journeyapps.barcodescanner.CaptureManager",
+                "method": "<com.journeyapps.barcodescanner.CaptureManager: void openCameraWithPermission()>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.ACCESS_FINE_LOCATION": [
+            {
+                "class": "com.google.android.gms.internal.ads.zzcmk",
+                "method": "<com.google.android.gms.internal.ads.zzcmk: void onGeolocationPermissionsShowPrompt(java.lang.String,android.webkit.GeolocationPermissions$Callback)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            }
+        ],
+        "android.permission.WRITE_EXTERNAL_STORAGE": [
+            {
+                "class": "com.haianhemteam.qrbarcodescannerandroid.view.fragment.ScannerFragment",
+                "method": "<com.haianhemteam.qrbarcodescannerandroid.view.fragment.ScannerFragment: void handleCheckPermissionGallery()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.haianhemteam.qrbarcodescannerandroid.view.fragment.CreateQrResultFragment",
+                "method": "<com.haianhemteam.qrbarcodescannerandroid.view.fragment.CreateQrResultFragment: void saveTempBitmap()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.internal.ads.zzbiv",
+                "method": "<com.google.android.gms.internal.ads.zzbiv: boolean zza()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            }
+        ]
+    }
+}

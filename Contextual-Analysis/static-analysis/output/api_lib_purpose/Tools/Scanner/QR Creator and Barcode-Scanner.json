@@ -1,0 +1,168 @@
+{
+    "QR Creator and Barcode-Scanner": {
+        "android.permission.ACCESS_FINE_LOCATION": [
+            {
+                "class": "wifiwizard2.WifiWizard2",
+                "method": "<wifiwizard2.WifiWizard2: boolean getWifiServiceInfo(org.apache.cordova.CallbackContext,boolean)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "wifiwizard2.WifiWizard2",
+                "method": "<wifiwizard2.WifiWizard2: boolean getScanResults(org.apache.cordova.CallbackContext,org.json.JSONArray)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "wifiwizard2.WifiWizard2",
+                "method": "<wifiwizard2.WifiWizard2: void requestLocationPermission(int)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_CONTACTS": [
+            {
+                "class": "de.einfachhans.ContactsX.ContactsX",
+                "method": "<de.einfachhans.ContactsX.ContactsX: void requestPermission(boolean)>",
+                "invokedAPI": "android.permission.READ_CONTACTS",
+                "data controller": "app"
+            },
+            {
+                "class": "de.einfachhans.ContactsX.ContactsX",
+                "method": "<de.einfachhans.ContactsX.ContactsX: boolean execute(java.lang.String,org.json.JSONArray,org.apache.cordova.CallbackContext)>",
+                "invokedAPI": "android.permission.READ_CONTACTS",
+                "data controller": "app"
+            },
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_CONTACTS",
+                "data controller": "app"
+            },
+            {
+                "class": "de.einfachhans.ContactsX.ContactsX",
+                "method": "<de.einfachhans.ContactsX.ContactsX: org.json.JSONObject getContactById(java.lang.String)>",
+                "invokedAPI": "android.provider.ContactsContract.Data.CONTENT_URI->query",
+                "data controller": "app"
+            },
+            {
+                "class": "de.einfachhans.ContactsX.ContactsX",
+                "method": "<de.einfachhans.ContactsX.ContactsX: void hasPermission()>",
+                "invokedAPI": "android.permission.READ_CONTACTS",
+                "data controller": "app"
+            },
+            {
+                "class": "de.einfachhans.ContactsX.ContactsX",
+                "method": "<de.einfachhans.ContactsX.ContactsX: boolean performDelete(java.lang.String)>",
+                "invokedAPI": "android.provider.ContactsContract.Contacts.CONTENT_URI->query",
+                "data controller": "app"
+            },
+            {
+                "class": "de.einfachhans.ContactsX.ContactsX",
+                "method": "<de.einfachhans.ContactsX.ContactsX: void onActivityResult(int,int,android.content.Intent)>",
+                "invokedAPI": "android.provider.ContactsContract.RawContacts.CONTENT_URI->query",
+                "data controller": "app"
+            },
+            {
+                "class": "de.einfachhans.ContactsX.ContactsX",
+                "method": "<de.einfachhans.ContactsX.ContactsX: void lambda$find$0$ContactsX(de.einfachhans.ContactsX.ContactsXFindOptions)>",
+                "invokedAPI": "android.provider.ContactsContract.Data.CONTENT_URI->query",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.WRITE_EXTERNAL_STORAGE": [
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.WRITE_CONTACTS": [
+            {
+                "class": "de.einfachhans.ContactsX.ContactsX",
+                "method": "<de.einfachhans.ContactsX.ContactsX: boolean execute(java.lang.String,org.json.JSONArray,org.apache.cordova.CallbackContext)>",
+                "invokedAPI": "android.permission.WRITE_CONTACTS",
+                "data controller": "app"
+            },
+            {
+                "class": "de.einfachhans.ContactsX.ContactsX",
+                "method": "<de.einfachhans.ContactsX.ContactsX: void requestPermission(boolean)>",
+                "invokedAPI": "android.permission.WRITE_CONTACTS",
+                "data controller": "app"
+            },
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.WRITE_CONTACTS",
+                "data controller": "app"
+            },
+            {
+                "class": "de.einfachhans.ContactsX.ContactsX",
+                "method": "<de.einfachhans.ContactsX.ContactsX: void hasPermission()>",
+                "invokedAPI": "android.permission.WRITE_CONTACTS",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.GET_ACCOUNTS": [
+            {
+                "class": "com.google.android.gms.measurement.internal.zzan",
+                "method": "<com.google.android.gms.measurement.internal.zzan: boolean zze()>",
+                "invokedAPI": "android.accounts.AccountManager: android.accounts.AccountManagerFuture getAccountsByTypeAndFeatures(java.lang.String,java.lang.String[],android.accounts.AccountManagerCallback,android.os.Handler)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "de.einfachhans.ContactsX.ContactsX",
+                "method": "<de.einfachhans.ContactsX.ContactsX: java.lang.String performSave(org.json.JSONObject)>",
+                "invokedAPI": "android.accounts.AccountManager: android.accounts.Account[] getAccounts()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.measurement.internal.zzan",
+                "method": "<com.google.android.gms.measurement.internal.zzan: boolean zze()>",
+                "invokedAPI": "android.permission.GET_ACCOUNTS",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.GET_ACCOUNTS",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.CAMERA": [
+            {
+                "class": "com.phonegap.plugins.barcodescanner.BarcodeScanner",
+                "method": "<com.phonegap.plugins.barcodescanner.BarcodeScanner: void <init>()>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_PHONE_STATE": [
+            {
+                "class": "cordova.plugins.Diagnostic",
+                "method": "<cordova.plugins.Diagnostic: void <clinit>()>",
+                "invokedAPI": "android.permission.READ_PHONE_STATE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.adjust.sdk.Util",
+                "method": "<com.adjust.sdk.Util: int getNetworkType(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: int getDataNetworkType()",
+                "data controller": "Advertisement Libraries"
+            }
+        ]
+    }
+}

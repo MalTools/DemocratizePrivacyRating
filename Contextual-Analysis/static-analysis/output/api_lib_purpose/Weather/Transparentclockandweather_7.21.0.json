@@ -1,0 +1,1382 @@
+{
+    "Transparentclockandweather_7.21.0": {
+        "android.permission.ACCESS_COARSE_LOCATION": [
+            {
+                "class": "com.droid27.weatherinterface.mylocation.MyLocationActivity",
+                "method": "<com.droid27.weatherinterface.mylocation.MyLocationActivity: void onCreate(android.os.Bundle)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yandex.mobile.ads.impl.i70$a",
+                "method": "<com.yandex.mobile.ads.impl.i70$a: com.yandex.mobile.ads.impl.i70$a g(android.content.Context)>",
+                "invokedAPI": "android.telephony.TelephonyManager: android.telephony.CellLocation getCellLocation()",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.amazon.device.ads.DtbGeoLocation",
+                "method": "<com.amazon.device.ads.DtbGeoLocation: boolean hasLocationCoarsePermission(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "io.appmetrica.analytics.impl.Mb",
+                "method": "<io.appmetrica.analytics.impl.Mb: void <clinit>()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.map.MapView",
+                "method": "<com.droid27.map.MapView: void e(boolean,boolean,boolean,boolean)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "io.appmetrica.analytics.location.impl.u",
+                "method": "<io.appmetrica.analytics.location.impl.u: android.location.Location a(io.appmetrica.analytics.location.impl.u,android.location.LocationManager)>",
+                "invokedAPI": "android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "o.qd",
+                "method": "<o.qd: void onActivityResult(java.lang.Object)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "o.va",
+                "method": "<o.va: void onActivityResult(java.lang.Object)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "io.appmetrica.analytics.location.impl.f",
+                "method": "<io.appmetrica.analytics.location.impl.f: io.appmetrica.analytics.coreapi.internal.permission.PermissionResolutionStrategy a(io.appmetrica.analytics.coreapi.internal.system.PermissionExtractor)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation",
+                "method": "<com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation: boolean onPreferenceChange(androidx.preference.Preference,java.lang.Object)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "io.appmetrica.analytics.location.impl.r",
+                "method": "<io.appmetrica.analytics.location.impl.r: kotlin.Unit b(io.appmetrica.analytics.location.impl.r,android.location.LocationManager)>",
+                "invokedAPI": "android.location.LocationManager: void removeUpdates(android.location.LocationListener)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.utilities.AppUtils",
+                "method": "<com.droid27.utilities.AppUtils: boolean c(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.internal.ads.zzcfj",
+                "method": "<com.google.android.gms.internal.ads.zzcfj: void onGeolocationPermissionsShowPrompt(java.lang.String,android.webkit.GeolocationPermissions$Callback)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.yandex.mobile.ads.impl.yw1",
+                "method": "<com.yandex.mobile.ads.impl.yw1: android.location.Location a(java.lang.String)>",
+                "invokedAPI": "android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation",
+                "method": "<com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation: void onCreate(android.os.Bundle)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.common.location.MyLocation",
+                "method": "<com.droid27.common.location.MyLocation: void f(java.lang.String,boolean)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yandex.mobile.ads.impl.va1",
+                "method": "<com.yandex.mobile.ads.impl.va1: boolean a()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.amazon.device.ads.DtbGeoLocation",
+                "method": "<com.amazon.device.ads.DtbGeoLocation: android.location.Location getLastLocation(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "sg.bigo.ads.common.s.a",
+                "method": "<sg.bigo.ads.common.s.a: sg.bigo.ads.common.s.b a(android.content.Context)>",
+                "invokedAPI": "android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)",
+                "data controller": "app"
+            },
+            {
+                "class": "io.appmetrica.analytics.location.impl.c",
+                "method": "<io.appmetrica.analytics.location.impl.c: io.appmetrica.analytics.locationapi.internal.LastKnownLocationExtractor getExtractor(android.content.Context,io.appmetrica.analytics.coreapi.internal.system.PermissionExtractor,io.appmetrica.analytics.coreapi.internal.executors.IHandlerExecutor,android.location.LocationListener)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.setup.location.AutoDetectLocationActivity",
+                "method": "<com.droid27.setup.location.AutoDetectLocationActivity: void x()>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.location.GmsLocationDetector",
+                "method": "<com.droid27.location.GmsLocationDetector: java.lang.Object a(kotlin.coroutines.Continuation)>",
+                "invokedAPI": "android.permission.ACCESS_COARSE_LOCATION",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.QUERY_ALL_PACKAGES": [
+            {
+                "class": "com.appnext.core.h$4",
+                "method": "<com.appnext.core.h$4: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "sg.bigo.ads.common.aa.b",
+                "method": "<sg.bigo.ads.common.aa.b: java.lang.String e(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.appnext.core.h",
+                "method": "<com.appnext.core.h: boolean n(java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.applovin.impl.la",
+                "method": "<com.applovin.impl.la: void a(java.util.Map)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.pgl.ssdk.r",
+                "method": "<com.pgl.ssdk.r: java.lang.String f()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.pairip.SignatureCheck",
+                "method": "<com.pairip.SignatureCheck: void verifyIntegrity(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.appnext.core.ResultActivity$1",
+                "method": "<com.appnext.core.ResultActivity$1: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "sg.bigo.ads.common.utils.c",
+                "method": "<sg.bigo.ads.common.utils.c: long d(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.utils.Sco",
+                "method": "<com.bytedance.sdk.openadsdk.utils.Sco: boolean Sg(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.google.android.play.core.assetpacks.ec",
+                "method": "<com.google.android.play.core.assetpacks.ec: int a()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.libraries.places.internal.zzju",
+                "method": "<com.google.android.libraries.places.internal.zzju: java.lang.String zza(android.content.pm.PackageManager,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "o.rc",
+                "method": "<o.rc: android.content.pm.PackageInfo a(android.content.pm.PackageManager,java.lang.String,android.content.pm.PackageManager$PackageInfoFlags)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,android.content.pm.PackageManager$PackageInfoFlags)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.applovin.impl.se",
+                "method": "<com.applovin.impl.se: java.util.List i()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.google.android.gms.internal.ads.zzave",
+                "method": "<com.google.android.gms.internal.ads.zzave: java.lang.Object call()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.yandex.mobile.ads.impl.qb2",
+                "method": "<com.yandex.mobile.ads.impl.qb2: android.content.pm.PackageInfo a(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.utils.Sco",
+                "method": "<com.bytedance.sdk.openadsdk.utils.Sco: com.bytedance.sdk.openadsdk.utils.Sco$Sg Sg(android.content.Context,android.content.Intent)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "sg.bigo.ads.a.a.b",
+                "method": "<sg.bigo.ads.a.a.b: sg.bigo.ads.a.a.b$a a(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.mbridge.msdk.foundation.tools.ak",
+                "method": "<com.mbridge.msdk.foundation.tools.ak: int b(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.facebook.ads.redexgen.X.La",
+                "method": "<com.facebook.ads.redexgen.X.La: android.content.pm.PackageInfo A01(com.facebook.ads.redexgen.X.7j,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "sg.bigo.ads.common.utils.c",
+                "method": "<sg.bigo.ads.common.utils.c: long c(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.libraries.places.internal.zzkb",
+                "method": "<com.google.android.libraries.places.internal.zzkb: com.google.android.libraries.places.internal.zzka zzd(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.appnext.core.ResultActivity",
+                "method": "<com.appnext.core.ResultActivity: java.util.List a(android.content.Context,android.content.Intent)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.share.TakeScreenshotHelper",
+                "method": "<com.droid27.share.TakeScreenshotHelper: java.lang.Object d(androidx.cardview.widget.CardView,kotlin.coroutines.Continuation)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.pgl.ssdk.x",
+                "method": "<com.pgl.ssdk.x: int c(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.facebook.internal.Utility",
+                "method": "<com.facebook.internal.Utility: void A(android.content.Context,org.json.JSONObject)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.facebook.ads.redexgen.X.Gf",
+                "method": "<com.facebook.ads.redexgen.X.Gf: android.content.Intent A00(com.facebook.ads.redexgen.X.0m)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.facebook.internal.security.CertificateUtil",
+                "method": "<com.facebook.internal.security.CertificateUtil: java.lang.String a(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.applovin.impl.sr",
+                "method": "<com.applovin.impl.sr: android.content.pm.PackageInfo c(com.applovin.impl.sdk.j)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.yandex.mobile.ads.impl.wa1",
+                "method": "<com.yandex.mobile.ads.impl.wa1: void a(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.facebook.internal.FacebookSignatureValidator",
+                "method": "<com.facebook.internal.FacebookSignatureValidator: boolean a(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.vungle.ads.internal.network.VungleApiClient",
+                "method": "<com.vungle.ads.internal.network.VungleApiClient: void initialize(java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.applovin.impl.sdk.k",
+                "method": "<com.applovin.impl.sdk.k: java.util.Map y()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.facebook.ads.redexgen.X.L2",
+                "method": "<com.facebook.ads.redexgen.X.L2: int A00(com.facebook.ads.redexgen.X.Zs)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.facebook.internal.instrument.InstrumentData$Builder",
+                "method": "<com.facebook.internal.instrument.InstrumentData$Builder: com.facebook.internal.instrument.InstrumentData a(java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.Wwa.YFl.YFl.AlY",
+                "method": "<com.bytedance.sdk.openadsdk.Wwa.YFl.YFl.AlY: boolean YFl(android.content.Context,java.lang.String,java.lang.String,java.lang.String,com.bytedance.sdk.openadsdk.core.model.Wwa)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.mbridge.msdk.foundation.tools.ab",
+                "method": "<com.mbridge.msdk.foundation.tools.ab: java.lang.String f(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "sg.bigo.ads.common.utils.c",
+                "method": "<sg.bigo.ads.common.utils.c: int b(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.common.util.UidVerifier",
+                "method": "<com.google.android.gms.common.util.UidVerifier: boolean isGooglePlayServicesUid(android.content.Context,int)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.google.android.gms.common.wrappers.PackageManagerWrapper",
+                "method": "<com.google.android.gms.common.wrappers.PackageManagerWrapper: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.google.android.gms.internal.ads.zzfqi",
+                "method": "<com.google.android.gms.internal.ads.zzfqi: com.google.android.gms.internal.ads.zzata zzd()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.facebook.ads.redexgen.X.LN",
+                "method": "<com.facebook.ads.redexgen.X.LN: java.lang.String A02(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.mbridge.msdk.click.c",
+                "method": "<com.mbridge.msdk.click.c: void a(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.internal.ads.zzawd",
+                "method": "<com.google.android.gms.internal.ads.zzawd: void run()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.utils.Sco",
+                "method": "<com.bytedance.sdk.openadsdk.utils.Sco: java.lang.String vc()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.appnext.core.h",
+                "method": "<com.appnext.core.h: void openMarket(java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.play.core.assetpacks.internal.ad",
+                "method": "<com.google.android.play.core.assetpacks.internal.ad: java.util.HashSet a()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.facebook.appevents.codeless.ViewIndexer$Companion",
+                "method": "<com.facebook.appevents.codeless.ViewIndexer$Companion: com.facebook.GraphRequest a(java.lang.String,com.facebook.AccessToken,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.pgl.ssdk.ces.c",
+                "method": "<com.pgl.ssdk.ces.c: java.lang.Object a(int,java.lang.Object)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.applovin.impl.yp",
+                "method": "<com.applovin.impl.yp: java.lang.String l(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.facebook.internal.instrument.InstrumentData$Builder",
+                "method": "<com.facebook.internal.instrument.InstrumentData$Builder: com.facebook.internal.instrument.InstrumentData b(java.lang.Throwable,com.facebook.internal.instrument.InstrumentData$Type)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.applovin.impl.sdk.k",
+                "method": "<com.applovin.impl.sdk.k: java.util.Map z()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.adjust.sdk.DeviceInfo",
+                "method": "<com.adjust.sdk.DeviceInfo: java.lang.String getFacebookAttributionId(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "io.appmetrica.analytics.coreutils.impl.d",
+                "method": "<io.appmetrica.analytics.coreutils.impl.d: java.lang.Object invoke()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yandex.mobile.ads.impl.yc",
+                "method": "<com.yandex.mobile.ads.impl.yc: java.lang.String a(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.utils.Sco",
+                "method": "<com.bytedance.sdk.openadsdk.utils.Sco: int tN(android.content.Context,android.content.Intent)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.appnext.core.i",
+                "method": "<com.appnext.core.i: boolean b(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.utilities.ApplicationUtilities",
+                "method": "<com.droid27.utilities.ApplicationUtilities: boolean l(android.content.Context,java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.internal.ads.zzbbv",
+                "method": "<com.google.android.gms.internal.ads.zzbbv: boolean zza(android.content.Intent)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.Wwa.YFl.YFl.wN",
+                "method": "<com.bytedance.sdk.openadsdk.Wwa.YFl.YFl.wN: boolean YFl(android.content.Context,java.lang.String,java.lang.String,java.lang.String,com.bytedance.sdk.openadsdk.core.model.Wwa)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.mbridge.msdk.playercommon.exoplayer2.util.Util",
+                "method": "<com.mbridge.msdk.playercommon.exoplayer2.util.Util: java.lang.String getUserAgent(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.internal.consent_sdk.zzn",
+                "method": "<com.google.android.gms.internal.consent_sdk.zzn: com.google.android.gms.internal.consent_sdk.zzcf zza(com.google.android.gms.internal.consent_sdk.zzn)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.mbridge.msdk.foundation.tools.aj$a",
+                "method": "<com.mbridge.msdk.foundation.tools.aj$a: java.util.List a(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "sg.bigo.ads.common.utils.c",
+                "method": "<sg.bigo.ads.common.utils.c: android.content.pm.PackageInfo e(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "sg.bigo.ads.common.l.c",
+                "method": "<sg.bigo.ads.common.l.c: sg.bigo.ads.common.a a(android.content.Context,long)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bumptech.glide.RequestBuilder",
+                "method": "<com.bumptech.glide.RequestBuilder: com.bumptech.glide.RequestBuilder w(com.bumptech.glide.RequestBuilder)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Payment Libraries"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.utils.Sco",
+                "method": "<com.bytedance.sdk.openadsdk.utils.Sco: java.lang.String DSW()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.mbridge.msdk.click.c",
+                "method": "<com.mbridge.msdk.click.c: void b(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "sg.bigo.ads.common.utils.c",
+                "method": "<sg.bigo.ads.common.utils.c: int b(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.common.GooglePlayServicesUtilLight",
+                "method": "<com.google.android.gms.common.GooglePlayServicesUtilLight: int getApkVersion(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.mbridge.msdk.foundation.tools.aj",
+                "method": "<com.mbridge.msdk.foundation.tools.aj: void a(android.content.Context,java.lang.String,com.mbridge.msdk.out.NativeListener$NativeTrackingListener)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.adjust.sdk.GooglePlayServicesClient",
+                "method": "<com.adjust.sdk.GooglePlayServicesClient: com.adjust.sdk.GooglePlayServicesClient$GooglePlayServicesInfo getGooglePlayServicesInfo(android.content.Context,long)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.mbridge.msdk.foundation.tools.ab",
+                "method": "<com.mbridge.msdk.foundation.tools.ab: java.lang.String q(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.widget.WidgetTicker",
+                "method": "<com.droid27.transparentclockweather.widget.WidgetTicker: boolean a(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.firebase.remoteconfig.internal.ConfigFetchHttpClient",
+                "method": "<com.google.firebase.remoteconfig.internal.ConfigFetchHttpClient: org.json.JSONObject createFetchRequestBody(java.lang.String,java.lang.String,java.util.Map,java.lang.Long)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.google.android.play.core.assetpacks.internal.ai",
+                "method": "<com.google.android.play.core.assetpacks.internal.ai: boolean a(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.core.act.YFl",
+                "method": "<com.bytedance.sdk.openadsdk.core.act.YFl: java.lang.String YFl(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.facebook.ads.internal.dynamicloading.DexLoadErrorReporter",
+                "method": "<com.facebook.ads.internal.dynamicloading.DexLoadErrorReporter: void a(android.content.Context,org.json.JSONObject,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.droid27.apputilities.BaseApplication",
+                "method": "<com.droid27.apputilities.BaseApplication: void onCreate()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.facebook.ads.redexgen.X.L2",
+                "method": "<com.facebook.ads.redexgen.X.L2: boolean A0G(com.facebook.ads.redexgen.X.Zs)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.droid27.utilities.ApplicationSelectionActivity",
+                "method": "<com.droid27.utilities.ApplicationSelectionActivity: void run()>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.adjust.sdk.ActivityHandler",
+                "method": "<com.adjust.sdk.ActivityHandler: void launchDeeplinkMain(android.content.Intent,android.net.Uri)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.facebook.ads.redexgen.X.LQ",
+                "method": "<com.facebook.ads.redexgen.X.LQ: boolean A05(com.facebook.ads.redexgen.X.7j)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.mbridge.msdk.foundation.tools.ab",
+                "method": "<com.mbridge.msdk.foundation.tools.ab: int r(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.adjust.sdk.DeviceInfo",
+                "method": "<com.adjust.sdk.DeviceInfo: android.content.pm.PackageInfo getPackageInfo(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.applovin.impl.xp",
+                "method": "<com.applovin.impl.xp: java.lang.String a(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.google.firebase.crashlytics.internal.common.AppData",
+                "method": "<com.google.firebase.crashlytics.internal.common.AppData: com.google.firebase.crashlytics.internal.common.AppData create(android.content.Context,com.google.firebase.crashlytics.internal.common.IdManager,java.lang.String,java.lang.String,java.util.List,com.google.firebase.crashlytics.internal.DevelopmentPlatformProvider)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "sg.bigo.ads.common.utils.c",
+                "method": "<sg.bigo.ads.common.utils.c: java.lang.String a(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.common.GooglePlayServicesUtilLight",
+                "method": "<com.google.android.gms.common.GooglePlayServicesUtilLight: int isGooglePlayServicesAvailable(android.content.Context,int)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.google.android.gms.measurement.internal.zzos",
+                "method": "<com.google.android.gms.measurement.internal.zzos: boolean zzi(java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.google.android.datatransport.cct.CctTransportBackend",
+                "method": "<com.google.android.datatransport.cct.CctTransportBackend: com.google.android.datatransport.runtime.EventInternal a(com.google.android.datatransport.runtime.EventInternal)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.core.act.YFl",
+                "method": "<com.bytedance.sdk.openadsdk.core.act.YFl: boolean YFl(android.content.Context,android.content.Intent)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.facebook.internal.Utility",
+                "method": "<com.facebook.internal.Utility: boolean r()>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.facebook.ads.redexgen.X.28",
+                "method": "<com.facebook.ads.redexgen.X.28: boolean A03(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.google.android.gms.internal.ads.zzhgq",
+                "method": "<com.google.android.gms.internal.ads.zzhgq: java.lang.String zza(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.mbridge.msdk.foundation.same.report.b.d",
+                "method": "<com.mbridge.msdk.foundation.same.report.b.d: java.lang.String c(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.facebook.appevents.internal.SessionLogger",
+                "method": "<com.facebook.appevents.internal.SessionLogger: java.lang.String a(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.google.android.gms.measurement.internal.zzgg",
+                "method": "<com.google.android.gms.measurement.internal.zzgg: void zzx()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.apm.insight.entity.Header",
+                "method": "<com.apm.insight.entity.Header: void addOtherHeader(org.json.JSONObject)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yandex.mobile.ads.impl.wc",
+                "method": "<com.yandex.mobile.ads.impl.wc: com.yandex.mobile.ads.impl.ju a()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.google.firebase.sessions.SessionEvents",
+                "method": "<com.google.firebase.sessions.SessionEvents: com.google.firebase.sessions.ApplicationInfo getApplicationInfo(com.google.firebase.FirebaseApp)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.mbridge.msdk.foundation.same.report.b.d",
+                "method": "<com.mbridge.msdk.foundation.same.report.b.d: int d(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.facebook.ads.redexgen.X.Nj",
+                "method": "<com.facebook.ads.redexgen.X.Nj: void A09()>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.google.android.gms.internal.ads.zzauq",
+                "method": "<com.google.android.gms.internal.ads.zzauq: java.lang.String zza(android.content.Context,java.lang.String,boolean)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.facebook.ads.redexgen.X.IK",
+                "method": "<com.facebook.ads.redexgen.X.IK: java.lang.String A0K(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.facebook.ads.redexgen.X.8O",
+                "method": "<com.facebook.ads.redexgen.X.8O: int A04()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.google.firebase.messaging.Metadata",
+                "method": "<com.google.firebase.messaging.Metadata: android.content.pm.PackageInfo getPackageInfo(java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.utils.EH",
+                "method": "<com.bytedance.sdk.openadsdk.utils.EH: void YFl()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.google.android.play.core.assetpacks.internal.af",
+                "method": "<com.google.android.play.core.assetpacks.internal.af: void a(android.content.pm.PackageManager,android.content.ComponentName)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.internal.ads.zzbdo",
+                "method": "<com.google.android.gms.internal.ads.zzbdo: boolean zzg(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.apm.insight.runtime.d",
+                "method": "<com.apm.insight.runtime.d: java.util.Map b()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.component.utils.tN",
+                "method": "<com.bytedance.sdk.component.utils.tN: android.content.pm.Signature[] Sg(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.appnext.core.h",
+                "method": "<com.appnext.core.h: java.util.List a(android.content.Context,android.content.Intent)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yandex.mobile.ads.impl.yc",
+                "method": "<com.yandex.mobile.ads.impl.yc: java.lang.String b(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.bykv.vk.openvk.preload.geckox.utils.a",
+                "method": "<com.bykv.vk.openvk.preload.geckox.utils.a: java.lang.String a(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.android.installreferrer.api.InstallReferrerClientImpl",
+                "method": "<com.android.installreferrer.api.InstallReferrerClientImpl: boolean isPlayStoreCompatible()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.mbridge.msdk.click.c",
+                "method": "<com.mbridge.msdk.click.c: boolean c(android.content.Context,java.lang.String)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.amazon.device.ads.DtbPackageNativeData",
+                "method": "<com.amazon.device.ads.DtbPackageNativeData: void <init>(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.mbridge.msdk.foundation.same.report.b.d",
+                "method": "<com.mbridge.msdk.foundation.same.report.b.d: java.lang.String b(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "sg.bigo.ads.core.mraid.h",
+                "method": "<sg.bigo.ads.core.mraid.h: boolean a(android.content.Context,android.content.Intent)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.applovin.impl.tp",
+                "method": "<com.applovin.impl.tp: java.lang.Boolean a(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.utils.Sco",
+                "method": "<com.bytedance.sdk.openadsdk.utils.Sco: int pDU(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.facebook.ads.redexgen.X.8O",
+                "method": "<com.facebook.ads.redexgen.X.8O: java.lang.String A06()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Social Network Libraries"
+            },
+            {
+                "class": "com.google.android.gms.internal.ads.zzbkc",
+                "method": "<com.google.android.gms.internal.ads.zzbkc: android.content.pm.ResolveInfo zzd(android.content.Intent,java.util.ArrayList,android.content.Context,com.google.android.gms.internal.ads.zzavc,android.view.View,com.google.android.gms.internal.ads.zzffs)>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.android.billingclient.api.BillingClientImpl",
+                "method": "<com.android.billingclient.api.BillingClientImpl: com.android.billingclient.api.BillingResult f(androidx.appcompat.app.AppCompatActivity,com.android.billingclient.api.BillingFlowParams)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.ads.identifier.AdvertisingIdClient",
+                "method": "<com.google.android.gms.ads.identifier.AdvertisingIdClient: void zzb(boolean)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.apm.insight.h",
+                "method": "<com.apm.insight.h: org.json.JSONObject e()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.internal.ads.zzfvx",
+                "method": "<com.google.android.gms.internal.ads.zzfvx: boolean zza(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.droid27.weatherinterface.About",
+                "method": "<com.droid27.weatherinterface.About: void y()>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.internal.ads.zzewk",
+                "method": "<com.google.android.gms.internal.ads.zzewk: com.google.android.gms.internal.ads.zzewi zzc()>",
+                "invokedAPI": "android.content.pm.PackageManager: java.util.List queryIntentActivities(android.content.Intent,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.google.android.gms.common.GoogleSignatureVerifier",
+                "method": "<com.google.android.gms.common.GoogleSignatureVerifier: com.google.android.gms.common.zzx zzc(java.lang.String,boolean,boolean)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.mbridge.msdk.foundation.tools.b",
+                "method": "<com.mbridge.msdk.foundation.tools.b: com.mbridge.msdk.foundation.tools.b$a a(android.content.Context)>",
+                "invokedAPI": "android.content.pm.PackageManager: android.content.pm.PackageInfo getPackageInfo(java.lang.String,int)",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.ACCESS_BACKGROUND_LOCATION": [
+            {
+                "class": "com.droid27.utilities.AppUtils",
+                "method": "<com.droid27.utilities.AppUtils: boolean c(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_BACKGROUND_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "o.va",
+                "method": "<o.va: void onActivityResult(java.lang.Object)>",
+                "invokedAPI": "android.permission.ACCESS_BACKGROUND_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "io.appmetrica.analytics.location.impl.r",
+                "method": "<io.appmetrica.analytics.location.impl.r: kotlin.Unit a(io.appmetrica.analytics.location.impl.r,android.location.LocationManager)>",
+                "invokedAPI": "android.location.LocationManager: void requestLocationUpdates(java.lang.String,long,float,android.location.LocationListener,android.os.Looper)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.weatherinterface.BackgroundLocationDialog",
+                "method": "<com.droid27.weatherinterface.BackgroundLocationDialog: void onClick(android.view.View)>",
+                "invokedAPI": "android.permission.ACCESS_BACKGROUND_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.weatherinterface.WeatherForecastActivity",
+                "method": "<com.droid27.weatherinterface.WeatherForecastActivity: void onCreate(android.os.Bundle)>",
+                "invokedAPI": "android.permission.ACCESS_BACKGROUND_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "o.uc",
+                "method": "<o.uc: void onClick(android.content.DialogInterface,int)>",
+                "invokedAPI": "android.permission.ACCESS_BACKGROUND_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation",
+                "method": "<com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation: void q()>",
+                "invokedAPI": "android.permission.ACCESS_BACKGROUND_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation",
+                "method": "<com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation: void onCreate(android.os.Bundle)>",
+                "invokedAPI": "android.permission.ACCESS_BACKGROUND_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation",
+                "method": "<com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation: boolean onPreferenceChange(androidx.preference.Preference,java.lang.Object)>",
+                "invokedAPI": "android.permission.ACCESS_BACKGROUND_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.setup.location.AutoDetectLocationActivity",
+                "method": "<com.droid27.setup.location.AutoDetectLocationActivity: void x()>",
+                "invokedAPI": "android.permission.ACCESS_BACKGROUND_LOCATION",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.WRITE_EXTERNAL_STORAGE": [
+            {
+                "class": "com.bytedance.sdk.openadsdk.qO.qsH",
+                "method": "<com.bytedance.sdk.openadsdk.qO.qsH: org.json.JSONObject pDU()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.preferences.PreferencesFragmentAdvanced",
+                "method": "<com.droid27.transparentclockweather.preferences.PreferencesFragmentAdvanced: void l()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation",
+                "method": "<com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation: void l(java.lang.ref.WeakReference)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "o.va",
+                "method": "<o.va: void onActivityResult(java.lang.Object)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.qO.wN",
+                "method": "<com.bytedance.sdk.openadsdk.qO.wN: boolean YFl(android.content.Context)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.preferences.PreferencesFragmentAdvanced",
+                "method": "<com.droid27.transparentclockweather.preferences.PreferencesFragmentAdvanced: void k()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.utilities.PermissionUtils",
+                "method": "<com.droid27.utilities.PermissionUtils: boolean a(android.content.Context)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "sg.bigo.ads.core.mraid.h",
+                "method": "<sg.bigo.ads.core.mraid.h: boolean c(android.content.Context)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.qO.wN",
+                "method": "<com.bytedance.sdk.openadsdk.qO.wN: boolean YFl(android.content.Context,int)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "o.sa",
+                "method": "<o.sa: void onActivityResult(java.lang.Object)>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation",
+                "method": "<com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation: void s()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.internal.ads.zzbbv",
+                "method": "<com.google.android.gms.internal.ads.zzbbv: boolean zzc()>",
+                "invokedAPI": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "data controller": "Development Aid Libraries"
+            }
+        ],
+        "android.permission.READ_CALENDAR": [
+            {
+                "class": "com.droid27.transparentclockweather.CalendarEventProvider",
+                "method": "<com.droid27.transparentclockweather.CalendarEventProvider: void d()>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.preferences.PreferencesFragmentWidgetNextEvent",
+                "method": "<com.droid27.transparentclockweather.preferences.PreferencesFragmentWidgetNextEvent: void onCreate(android.os.Bundle)>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.skinning.widgetthemes.preview.PreviewRenderer",
+                "method": "<com.droid27.transparentclockweather.skinning.widgetthemes.preview.PreviewRenderer: void e(android.view.View,com.droid27.transparentclockweather.skinning.widgetthemes.preview.WidgetInstanceData,com.droid27.utilities.Prefs)>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.weatherinterface.WeatherForecastActivity",
+                "method": "<com.droid27.weatherinterface.WeatherForecastActivity: void C()>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "o.u",
+                "method": "<o.u: void onClick(android.content.DialogInterface,int)>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "o.uc",
+                "method": "<o.uc: void onClick(android.content.DialogInterface,int)>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.widget.WidgetConstants",
+                "method": "<com.droid27.transparentclockweather.widget.WidgetConstants: boolean a(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_CALENDAR",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.ACCESS_FINE_LOCATION": [
+            {
+                "class": "com.droid27.common.location.MyLocation",
+                "method": "<com.droid27.common.location.MyLocation: void f(java.lang.String,boolean)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation",
+                "method": "<com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation: boolean onPreferenceChange(androidx.preference.Preference,java.lang.Object)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.weatherinterface.mylocation.MyLocationActivity",
+                "method": "<com.droid27.weatherinterface.mylocation.MyLocationActivity: void onCreate(android.os.Bundle)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.utilities.AppUtils",
+                "method": "<com.droid27.utilities.AppUtils: boolean c(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "o.qd",
+                "method": "<o.qd: void onActivityResult(java.lang.Object)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.location.GmsLocationDetector",
+                "method": "<com.droid27.location.GmsLocationDetector: java.lang.Object a(kotlin.coroutines.Continuation)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.google.android.gms.internal.ads.zzcfj",
+                "method": "<com.google.android.gms.internal.ads.zzcfj: void onGeolocationPermissionsShowPrompt(java.lang.String,android.webkit.GeolocationPermissions$Callback)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Development Aid Libraries"
+            },
+            {
+                "class": "com.google.android.libraries.places.internal.zzel",
+                "method": "<com.google.android.libraries.places.internal.zzel: com.google.android.gms.tasks.Task zza(com.google.android.gms.tasks.CancellationToken)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.yandex.mobile.ads.impl.va1",
+                "method": "<com.yandex.mobile.ads.impl.va1: boolean b()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation",
+                "method": "<com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation: void onCreate(android.os.Bundle)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.setup.location.AutoDetectLocationActivity",
+                "method": "<com.droid27.setup.location.AutoDetectLocationActivity: void x()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.amazon.device.ads.DtbGeoLocation",
+                "method": "<com.amazon.device.ads.DtbGeoLocation: boolean hasLocationFinePermission(android.content.Context)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "io.appmetrica.analytics.location.impl.e",
+                "method": "<io.appmetrica.analytics.location.impl.e: io.appmetrica.analytics.coreapi.internal.permission.PermissionResolutionStrategy a(io.appmetrica.analytics.coreapi.internal.system.PermissionExtractor)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.map.MapView",
+                "method": "<com.droid27.map.MapView: void e(boolean,boolean,boolean,boolean)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "io.appmetrica.analytics.location.impl.q",
+                "method": "<io.appmetrica.analytics.location.impl.q: io.appmetrica.analytics.location.impl.r c(android.content.Context,io.appmetrica.analytics.coreapi.internal.system.PermissionExtractor,io.appmetrica.analytics.coreapi.internal.executors.IHandlerExecutor,android.location.LocationListener)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "io.appmetrica.analytics.impl.Mb",
+                "method": "<io.appmetrica.analytics.impl.Mb: void <clinit>()>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            },
+            {
+                "class": "o.va",
+                "method": "<o.va: void onActivityResult(java.lang.Object)>",
+                "invokedAPI": "android.permission.ACCESS_FINE_LOCATION",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.READ_EXTERNAL_STORAGE": [
+            {
+                "class": "com.bytedance.sdk.openadsdk.qO.wN",
+                "method": "<com.bytedance.sdk.openadsdk.qO.wN: boolean YFl(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.qO.qsH",
+                "method": "<com.bytedance.sdk.openadsdk.qO.qsH: void Sg(java.lang.String,java.lang.String)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Media: java.lang.String insertImage(android.content.ContentResolver,android.graphics.Bitmap,java.lang.String,java.lang.String)",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.skinning.widgetthemes.CustomThemeActivity",
+                "method": "<com.droid27.transparentclockweather.skinning.widgetthemes.CustomThemeActivity: void onCreate(android.os.Bundle)>",
+                "invokedAPI": "android.app.WallpaperManager: android.app.WallpaperManager getInstance(android.content.Context)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.skinning.widgetthemes.CustomThemeActivity",
+                "method": "<com.droid27.transparentclockweather.skinning.widgetthemes.CustomThemeActivity: void onCreate(android.os.Bundle)>",
+                "invokedAPI": "android.app.WallpaperManager: android.graphics.drawable.Drawable getDrawable()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.qO.qsH",
+                "method": "<com.bytedance.sdk.openadsdk.qO.qsH: org.json.JSONObject pDU()>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "o.va",
+                "method": "<o.va: void onActivityResult(java.lang.Object)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "o.ef",
+                "method": "<o.ef: void onActivityResult(java.lang.Object)>",
+                "invokedAPI": "android.app.WallpaperManager: android.app.WallpaperManager getInstance(android.content.Context)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.skinning.widgetthemes.WidgetSkinSelectionActivity",
+                "method": "<com.droid27.transparentclockweather.skinning.widgetthemes.WidgetSkinSelectionActivity: void onCreate(android.os.Bundle)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "o.ef",
+                "method": "<o.ef: void onActivityResult(java.lang.Object)>",
+                "invokedAPI": "android.app.WallpaperManager: android.graphics.drawable.Drawable getDrawable()",
+                "data controller": "app"
+            },
+            {
+                "class": "o.k",
+                "method": "<o.k: int a()>",
+                "invokedAPI": "android.provider.MediaStore: int getPickImagesMaxLimit()",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.preferences.PreferencesFragmentAdvanced",
+                "method": "<com.droid27.transparentclockweather.preferences.PreferencesFragmentAdvanced: void k()>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.skinning.weathericons.WeatherIconsThemeSelectionActivity",
+                "method": "<com.droid27.skinning.weathericons.WeatherIconsThemeSelectionActivity: void onCreate(android.os.Bundle)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.share.TakeScreenshotHelper",
+                "method": "<com.droid27.share.TakeScreenshotHelper: android.graphics.Bitmap b(android.content.Context,android.net.Uri)>",
+                "invokedAPI": "android.provider.MediaStore$Images$Media: android.graphics.Bitmap getBitmap(android.content.ContentResolver,android.net.Uri)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.utilities.PermissionUtils",
+                "method": "<com.droid27.utilities.PermissionUtils: boolean a(android.content.Context)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation",
+                "method": "<com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation: void l(java.lang.ref.WeakReference)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "o.sa",
+                "method": "<o.sa: void onActivityResult(java.lang.Object)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.qO.wN",
+                "method": "<com.bytedance.sdk.openadsdk.qO.wN: boolean YFl(android.content.Context,int)>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "o.qd",
+                "method": "<o.qd: void onActivityResult(java.lang.Object)>",
+                "invokedAPI": "android.app.WallpaperManager: android.app.WallpaperManager getInstance(android.content.Context)",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.preferences.PreferencesFragmentAdvanced",
+                "method": "<com.droid27.transparentclockweather.preferences.PreferencesFragmentAdvanced: void l()>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation",
+                "method": "<com.droid27.transparentclockweather.preferences.PreferencesFragmentWeatherAndLocation: void s()>",
+                "invokedAPI": "android.permission.READ_EXTERNAL_STORAGE",
+                "data controller": "app"
+            },
+            {
+                "class": "o.qd",
+                "method": "<o.qd: void onActivityResult(java.lang.Object)>",
+                "invokedAPI": "android.app.WallpaperManager: android.graphics.drawable.Drawable getDrawable()",
+                "data controller": "app"
+            },
+            {
+                "class": "o.ma",
+                "method": "<o.ma: android.net.Uri j(android.net.Uri)>",
+                "invokedAPI": "android.provider.MediaStore: android.net.Uri setRequireOriginal(android.net.Uri)",
+                "data controller": "app"
+            }
+        ],
+        "android.permission.CAMERA": [
+            {
+                "class": "com.bytedance.sdk.openadsdk.qO.qsH",
+                "method": "<com.bytedance.sdk.openadsdk.qO.qsH: org.json.JSONObject GA()>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.qO.qsH",
+                "method": "<com.bytedance.sdk.openadsdk.qO.qsH: void qsH(java.lang.String)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.qO.wN",
+                "method": "<com.bytedance.sdk.openadsdk.qO.wN: boolean YFl(android.content.Context,int)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "com.droid27.share.weather.a",
+                "method": "<com.droid27.share.weather.a: void onActivityResult(java.lang.Object)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            },
+            {
+                "class": "com.bytedance.sdk.openadsdk.qO.qsH",
+                "method": "<com.bytedance.sdk.openadsdk.qO.qsH: org.json.JSONObject qsH(org.json.JSONObject)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "Advertisement Libraries"
+            },
+            {
+                "class": "o.tc",
+                "method": "<o.tc: void onClick(android.view.View)>",
+                "invokedAPI": "android.permission.CAMERA",
+                "data controller": "app"
+            }
+        ]
+    }
+}
