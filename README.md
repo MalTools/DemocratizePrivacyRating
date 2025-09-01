@@ -1,45 +1,38 @@
 # Research on Democratizing Privacy Rating
 
-## DePRa
+This repository contains the implementation and research artifacts for **DePRa (Democratize Privacy Rating)**, a novel paradigm that empowers everyday users to assess mobile app privacy behaviors. The project challenges the traditional expert-driven privacy auditing approach by incorporating end-user perspectives into privacy evaluations, as described in our research paper "Listen to the Voices of Everyday Users: Democratizing Privacy Ratings for Sensitive Data Access in Mobile Apps".
 
-DePRa (Democratize Privacy Rating) is a web-based research platform designed to collect and analyze user privacy assessments regarding mobile apps. 
-The system facilitates privacy research through interactive evaluation tasks.
+## Project Structure
 
-### System Architecture
+### [DePRa/](DePRa/)
+**Core Platform Implementation** - The main DEPRA prototype system featuring:
+- **Frontend**: React-based user interface with intuitive rating mechanisms
+- **Backend**: Flask server with dynamic survey management
+- **Database**: MySQL for storing user responses and app metadata
+- **Key Features**: Contextual explanations, category-based evaluation, interactive interface, risk preference modeling. 
 
-#### Frontend (`frontend/`)
-- **Framework**: React 18 with Ant Design Pro
-- **Technology Stack**: TypeScript, Ant Design components, UmiJS
-- **Key Features**:
-  - User authentication and session management
-  - Interactive privacy risk surveys
-  - Multi-category app evaluation system (Weather, Social, Events, Tools)
-  - Dynamic question lists with rating scales
-  - Responsive design with internationalization support
+See [DePRa/README.md](DePRa/README.md) for detailed system architecture and setup instructions.
 
-#### Backend (`backend/`)
-- **Framework**: Flask with SQLAlchemy ORM
-- **Key Components**:
-  - User management with password hashing
-  - Survey data collection and storage
-  - Dynamic table creation for different app categories
-  - RESTful API endpoints
-  - Database migrations with Alembic
+### [Category-based-Analysis/](Category-based-Analysis/)
+**Representative App Selection** - Implementation of the category-based selection algorithm:
+- `bertopic_model.ipynb`: BERTopic-based app functionality clustering
+- `select_apps.py`: Greedy algorithm for minimal representative app selection
+- Addresses selective user participation by enabling rating generalization across functionally similar apps
 
-#### Database Schema
-- **Users**: Authentication and user management
-- **Surveys**: Risk preference questionnaires with demographics
-- **Contact**: User feedback and contact forms
-- **Dynamic Tables**: Category-specific app evaluation responses
+### [Contextual-Analysis/](Contextual-Analysis/)
+**Privacy Behavior Analysis** - Tools for generating contextual explanations of app data access:
+- **`static-analysis/`**: Static analysis tools for sensitive API detection
+- **`llm-reasoning/`**: Large language model-powered purpose inference
+- **`output/`**: Generated explanations for apps across different categories (Events, Social, Tools, Weather)
+- Provides users with necessary context about why apps access specific data types
 
+### [App-Data/](App-Data/)
+**App Metadata and apk files** - Curated datasets of mobile apps.
 
-### Key Files
-- `backend/app.py`: Main Flask application with API routes
-- `backend/models.py`: Database models and dynamic table management
-- `frontend/src/pages/PrivacyRiskSurvey.tsx`: Main survey interface
-- `frontend/config/routes.ts`: Application routing configuration
+### [User-Rating-Results/](User-Rating-Results/)
+**Evaluation Data** - Aggregated results from user studies:
+- `app_scores.csv`: Aggregated privacy scores for evaluated apps
+- `surveys.csv`: Background survey responses from 200 participants
+- `user_responses_*.csv`: Detailed user ratings across different app categories
+- Demonstrates the effectiveness of democratized privacy assessment
 
-### Setup and Development
-- Frontend: Node.js with npm/yarn, supports hot reloading
-- Backend: Python Flask with virtual environment support
-- Database: MySQL with migration support
