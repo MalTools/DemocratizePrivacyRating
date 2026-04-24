@@ -5,7 +5,7 @@ The system facilitates privacy research through interactive evaluation tasks.
 
 ## Live Demo
 
-Experience the DePRa platform at: **http://privacyrating.cloud/**
+Experience the DePRa platform at: **http://privacyrating.cloud:8000/**
 
 The platform provides an intuitive user experience for privacy evaluation tasks:
 
